@@ -65,6 +65,13 @@
 - **Cuenta de demostración como atajo.** Sembrar una cuenta de estudiante
   activa sirve como solución inmediata mientras se resuelve la
   configuración de correo, pero es un atajo, no la resolución.
+- **Caso real que confirma la doctrina (26 oct 2026).** Blockali ya
+  está vivo en PythonAnywhere: cuenta BC123, URL pública
+  https://BC123.pythonanywhere.com. Es la primera demostración
+  pública real del trabajo, y confirma en la práctica lo anterior:
+  despliegue sin tarjeta, variables en el WSGI, y el error de
+  registro (cuenta creada pero inactiva por falta de remitente de
+  correo) que aquí se documenta.
 
 ## Runbook de despliegue (lecciones)
 

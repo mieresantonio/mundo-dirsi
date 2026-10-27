@@ -88,8 +88,8 @@ npm install && npm run dev    # frontend (proxy /api → :5000)
 - `chequeo-app.py` sobre un proyecto generado: **OK** (README sí, 3 archivos
   de build, 7 fuentes, 0 secretos, salida 0).
 - `chequeo-app.py` sobre `~/workspace/mundo-dirsi` (solo lectura): **OK**
-  (14 fuentes, 0 secretos; README del repo aún no existe — fuera del
-  alcance de herramientas/).
+  (14 fuentes en ese momento, 0 secretos; el README del repo ya
+  existe desde el 26 oct 2026 y el repo tiene hoy 27 archivos).
 - Escaneo de secretos con archivo falso (`ghp_FAKE…`, `AKIA…`, `api_key`,
   `Bearer`, cabecera de clave privada): **OK** — 5 hallazgos con archivo,
   línea y tipo; **ningún valor apareció en la salida** (verificado con grep).

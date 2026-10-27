@@ -84,3 +84,29 @@ método:
 - La misma regla vale para herramientas: pagar por un plan superior
   (por ejemplo, un plan de motor de IA más potente) solo se justifica
   cuando el volumen de ayuda lo exige, no por anticipado.
+
+## Actualización 27 oct 2026 — certificados y plataformas
+
+- **Decisión de certificados (gratis, verificados):** el único
+  certificado garantizado a 0 $ es el Hugging Face AI Agents Course;
+  segundo, el HF MCP Course. Complemento: los badges de IBM
+  SkillsBuild de IA agentiva y RAG, que Antonio ya localizó en
+  español en su propia cuenta. Oracle Agentic AI Foundations
+  (1Z0-1157-26) gratis; CS50 AI como fondo, con fecha límite
+  30 jun 2027. La ayuda económica de Coursera para el certificado
+  IBM de RAG y agentes es un descuento por curso, NO un 100 %
+  garantizado. Y lo que pesa más que cualquier certificado: un
+  proyecto RAG + MCP desplegado sobre su stack Flask/React.
+- **Investigación de plataformas fuera de LinkedIn (27 oct):** no
+  existe ningún programa verificado de beca de ~800 $/mes 100 %
+  remota desde Venezuela. Las becas españolas documentadas rondan
+  300–500 €/mes y suelen exigir presencia en España. Orden de
+  trabajo: Get on Board primero, Torre segundo, BairesDev trainee,
+  y freelance en Workana/Upwork en paralelo. Advertencias que
+  mandan: leer siempre el filtro de país de residencia de cada
+  oferta, y resolver el cobro antes del primer trabajo (PayPal no
+  transfiere directo a bancos venezolanos; Payoneer es la ruta más
+  citada pero sin verificar su vigencia actual; Deel solo si la
+  empresa contratante lo usa). El caso UNICC de 800 €/mes no está
+  verificado en fuente oficial y tiene sede en Valencia: no contar
+  con él hasta verificar la vacante oficial.

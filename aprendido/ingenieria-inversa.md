@@ -52,6 +52,13 @@ sin cruzar las afirmaciones decisivas contra la fuente primaria. Los
 resúmenes intermedios, por verosímiles que suenen, han fabricado contenido
 antes; lo leído de primera mano no ha fallado.
 
+> Equivalencia con la taxonomía de `consultas/plantilla-investigacion.md`:
+> Visto corresponde a A (Demostrado), Inferido a B (Secundario estable,
+> con el razonamiento explícito), Afirmación del creador a C, y Retirado
+> a X. Desconocido no tiene letra propia en aquella plantilla: se marca
+> como hueco declarado dentro del informe. Son dos formas de decir lo
+> mismo, no dos sistemas distintos.
+
 ## El experimento con y sin control
 
 La prueba de referencia para la ingeniería inversa asistida es un

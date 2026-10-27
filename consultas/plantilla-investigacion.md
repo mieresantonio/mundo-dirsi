@@ -28,6 +28,14 @@ o construir. Cópiala, rellena los huecos y lánzala.
 - **C — Afirmación del creador:** marketing, no un hecho.
 - **X — Retirado:** se demostró falso o fabricado, no se reutiliza.
 
+> Equivalencia con la taxonomía de `aprendido/ingenieria-inversa.md`:
+> A corresponde a Visto, B a Inferido (inferencia con razonamiento
+> explícito), C a Afirmación del creador, y X a Retirado. La quinta
+> etiqueta de aquella, Desconocido (lo que no se pudo comprobar, dicho
+> así sin rellenar el hueco), no tiene letra propia aquí: se marca
+> como hueco declarado dentro del informe. Son dos formas de decir lo
+> mismo, no dos sistemas distintos.
+
 ## Reglas
 - No inventar precios, salarios ni estadísticas: solo cifras con fuente.
 - Separar lo que es real, lo que es hype y lo que es estafa o funnel caro.

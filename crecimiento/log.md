@@ -104,3 +104,51 @@ sin crear repos desde aquí.
 - Veredicto sin cambios: certificado único = HF Agents Course
   (gratis); complemento = badges IBM (agentes + RAG); Coursera IBM
   RAG sigue siendo ayuda por curso sin 100% garantizado.
+
+## 2026-10-26 — Blockali vivo en PythonAnywhere
+- Primera demostración pública real: cuenta BC123, URL
+  https://BC123.pythonanywhere.com, con el repo clonado, migraciones
+  aplicadas y seed completo (2 usuarios, 2 rutas, 3 módulos, 4
+  lecciones, 4 quizzes). Confirma la doctrina de despliegue: sin
+  tarjeta, variables en el WSGI, y el error de registro conocido
+  (cuenta creada pero inactiva por falta de remitente de correo).
+  Pendiente entonces: configuración de correo y FLASK_APP_KEY, pasos
+  reservados al usuario en sesión de portátil.
+
+## 2026-10-26 — Loop de 300 pases de rediseño
+- 300 pases de mejora visual sobre 4 proyectos (barbería, biblioteca
+  de prompts, segundo-yo, API segundo-yo), 0 revertidos, con
+  verificación independiente: builds en verde, sin archivos de
+  respaldo olvidados, puerto 5000 libre. Lección: un pase que reescribe
+  sin criterio no mejora nada; el criterio (sección por sección,
+  móvil, flujo real) es lo que hace que el pase sume.
+
+## 2026-10-27 (noche) — Investigación de plataformas fuera de LinkedIn
+- Pregunta de Antonio: lugares al nivel de LinkedIn para una beca
+  ~800 $ con formación pragmática, un contrato práctico o freelance.
+  Respuesta: ningún programa verificado de beca ~800 $/mes 100 %
+  remota desde Venezuela. Orden: Get on Board primero, Torre
+  segundo, BairesDev trainee, Workana/Upwork en paralelo. Filtros que
+  mandan: país de residencia por oferta y cobro desde Venezuela
+  resuelto antes del primer trabajo. UNICC 800 €/mes sin verificar
+  en fuente oficial (sede en Valencia): no contar con él.
+- @soyfundador revisado a fondo: IBM es el único certificado
+  confirmado en miniaturas; la cuenta no vende nada visible y no
+  cambia la ruta de certificados.
+
+## 2026-10-27 (noche) — Auditoría y correcciones de este mundo
+- Auditoría completa archivo por archivo: 27 archivos, local y GitHub
+  en sincronía exacta, sin secretos ni TODOs. Veredicto: nada que
+  borrar; lo inconcluso era trabajo pendiente, no relleno.
+- Correcciones aplicadas y subidas: README (repo público desde el
+  26 oct), addendum fechado en la recopilación (clase 2, certificados,
+  plataformas, K3.1, soyfundador; M3 cerrada), addendum K3.1 y
+  corrección de Zen en agentes-e-ia, caso Blockali en despliegue,
+  actualización de portafolio-y-empleo, correcciones en
+  herramientas/README, 5 preguntas cerradas con evidencia (Q5, Q6,
+  Q11, Q12, Q13), Q1 ampliada con K3.1, enlaces Q8/Q9/Q14, Ruta 1
+  (MCP) primera en el orden sugerido, y nota de equivalencia de
+  taxonomías A/B/C/X ↔ Visto/Inferido/Desconocido. La corrección
+  propuesta para nueva-app.py ya estaba aplicada en el código
+  (verificado generando una app: ningún resto de "plantilla-app"),
+  así que ese archivo no se tocó.

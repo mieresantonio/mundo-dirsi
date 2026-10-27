@@ -24,8 +24,9 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 
 - Todo redactado con palabras propias. Nada de copiar textos de cursos.
 - Nada de secretos reales en ningún archivo.
-- Nada desplegado ni ningún repo creado desde aquí: este mundo es local;
-  publicarlo es un paso aparte.
+- Nada desplegado ni ningún repo creado desde aquí: este mundo es
+  público desde el 26 de octubre de 2026 (repo en GitHub); lo que
+  sigue siendo local es el trabajo en curso antes de subirlo.
 - Ningún otro proyecto se toca desde aquí.
 
 ## Índice

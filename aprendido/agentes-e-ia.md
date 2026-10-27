@@ -83,10 +83,14 @@ máquina del usuario, no una nube con claves compartidas:
 - **Teléfono:** OpenCode corre en Termux (instalado desde F-Droid, sin
   mezclar tiendas de apps) y sirve para aprender, hacer ediciones rápidas
   y tareas de texto o código ligero. Los modelos gratuitos disponibles por
-  esa vía (a través de OpenCode Zen y de OpenRouter con clave propia)
-  cubren bien ese uso. Limitaciones reales: pantalla pequeña para diseño
-  visual, batería y permisos del sistema (hay que mantener el proceso
-  despierto y sin restricciones de batería), y la ausencia de GPU.
+  esa vía (a través de OpenRouter con clave propia) cubren bien ese uso.
+  **OpenCode Zen NO está disponible en el teléfono:** la build instalada
+  es la 1.17.9 y Zen exige 1.18.0 o superior, así que esa vía queda
+  bloqueada en el teléfono (en el portátil, con la build oficial
+  actual, sí debería funcionar). Limitaciones reales: pantalla pequeña
+  para diseño visual, batería y permisos del sistema (hay que mantener
+  el proceso despierto y sin restricciones de batería), y la ausencia
+  de GPU.
 - **Portátil:** es donde van el trabajo visual exigente, los despliegues
   con pasos manuales, la instalación de herramientas de escritorio y
   cualquier entrenamiento o proceso pesado. La regla práctica: diseño y
@@ -97,3 +101,19 @@ máquina del usuario, no una nube con claves compartidas:
   encontrado" aunque se defina en la configuración y se limpie la caché.
   La solución no es insistir en la configuración, sino elegir un modelo
   que el proveedor realmente sirva.
+
+## Addendum 27 oct 2026 — Kimi K3.1 Pro
+
+- **Kimi K3.1 Pro** (Moonshot, lanzado el 23 oct 2026): post-entrenamiento
+  de K3, mismo tamaño (2.8T de parámetros, 104B activos), 1M de contexto,
+  texto e imagen. Artificial Analysis: índice 55, 4º del mundo (K3: 44).
+  En diseño y frontend puro no hay medida nueva: no asumir que diseña
+  mejor en proporción a su mejora en tareas agénticas.
+- **Pesos el 4 nov 2026; licencia SIN publicar.** Comprobado en la
+  organización de Moonshot en Hugging Face el 27 oct: todavía no hay
+  K3.1 publicado. No asumir que hereda la licencia de K3: el paso 0
+  de la PoC de destilación (licencia + términos de la API sobre
+  entrenar con salidas) se repite para K3.1 antes de generar nada.
+- **API más barata que K3:** 2 dólares de entrada y 10 de salida por
+  millón de tokens (33 % menos), lo que abarataría el presupuesto de
+  la PoC si se mantiene la ruta de destilación de caja negra.

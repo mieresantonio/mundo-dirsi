@@ -129,7 +129,7 @@ Reglas para quien lo lea:
   afirmaciones del propio proyecto [C], no verificadas aquí. El
   repositorio que cita la guía no se ha verificado de primera mano.
 
-#### M3. Página CenteIA de profesiones IA — PARCIAL
+#### M3. Página CenteIA de profesiones IA — CERRADO: la fuente no aporta más
 
 - Enlace: https://training.centeia.com/profesiones-ia/?utm_term=01a179c7-8b7a-74ee-b1f7-8fd539b204f1&fbclid=PAT01DUAVM9RpleHRuA2FlbQIxMABwZG9mAnNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABp2YzBl_wSWIin9p_BON5syvcNHQVvAH_TdR_XBcZCrqw80j5MJziZ1Cq7zHP_aem_MgJtZOYozHMnj_sRVJCD9w
 - Tipo: página web (landing) de CenteIA.
@@ -140,10 +140,10 @@ Reglas para quien lo lea:
 - Usable AHORA: casi nada, salvo la pregunta que plantea, útil como
   reflexión para posicionamiento (qué partes de un trabajo resisten
   frente a la IA y cuáles no).
-- Guardado PARA DESPUÉS: revisitar si el contenido completo se hace
-  accesible; al ser una landing de captación, probablemente pida
-  registro.
-- Estado: parcial, solo encabezado. No se inventa contenido.
+- Guardado PARA DESPUÉS: nada; la fuente es una landing de captación
+  y no hay más contenido que extraer de ella.
+- Estado: cerrado el 27 oct 2026 — la fuente no aporta más que el
+  encabezado y la pregunta que plantea. No se inventa contenido.
 
 #### M4. ChatGPT sin sonar a IA (CenteIA) — LEÍDO [A]
 
@@ -901,7 +901,8 @@ los materiales del catálogo. Nada aquí es texto copiado de un curso.
    Antonio. Quedan pendientes solo los blueprints JSON (se nombran
    pero no vienen en el PDF) y verificar el plan gratuito de Make y
    el acceso API de LinkedIn para perfiles personales.
-2. M3 (profesiones IA) solo encabezado: sin contenido sustantivo.
+2. M3 (profesiones IA) CERRADO el 27 oct 2026: la fuente no aporta
+   más que el encabezado; no hay contenido sustantivo que buscar.
 3. M6 (arena de vídeo) sin veredicto: herramienta registrada, no
    evaluada; corrección registrada (gratis con cuenta sí, open source
    no establecido para la plataforma).
@@ -945,3 +946,110 @@ una IA y Antonio te pasa este archivo, empieza por la sección 2
 M5), delegación (P3, M7, M1), prompts (P1, M8), contexto (M7),
 contenido (M5, M6, M8, M11–M14), servicios productizados (M9) y
 LinkedIn (M14, M4).*
+
+---
+
+## ADDENDUM — 27 de octubre de 2026 (noche)
+
+*Lo ocurrido la tarde y noche del 27 oct, con redacción propia y los
+mismos niveles de evidencia del resto del archivo. No reescribe lo
+anterior: lo continúa. Los punteros a archivos de trabajo local se
+resumen aquí en contenido, no como enlaces, porque quien lea este
+archivo desde el repo público no puede abrirlos.*
+
+### Clase 2 de CenteIA (27 oct) y clase 3 (28 oct)
+
+- Clase 2: "Crea tu segundo yo: IA que trabaja como tú" (2:14:43,
+  ~21.287 vistas al consultarla). Resumen solo desde la descripción
+  pública: construir un asistente que recuerda contexto, aplica los
+  criterios del usuario y sabe cuándo preguntar; "tú decides, tu
+  segundo yo ejecuta". NO hubo transcripción disponible, así que
+  ningún contenido de la clase más allá de la descripción está
+  verificado aquí. La descripción menciona CenteIA PRO como posgrado
+  universitario, sin precio visible: no afirmable.
+- Clase 3: prevista el 28 oct ~14:00 Caracas según el esquema del
+  curso (día 3 del evento). Pendiente de registrar cuando ocurra.
+
+### Decisión de certificados de Ingeniero de IA (27 oct)
+
+- El único certificado garantizado a 0 $ [A, páginas oficiales] es el
+  **Hugging Face AI Agents Course** (fundamentos + un caso de uso +
+  reto final, sin plazo). Segundo: el **HF MCP Course** (incluye una
+  app MCP desplegada). Ambos son la vía elegida.
+- Complemento [A, catálogo público de credenciales]: dos badges de
+  IBM SkillsBuild — "Make Agentic AI Work for You" (IA agentiva) y
+  "Retrieval-Augmented Generation for Enhanced AI Outputs" (RAG) —
+  para todos los aprendices, con credencial Credly. Antonio ya los
+  localizó en español en su propia cuenta de SkillsBuild.
+- **Oracle Agentic AI Foundations Associate (1Z0-1157-26)** [A]: examen
+  gratis, 60 min, 40 preguntas, 65 % para aprobar; mitad del temario
+  es específico de Oracle (OCI, base de datos Oracle), por eso no es
+  el elegido como único.
+- **CS50 AI de Harvard** [A]: certificado CS50 gratis (no acreditado),
+  fecha límite 30 jun 2027; base clásica de IA, no RAG/agentes/MCP.
+- **Ayuda económica de Coursera para el certificado IBM de RAG y
+  agentes** [A, centro de ayuda oficial]: es un descuento por curso,
+  no un 100 % garantizado; se solicita por curso (10 cursos en el
+  programa), hasta 16 días de espera, 180 días para completar cada
+  curso, y empezar una prueba gratuita cancela la solicitud. Solo
+  valdría si cada uno de los 10 cursos le concediera el 100 %.
+- Lección de mercado que sostiene la decisión [B]: ningún empleador
+  revisado exige certificados; piden Python, RAG, agentes, MCP y
+  proyectos desplegados. El proyecto RAG + MCP desplegado pesa más
+  que cualquier certificado de esta lista.
+
+### Investigación de plataformas fuera de LinkedIn (27 oct, noche)
+
+- Pregunta: lugares al nivel de LinkedIn para (a) una beca ~800 $
+  con formación pragmática, (b) un contrato práctico, (c) freelance.
+- **No existe ningún programa verificado de beca de ~800 $/mes 100 %
+  remota desde Venezuela** [A/I: búsqueda en fuentes oficiales y en
+  índice, sin hallazgo]. Las becas españolas documentadas rondan
+  300–500 €/mes y suelen exigir presencia en España.
+- Orden de trabajo: **Get on Board primero** (tablero tech de LatAm,
+  verificado en vivo; juniors observados 1.000–2.000 $/mes en casos
+  chilenos), **Torre segundo**, **BairesDev trainee** (roles junior
+  remotos con mentoría; el programa associate de 6 meses, remoto
+  LatAm, sin sueldo publicado y con la cohorte mostrada ya cerrada
+  el 15 jun 2026), y freelance en **Workana** (español, escrow,
+  retiro por PayPal o Payoneer con mínimo de 50 $ en Payoneer) y
+  **Upwork** (ejemplos junior reales desde 3 $/hora) en paralelo.
+- **Filtro de país de residencia** [I]: muchas ofertas remotas
+  restringen los países aceptados; leer esa línea en cada oferta y
+  guardar captura es obligatorio antes de postular.
+- **Cobro desde Venezuela** [I, guías secundarias]: PayPal no
+  transfiere saldo directo a bancos venezolanos; Payoneer es la ruta
+  más citada pero su vigencia actual, tarjeta y comisiones NO están
+  verificadas; Deel solo paga si la empresa contratante lo usa y lo
+  invita (cobertura para Venezuela sin confirmar); USDT/P2P aparece
+  en guías pero no como método oficial verificado de ninguna
+  plataforma aquí.
+- **UNICC (Valencia), 800 €/mes, 6 meses, cierra 20 nov 2026** [I,
+  agregador, NO fuente oficial]: es lo más cercano en cifra, pero
+  remoto desde Venezuela NO establecido y la sede es Valencia. No
+  contar con él hasta verificar la vacante oficial.
+
+### Nota K3.1 (27 oct)
+
+- Kimi K3.1 Pro (Moonshot, 23 oct 2026): post-entrenamiento de K3,
+  mismo tamaño (2.8T/104B activos), 1M de contexto. Artificial
+  Analysis: índice 55, 4º del mundo (K3: 44). Pesos el 4 nov 2026;
+  comprobado en Hugging Face el 27 oct: todavía sin publicar.
+  **Licencia SIN publicar: no asumir que hereda la de K3.** El paso
+  0 de la PoC de destilación se repite para K3.1 antes de generar
+  nada, y nunca se genera vía Databricks (sus términos lo vetan).
+
+### Nota @soyfundador (27 oct, noche)
+
+- Cuenta verificada de comunidad de fundadores: revisada a fondo
+  desde la parrilla pública (sin sesión, sin pies de foto
+  verificables). **IBM es el único certificado confirmado en
+  miniaturas** ("7 cursos gratis de IA en español y entrega
+  certificado", 13 oct); Cisco, Harvard y NVIDIA aparecen como
+  cursos gratis sin certificado visible; el anuncio de Anthropic de
+  50.000 $ es financiación para emprendedores, no un certificado.
+  La cuenta no vende nada visible y no aporta ningún certificado
+  nuevo a la ruta ya decidida. El detalle de un post concreto
+  exigiría sesión propia o captura del pie de foto.
+
+*Fin del addendum del 27 de octubre de 2026 (noche).*

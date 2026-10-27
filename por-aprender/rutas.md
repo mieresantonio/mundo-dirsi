@@ -590,13 +590,24 @@ y el registro permite reconstruir cada decisión sensible.
 
 ## Orden sugerido entre rutas
 
-1. **React avanzado** y **seguridad/evaluación** primero: se aplican de
+> Actualizado el 27 oct 2026: la Ruta 1 (Agentes/MCP) pasa a primera.
+> Motivo: el plan de certificados decidido ese día (HF Agents Course
+> + HF MCP Course, ambos gratis) y el objetivo de posicionarse como
+> Ingeniero de IA ponen un servidor MCP propio y un agente evaluado
+> por delante de cualquier otro aprendizaje. Las rutas están
+> numeradas en su orden original; lo que cambia es la prioridad de
+> ejecución, no los números.
+
+1. **Agentes/MCP** primero: es el proyecto que más acerca al objetivo
+   Ingeniero de IA y el que alimentan directamente los certificados
+   gratuitos elegidos.
+2. **React avanzado** y **seguridad/evaluación** después: se aplican de
    inmediato a las apps y agentes que ya existen.
-2. **Agentes/MCP** y **backend escalable** después: amplían lo que esos
-   proyectos pueden hacer y soportar.
-3. **Go/Rust** cuando haya una herramienta concreta que lo pida, no
+3. **Backend escalable** después: amplía lo que esos proyectos pueden
+   hacer y soportar.
+4. **Go/Rust** cuando haya una herramienta concreta que lo pida, no
    antes: aprender un lenguaje sin un uso inmediato se olvida.
-4. **Cuántica** como ruta de fondo, sin prisa: un circuito por semana
+5. **Cuántica** como ruta de fondo, sin prisa: un circuito por semana
    es mejor ritmo que un atracón de fin de semana.
 
 ## Regla de cierre de cada ruta
