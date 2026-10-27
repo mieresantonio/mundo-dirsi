@@ -381,19 +381,108 @@ Reglas para quien lo lea:
   el "lip-sync perfecto" son afirmaciones de la guía [C] y clonar la
   voz de un cliente exige su consentimiento explícito.
 
-#### M10. Clase 1 en vivo "Tu segundo yo 24/7" (YouTube) — PARCIAL
+#### M10. Clase 1 en vivo "Tu segundo yo 24/7" (YouTube) — LEÍDO vía transcripción [A/B]
 
 - Enlace: https://www.youtube.com/live/we3gUsC7_80?si=Fk2kmbZAn_ePv48-
-- Tipo: vídeo en directo de YouTube, primera clase del curso CenteIA.
-- Resumen: descripción verificada: presenta el método ROCE, con Jordi
-  Segura y Armand Pujadó, y cifras del organizador (más de un millón
-  de personas aprendiendo y más de 5.000 en su programa PRO, ambas
-  [C]). No hay transcripción extraíble por texto.
-- Usable AHORA: el nombre del método (ROCE) como referencia; su
-  contenido concreto NO está verificado más allá de la descripción,
-  así que no se desarrolla aquí.
-- Guardado PARA DESPUÉS: revisión cuando lleguen las clases 2 y 3.
-- Estado: parcial (descripción verificada, sin transcripción).
+- Tipo: vídeo en directo de YouTube, primera clase del curso CenteIA
+  (CenteIA Education, Jordi Segura y Armand Pujadó; en la página
+  figuraba con 53.801 vistas al consultarla).
+- Resumen: clase de unas 2 h 18 min leída por transcripción automática
+  (sin entrar con cuenta, sin suscribirse). Estructura: bienvenida al
+  evento de 3 días (pasar de pedir texto a delegar trabajo); qué se
+  verá cada día (día 1: que la IA trabaje por ti; día 2: con tu
+  información, experiencia y criterio; día 3: herramientas y ofrecerlo
+  como servicio); 3 aprendizajes del día 1 (qué pasa hoy en IA, un
+  método concreto para encargar trabajo, cómo la IA trabaja con el
+  criterio del usuario); errores a evitar (usar la IA como antes,
+  copiar prompts sin entenderlos, guardar herramientas sin método,
+  probarla una semana y abandonarla); oportunidad y datos de mercado
+  por perfil (empleados, profesionales libres, dueños de empresa,
+  nueva vía de ingresos); ejemplos previos (inmobiliaria, entrenador,
+  constructora, ferretería); historia del proyecto y testimonios (la
+  experiencia del usuario es lo que da valor, no solo la herramienta);
+  breve historia de la IA (años cincuenta, especializada, generativa
+  desde noviembre de 2022, agéntica hacia 2026); el método ROCE con
+  demostración comparativa; qué es un agente y su mapa de capacidades
+  con la demo del panel inmobiliario; demos conectadas a Drive y Gmail
+  para prospección y seguimiento; cómo lograr que trabaje "como tú"
+  (las skills); recapitulación, regalo final (mapa para decidir qué
+  delegar) y convocatoria al día siguiente a las 19:00 hora de Madrid
+  (14:00 Caracas).
+- El método ROCE (técnica de 4 pasos para redactar un buen prompt,
+  para ChatGPT, Gemini, Claude, DeepSeek y Copilot; la idea de fondo
+  es que el usuario no controla el interior del modelo, sino la
+  entrada): R — Rol (en qué experto debe convertirse la IA); O —
+  Objetivo (concreto, claro, conciso, directo y medible si se puede;
+  primero una parte delimitada, no todo el proyecto); C — Contexto
+  (explayarse: quién es el usuario, qué hace, cómo lo hace, dónde
+  vive su información, cuáles son sus archivos; la experiencia y el
+  criterio propios valen oro aquí); E — Estructura (exactamente cómo
+  debe devolver la respuesta: pestañas de un Excel, títulos y orden
+  de un informe; la letra que suele olvidarse).
+- Demostración en vivo (caso de ejemplo, inmobiliaria Brisa Hábitat;
+  cliente Marta, piso Olivo): se descarga la app de escritorio de
+  ChatGPT y se crea un proyecto con acceso a una carpeta local de
+  confianza (tono, Excel de inmuebles y clientes, consultas,
+  protocolos, permisos, proceso semanal, notas, horarios, actividad,
+  finanzas). Primero exploración sin cambios (leer todo, tabla de qué
+  contiene cada archivo y para qué sirve, preguntas, sin modificar ni
+  redactar). Luego se compara un prompt mediocre (responder a Marta y
+  proponer visita) con un prompt ROCE (rol comercial, objetivo de
+  redactar propuesta, contexto de los archivos, salida en borrador con
+  fuentes de cada dato y una pregunta pendiente para Marta): el ROCE
+  sale más específico y trazable. Demo agéntica: panel visual de
+  cartera para el equipo comercial (contactos, inmuebles, encajes,
+  estado de clientes, consultas, inventario, actividad, finanzas,
+  acciones del día), con búsqueda en el navegador para comprobar la
+  vigencia de información municipal de transporte en Benimaclet,
+  Valencia; la IA toma el navegador, se equivoca en algún paso, corrige
+  y sigue sin que la toquen; tardó unos 4 minutos y 37 segundos. Demo
+  conectada: con enlace de Drive y conectores de Gmail, lee etiqueta y
+  archivos, filtra contactos por presupuesto y criterios, crea
+  subcarpeta de seguimiento y deja un borrador de correo.
+- Límites explícitos ("se detiene donde debe"): en la exploración, no
+  cambiar ni redactar nada, solo analizar y preguntar; antes de
+  escribir, comprobar si ya existe; en el correo, crear borrador pero
+  NO enviarlo (destinatarios en copia oculta, listo para revisión y
+  visto bueno); en la respuesta ROCE, entregar borrador con fuentes y
+  pregunta pendiente, no inventar ni cerrar el tema; en el panel,
+  verificar vigencia externa antes de incorporar; en general, el
+  agente tiene control humano y puede limitarse, no tiene que ser
+  autónomo si el usuario no quiere.
+- Reglas para que trabaje con tus reglas: centraliza y ordena tu
+  contexto antes de pedir (si está disperso, el resultado también);
+  dale acceso, no subidas repetidas (proyecto o carpeta de confianza,
+  enlace de Drive, conectores de las apps que ya usas); especifica
+  rol, objetivo y sobre todo formato de salida; añade reglas de no
+  hacer (qué no modifica, qué no envía, qué verifica antes de
+  escribir); enséñale con ejemplos de trabajo bien y mal hecho,
+  referencias propias, marca y tono, no solo instrucciones abstractas;
+  encapsula ese conocimiento en una skill (modelo + instrucciones +
+  referencias de buen trabajo + contexto + marca + archivos de apoyo),
+  reutilizable muchas veces y transportable a otros modelos; empieza
+  con una sola herramienta (recomiendan ChatGPT) antes de dispersarte;
+  el agente como equipo (control humano, delegación, memoria que
+  mejora con el uso, herramientas, corrección de rumbo); el criterio
+  humano sigue siendo el límite y el valor (la IA ejecuta lo pesado,
+  la persona revisa, decide y envía).
+- Usable AHORA: ROCE como plantilla de encargo (compatible con la
+  plantilla anti-invención de P3 y la estructura de 6 campos de P1 y
+  M8); la regla borrador-sin-enviar; la exploración sin cambios como
+  primer paso ante cualquier carpeta; la skill como forma de guardar
+  criterio propio (conecta con la ficha voice.md de M11–M14).
+- Guardado PARA DESPUÉS: revisión cuando lleguen las clases 2 y 3
+  (día 2: con tu información y criterio; día 3: herramientas y
+  servicio).
+- Estado: leído vía transcripción automática (sin login), recorrida
+  desde el inicio hasta ~2 h 18 min. Límites: el vídeo en sí no se
+  reprodujo (el reproductor quedó cubierto por un aviso de acceso),
+  así que no se comprobó visualmente el contenido exacto de pantallas
+  y diapositivas; la transcripción automática resume o corta frases y
+  transcribe nombres y términos de forma irregular, así que los textos
+  que solo estaban en pantalla no están verificados por completo ni se
+  reproducen literales; el contenido del regalo final más allá de su
+  descripción (mapa para decidir qué delegar) no se pudo verificar.
   Antonio ya vio la clase; su contenido está cubierto por los PDFs de
   la clase 1 (ver P1).
 
@@ -816,10 +905,12 @@ los materiales del catálogo. Nada aquí es texto copiado de un curso.
 3. M6 (arena de vídeo) sin veredicto: herramienta registrada, no
    evaluada; corrección registrada (gratis con cuenta sí, open source
    no establecido para la plataforma).
-4. M10 (clase 1 en vivo) sin transcripción: el método ROCE solo está
-   nombrado, no desarrollado ni verificado. Intento de transcripción
-   por navegador en curso al cierre de esta actualización; si llega,
-   se suma aquí.
+4. M10 (clase 1 en vivo): transcripción obtenida el 27 de octubre sin
+   login (recorrida hasta ~2 h 18 min); método ROCE, demo y reglas ya
+   desarrollados arriba. Límites que quedan: vídeo no reproducido
+   (aviso de acceso sobre el reproductor), textos solo en pantalla no
+   verificados por completo y regalo final solo descrito, no
+   verificado.
 5. M8 frente a P1: los 15 roles coinciden, pero la identidad prompt a
    prompt entre el PDF de 45 prompts y el bloque de productividad de
    los 90 prompts NO está verificada.
