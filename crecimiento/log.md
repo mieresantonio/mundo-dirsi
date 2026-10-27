@@ -37,3 +37,29 @@ sin crear repos desde aquí.
   fuente primaria antes de sintetizar.
 - Los trabajos largos se delegan en paralelo; la verificación final es
   propia e independiente.
+
+## 2026-10-27 — Kimi K3.1 Pro y certificados gratis de Ingeniero de IA
+- Vídeo semanal de Fazt (19–25 oct) visto por transcripción: Kimi K3.1
+  Pro, lanzado el 23 oct, post-entrenamiento de K3, mismo tamaño
+  (2.8T/104B activos), 1M de contexto. Artificial Analysis: 55 puntos,
+  4º del mundo (K3: 44). Pesos el 4 nov; comprobado en HF el 27 oct:
+  todavía no hay K3.1 en moonshotai. Licencia de K3.1 sin publicar: el
+  paso 0 de la PoC se repite, no se genera hasta verificar licencia y
+  términos. API más barata (2/10 dólares por millón, 33% menos). En
+  diseño frontend puro no hay medida nueva: no asumir que diseña mejor
+  en proporción.
+- OpenAI en el mismo vídeo: GPT-6.1 Sol migraría COBOL al 86% (cifra
+  atribuida a OpenAI, sin verificar); entrenamiento offline anunciado
+  el 23 oct tras el incidente DNS del 20 sep; Claude/GPT bloquean la
+  ingeniería inversa y los modelos chinos no (en teoría). Matiz propio:
+  REA analiza una funcionalidad cada vez, no recupera código fuente.
+- Certificados gratis de Ingeniero de IA (investigación delegada, top
+  verificado de primera mano): HF Agents Course y MCP Course,
+  certificación completamente gratis; Oracle Agentic AI Foundations
+  (1Z0-1157-26), examen gratis, 60 min, 40 preguntas, 65%; CS50 AI,
+  certificado CS50 gratis (no acreditado, fecha límite 30 jun 2027).
+  Lección del mercado: AI Engineer crece más rápido (LinkedIn +143%
+  ofertas EE. UU., según fuente secundaria), pero ningún empleador
+  revisado exige certificados: piden Python, RAG, agentes, MCP y
+  proyectos desplegados. Full Stack con IA es la vía de entrada; el
+  proyecto desplegado pesa más que el certificado.
