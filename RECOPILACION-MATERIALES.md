@@ -2,7 +2,10 @@
 
 Compilado el 27 de octubre de 2026 a partir de 10 enlaces enviados por Antonio
 el 27 de octubre de 2026 a las 02:49 (hora de Caracas), más los materiales
-previos que ya estaban analizados. Redactado con palabras propias: este
+previos que ya estaban analizados. Actualizado el mismo día con un segundo
+lote enviado a las 10:58: la guía de 11 skills para YouTube, 3 repositorios
+de skills del mismo autor y la copia del PDF de automatizaciones que
+faltaba (M9, ahora leído). Redactado con palabras propias: este
 archivo NO contiene textos de cursos ni archivos con copyright, solo
 resúmenes y estructuras. Los PDFs originales NO están en este repo
 (están en la carpeta de trabajo local, fuera de mundo-dirsi).
@@ -56,7 +59,7 @@ Reglas para quien lo lea:
 
 ## 3. Catálogo de materiales
 
-### Hoy, 27 de octubre de 2026 (10 fuentes)
+### Hoy, 27 de octubre de 2026 (10 fuentes, más segundo lote)
 
 #### M1. Guía de agentes con Google (CenteIA) — LEÍDO [A]
 
@@ -217,7 +220,7 @@ Reglas para quien lo lea:
 - Estado: leído íntegro de primera mano. Cautela: el repositorio
   original que cita la guía no se ha verificado de primera mano.
 
-#### M6. Arena de vídeo (arena.ai) — PARCIAL
+#### M6. Arena de vídeo (arena.ai) — PARCIAL, corrección sobre "gratis y open source"
 
 - Enlace: https://arena.ai/video?utm_term=01a179c7-8b7a-74ee-b1f7-8fd539b204f1
 - Tipo: herramienta web interactiva ("Video Arena: compara los mejores
@@ -225,6 +228,15 @@ Reglas para quien lo lea:
 - Resumen: es una herramienta, no un artículo. Permite comparar
   generadores de vídeo con IA mediante votación. No se extrajo un
   veredicto ni un ranking aprovechable.
+- Corrección (27 de octubre, segundo lote): gratis SÍ con cuenta
+  (según guía externa de octubre de 2026: se entra con cuenta, la
+  arena genera dos vídeos de modelos anónimos por prompt, se comparan,
+  se vota y se puede descargar; hay rankings públicos por texto,
+  imagen, vídeo y agente). Open source NO establecido para la
+  plataforma: arena.ai es una plataforma alojada que exige cuenta; la
+  pieza de código abierto es un agente de desarrollador aparte (Sarus
+  Arena), no la plataforma misma. No afirmar que arena.ai es open
+  source.
 - Usable AHORA: como comparador antes de elegir una herramienta de
   vídeo para producir contenido (relevante para su meta de YouTube y
   TikTok y para los límites de generación de vídeo que ya conoce).
@@ -310,18 +322,64 @@ Reglas para quien lo lea:
   La identidad prompt a prompt entre ambos documentos NO está
   verificada; queda como pregunta abierta.
 
-#### M9. 5 Automatizaciones y Agentes de IA (CenteIA) — NO LEGIBLE
+#### M9. 5 Automatizaciones y Agentes de IA (CenteIA) — LEÍDO [A] (segundo lote)
 
 - Enlace: https://training.centeia.com/wp-content/uploads/2026/07/5-Automatizaciones-y-Agentes-de-IA_compressed.pdf
-- Tipo: PDF de CenteIA, julio de 2026 (según la ruta del enlace).
-- Resumen: ninguno. El enlace redirige a una zona de miembros
-  ("Accede a Círculo CenteIA aquí") con 0 líneas de contenido.
-- Usable AHORA: nada.
-- Guardado PARA DESPUÉS: todo, si Antonio aporta el archivo desde su
-  acceso de miembro y se analiza entonces.
-- Estado: no legible, tras muro de miembros del Círculo CenteIA. No
-  se intentaron más vías. No confundir con M1 (la guía de agentes con
-  Google), que sí es legible: son archivos distintos.
+- Copia aportada por Antonio:
+  https://drive.google.com/file/d/15plDQYAt2CzvLDpritQ9TET1mQxq3NmE/view?usp=drivesdk
+- Tipo: PDF de CenteIA, 17 páginas, solo imágenes, sin capa de texto
+  (3,36 MB). Leído página por página como imagen el 27 de octubre de
+  2026. Análisis completo en
+  `~/workspace/centeia-materiales/automatizaciones-analisis.md`.
+- Resumen: guía de 5 automatizaciones construidas en Make.com, cada
+  una con problema, flujo paso a paso, módulos, cliente ideal, precio
+  sugerido, upsell y blueprint JSON. Antes explica las dos plataformas
+  (Make.com visual sin código, con blueprints JSON exportables; n8n
+  como alternativa de código abierto autoalojable, con la misma
+  lógica) y cómo importar un blueprint en Make (cuenta, Scenarios,
+  Import Blueprint, conectar cuentas, ajustar variables, activar).
+  Consejo de venta que repite: no se vende la automatización, se
+  vende el resultado; el setup es el ingreso grande de golpe y el
+  mantenimiento mensual es el ingreso recurrente.
+- Las 5: (01) analista de CV con IA para RRHH — Drive, OpenAI
+  (Assistants API + Vector Store), Markdown, Google Docs; entrega
+  resumen, nota 0–5 de encaje y preguntas de entrevista; 800–1500 €;
+  blueprint `1_-_Recursos_Humanos.json`. (02) procesador automático
+  de facturas con GPT Vision — Gmail, PDF.co, GPT Vision, ChatGPT,
+  Sheets; extrae emisor, NIF/CIF, concepto, fecha, base, IVA, total,
+  número y pago; 1000–2000 € + 200–400 €/mes; blueprint
+  `2_-_Facturacion.json`. (03) captación de leads con Google Maps +
+  IA — SerpAPI, Gemini, Sheets; 50/100/200 negocios con teléfono,
+  dirección, web y valoración; 500–1500 €; blueprint
+  `3_-_Captacion_de_Leads.json`. (04) generador de contenido
+  multicanal — Google Forms, router en 3 ramas (Instagram, LinkedIn,
+  Blog) con ChatGPT + Ideogram; 1500–3000 € + 300–800 €/mes; blueprint
+  `4_-_Redes_Sociales.json`. (05) avatares con IA vía Telegram —
+  Telegram, OpenAI (transcripción), ChatGPT (guion), ElevenLabs (voz
+  clonada), HeyGen (vídeo), Drive; 2000–4000 € + 500–1000 €/mes.
+- Usable AHORA: como especificación de servicios productizados (ruta
+  de sistemas de IA para negocios locales): las 5 son fichas vendibles
+  completas, reimplementables en código sin depender de Make. Más
+  cercanas a Antonio: la 02 y la 03 (patrones que ya domina en
+  concepto y conexión directa con negocios locales); la 04 con su
+  deseo de contenido; la 05 con avatares y contenido faceless; la 01
+  como patrón de análisis de CV reutilizable para su propia búsqueda.
+- Guardado PARA DESPUÉS: los blueprints JSON (se nombran pero no
+  vienen dentro de este PDF; dependen de su acceso a Círculo), la
+  venta como servicio (necesita clientes y cuentas conectadas) y la
+  verificación del plan gratuito de Make y del acceso API de LinkedIn
+  para publicar en perfiles personales.
+- Estado: leído íntegro de primera mano (17 páginas como imagen).
+  Cautelas: los precios son sugeridos por la guía, no tarifas
+  verificadas; la promesa de portada ("+1500 €/mes") y el
+  "+20h/semana" son marketing [C]; la guía tiene 2 errores de edición
+  (la página de la 04 repite la frase-resumen de la 02, y la caja de
+  blueprint de la 05 repite la de la 03, así que el nombre real del
+  JSON de la 05 no aparece); la publicación automática en perfil de
+  LinkedIn vía API está restringida en la práctica y conviene
+  verificarla antes de vender esa rama; la voz clonada "idéntica" y
+  el "lip-sync perfecto" son afirmaciones de la guía [C] y clonar la
+  voz de un cliente exige su consentimiento explícito.
 
 #### M10. Clase 1 en vivo "Tu segundo yo 24/7" (YouTube) — PARCIAL
 
@@ -338,6 +396,204 @@ Reglas para quien lo lea:
 - Estado: parcial (descripción verificada, sin transcripción).
   Antonio ya vio la clase; su contenido está cubierto por los PDFs de
   la clase 1 (ver P1).
+
+#### M11. Guía "11 skills de Claude para tu YouTube" (IA Maestra) — LEÍDO [A]
+
+- Fuente: https://youtube.iahipster.com/?utm_source=instagram&utm_medium=reel&utm_campaign=l2&utm_content=youtube&g=18#youtube
+- Tipo: recurso lead-magnet ("Recurso 01 · Palabra clave YOUTUBE") con
+  acceso tras un grupo privado como gancho. Antonio pegó el texto en
+  el chat el 27 de octubre a las 10:58 porque no era fácil guardarlo
+  en Drive o como archivo; el texto quedó guardado en su espacio
+  privado (`entradas-2026-10-27/11-skills-youtube-ia-maestra.md`), NO
+  en este repo público.
+- Resumen: guía de 11 habilidades de Claude para llevar un canal de
+  YouTube (escriben y analizan; no entran al canal, no suben ni
+  publican nada, el usuario revisa y sube). Instalación en 1 minuto
+  en claude.ai (activar ejecución de código, pegar el enlace del repo
+  con la instrucción de preparar las 11 como archivos .skill, pulsar
+  "Guardar habilidad" en las 11, comprobar en Personalización >
+  Skills). 3 atajos para el móvil que funcionan en cualquier chat
+  (Claude, ChatGPT, Gemini) y en el plan gratis, sin instalar nada:
+  guion (3 preguntas, 5 ganchos puntuados del 1 al 10, guion entero
+  con marcas de cambio de plano entre corchetes, solo datos del
+  usuario o huecos [TU DATO]), título + miniatura como pareja (5
+  títulos de menos de 60 caracteres, texto de miniatura de 2–4
+  palabras que complete sin repetir el título, pareja recomendada +
+  idea de imagen), descripción + capítulos (2 primeras líneas con lo
+  que busca la gente, resto corto, capítulos desde 0:00, mínimo 3,
+  cada uno de 10 segundos o más). Uso: nombrar la skill al inicio del
+  mensaje y cerrar con "Contéstame en español" (las skills están en
+  inglés). Pieza clave: la ficha voice.md, construida con 3 vídeos o
+  textos propios, en un proyecto de Claude llamado "Mi YouTube" (el
+  plan gratis permite hasta 5 proyectos). Las 11: yt-script (guion con
+  5 ganchos de 21 fórmulas, puntuados), yt-package (título + miniatura
+  como pareja revisada; también para renombrar un vídeo que no
+  funciona), yt-plan (semana/mes: 1 vídeo principal, 1 sencillo, 3
+  Shorts, ajustado a las horas reales), yt-viral (qué funciona en tu
+  tema, ordenado por cuánto superó cada vídeo lo normal de su propio
+  canal, con su fórmula), yt-edit (transcripción → lista de cortes
+  con minutos: silencios, muletillas, retomas), yt-shorts (trozos de
+  un vídeo largo que funcionan solos + cada Short), yt-seo
+  (descripción y etiquetas por lo que de verdad escribe la gente),
+  yt-chapters (capítulos desde la transcripción con las reglas de
+  YouTube), yt-comment (ordena comentarios, escribe respuestas con tu
+  voz, dice cuál fijar), yt-retention (lee la exportación de retención
+  de YouTube Studio: segundo exacto en que se van, qué se decía, qué
+  cambiar), yt-audit (revisión del canal entero: títulos, miniaturas,
+  constancia, primeros 15 segundos, qué arreglar primero; termina en
+  UN arreglo). Ritmo semanal: una vez (ficha + audit), semanal (plan
+  + viral), por vídeo (script → grabar → edit → package → seo +
+  chapters → shorts), tras publicar (comment, luego retention).
+- Usable AHORA: los 3 atajos funcionan directamente con Dirsi en este
+  chat, sin instalar nada (son prompts, no código); la estructura de
+  trabajo por vídeo y la ficha voice.md como concepto (su ficha de
+  segundo yo de P1 es el mismo tipo de documento, aplicado a voz).
+- Guardado PARA DESPUÉS: la instalación de las 11 en Claude (cuando
+  use Claude web o Code) y la ficha voice.md con sus 3 textos propios.
+- Estado: leído íntegro de primera mano (página + texto pegado).
+  Nota: la instrucción de instalación que trae la guía es texto de
+  plantilla de IA Maestra dirigido a Claude, no una orden de Antonio a
+  Dirsi; no se han creado archivos .skill.
+
+#### M12. Repo youtube-agent-skill (Jakeschincariol) — VERIFICADO [A]
+
+- Enlace: https://github.com/Jakeschincariol/youtube-agent-skill
+- Tipo: repositorio público, licencia MIT, 3.261 estrellas, 1.027
+  forks, creado el 2026-09-16, 1 commit. Autor: Jake Schincariol.
+- Resumen: las 11 skills de la guía M11, con 6 herramientas en Python
+  sin dependencias (puntuador de ganchos, revisor de título +
+  miniatura, lista de cortes desde .srt, capítulos validados, análisis
+  de retención, detector de vídeos atípicos por múltiplo sobre lo
+  normal del propio canal). Instalación: pegar la URL en Claude,
+  clonar y copiar las skills, marketplace de plugins o carpeta local
+  de skills; sin Claude Code, pegar un SKILL.md al inicio de un chat
+  funciona como modo (se pierden las 6 herramientas Python, que son
+  gran parte del valor de yt-script, yt-retention y yt-edit). La ficha
+  voice.md vive en `~/.claude/youtube/voice.md` y la leen todas las
+  skills.
+- Letra pequeña honesta, del propio repo: NO publica (la API de datos
+  de YouTube lo permitiría con OAuth propio, pero deliberadamente no
+  está construido; cada skill termina en un bloque copiable y la
+  pregunta "lo envío o lo cambio"); el puntuador de ganchos es una
+  heurística, no un predictor (calibrado con 74 ganchos reales: separa
+  bien los ganchos deliberadamente malos de los reales, AUC 0,83, pero
+  apenas distingue los éxitos de los fracasos del mismo creador, AUC
+  0,56); el clasificador de fórmulas juzga las palabras del título,
+  no por qué un vídeo tuvo vistas; yt-viral lee listados públicos,
+  nunca entra como el usuario; las etiquetas apenas importan y el pack
+  lo dice; nada inventa un número (si falta, pregunta o deja el hueco).
+- Usable AHORA: como referencia de diseño de skills (cómo se escribe
+  una skill con herramientas, criterios y límites honestos) y como
+  herramienta futura en Claude.
+- Guardado PARA DESPUÉS: la instalación y el uso con su canal, cuando
+  tenga vídeos propios y datos de retención.
+- Estado: verificado de primera mano en GitHub (27 de octubre de
+  2026). La afirmación de la guía M11 "funcionan también en el plan
+  gratuito de Claude" es afirmación de la guía; el repo garantiza la
+  ruta de SKILL.md como modo de chat sin Claude Code.
+
+#### M13. Repo instagram-agent-skill (Jakeschincariol) — VERIFICADO [A]
+
+- Enlace: https://github.com/Jakeschincariol/instagram-agent-skill
+- Tipo: repositorio público, licencia MIT, 3.277 estrellas, 720
+  forks, creado el 2026-09-13, 2 commits. Mismo autor que M12.
+- Resumen: TRECE skills (no 11): reel (idea → reel con 3 ganchos de
+  26 fórmulas, puntuados, guion + texto en pantalla + guion de
+  ritmos), viral (ganadores del nicho por múltiplo sobre la mediana
+  propia, con su fórmula), caption (revisada; muestra los 125
+  caracteres que el feed enseña antes del toque), carousel (portada
+  que gana el deslizamiento, copia por diapositiva, archivos
+  1080×1350), story (secuencia diaria, qué sticker hace qué trabajo,
+  embudo por DM), profile (perfil puntuado con rúbrica de 12 partes
+  sobre 100, reescrito en orden de arreglo), plan (la semana + 10
+  cuentas con las que interactuar), human (humanizador, dos scripts
+  ejecutables), comment (comentarios en posts ajenos, 9 tipos, nunca
+  solo emojis de fuego), reply (hilo propio ordenado por palabra
+  clave, lead, sustancia, pregunta, apoyo o ruido), dm (entrega por
+  palabra clave, primer mensaje, pitch de colaboración, exactamente
+  dos seguimientos), repurpose (un vídeo, podcast o newsletter → una
+  semana de reels y carruseles independientes), audit (post-mortem por
+  múltiplo atípico y envíos por alcance, no por vistas). Cinco
+  herramientas Python sin dependencias ni red: puntuador de ganchos
+  (5 comprobaciones + errores que descalifican, como abrir con "deja
+  de desplazarte" o un saludo), ritmos (temporiza cada línea a ~165
+  palabras por minuto; marca ganchos de más de 3 s y tramos sin
+  concreción), caption (ventana de 125 caracteres; tope de CINCO
+  hashtags por post — Instagram lo recortó el 18 de diciembre de
+  2025), humanizador + detector (quita caracteres invisibles,
+  normaliza guiones y comillas, 154 frases de stock editables, marca
+  estructuras en vez de arreglarlas; panel de 5 comprobaciones con
+  puntuación humana; demo: 32,5 marcado → 79,7 aprobado), y detector
+  de atípicos por múltiplo sobre la mediana propia.
+- Medición honesta del autor: corpus de 74 ganchos reales (primeros 3
+  segundos de subtítulos automáticos, 8 mejores y 8 peores de cinco
+  canales, 931–550.000 vistas; Shorts de YouTube en vez de Reels
+  porque Instagram no expone vistas recolectables sin entrar en la
+  cuenta de alguien — limitación declarada); detecta bien los ganchos
+  malos (AUC 0,83) pero NO elige ganadores (éxitos frente a fracasos
+  propios AUC 0,56, casi azar; solo la especificidad separó algo las
+  bandas); el clasificador de fórmulas empezó roto (nombraba solo el
+  8 % de los ganchos reales; "la gente no habla en plantillas") y la
+  prueba lo cazó. Instalación igual que M12; ficha voice.md en
+  `~/.claude/instagram/voice.md`. "Nada se publica hasta que tú digas
+  que sí. Estas skills escriben. Tú publicas."
+- Usable AHORA: el método (ganchos, ventana de 125 caracteres, tope
+  de 5 hashtags, humanizador) y la lección de medición (un puntuador
+  que detecta lo malo no es un predictor de éxito).
+- Guardado PARA DESPUÉS: la instalación completa y el uso con su
+  contenido, cuando publique en Instagram.
+- Estado: verificado de primera mano en GitHub. NO confundir con el
+  paquete de 9 skills del manual M5: son paquetes distintos (el de M5
+  sigue sin verificar su repo original; este, de 13 skills, sí está
+  verificado).
+
+#### M14. Repo linkedin-agent-skill (Jakeschincariol) — VERIFICADO [A]
+
+- Enlace: https://github.com/Jakeschincariol/linkedin-agent-skill
+- Tipo: repositorio público, licencia MIT, 2.775 estrellas, 430
+  forks, creado el 2026-09-07, 1 commit. Mismo autor que M12 y M13.
+- Resumen: ONCE skills: post (idea → post con 3 ganchos de 21
+  fórmulas, borrador completo, humanizado antes de verse), comment
+  (comentarios en posts ajenos, 9 tipos, nunca "¡Gran post!"), reply
+  (hilo propio ordenado: lead, sustancia, colega, apoyo, ruido),
+  profile (perfil puntuado con rúbrica de 12 partes sobre 100,
+  reescrito en orden de arreglo), plan (la semana + 10 personas con
+  las que interactuar; escribe `~/.claude/linkedin/plan.md`), human
+  (humanizador, dos scripts), carousel (posts documento: copia por
+  diapositiva, portada, PDF a subir), repurpose (un vídeo, newsletter
+  o transcripción → una semana de posts independientes), dm (nota de
+  invitación de 200 caracteres, primer mensaje, exactamente dos
+  seguimientos), inbox (bandeja clasificada en lead, reclutador,
+  colega, petición o spam, y nombra la señal que delató cada
+  secuencia), audit (post-mortem por tasa de interacción y múltiplo
+  de alcance, no por impresiones). Humanizador: sin dependencias,
+  local, nada se sube; quita caracteres invisibles, normaliza
+  tipografía, 113 frases de stock editables, marca estructuras ("no
+  es solo X, es Y", tríadas, preguntas retóricas de una palabra, muros
+  de hashtags, cebo de interacción, frases de largo uniforme); cinco
+  comprobaciones puntuadas 0–100 con veredicto que pesa la media 60 %
+  y la comprobación más débil 40 %; demo: 24,8 marcado → 69,7 en
+  revisión, dejando a propósito el tramo final hasta aprobado en
+  manos humanas.
+- Letra pequeña honesta, del propio repo: estas skills NO publican en
+  LinkedIn y no deberían: no hay API oficial para publicar en un
+  perfil personal sin app de socio aprobada, y la automatización por
+  navegador o terceros viola el acuerdo de usuario de LinkedIn y
+  restringe cuentas; cada skill termina en un bloque copiable que el
+  usuario pega (la aprobación es el diseño, no una limitación). Las
+  cinco comprobaciones son heurísticas locales modeladas sobre
+  señales públicas de detectores, NO las APIs de GPTZero, Originality,
+  Copyleaks, Winston o Turnitin, y no pueden prometer esos veredictos.
+  El paso de caracteres invisibles es real pero estrecho (no es
+  anti-marca de agua). "Nada aquí fabrica": los números que faltan
+  vuelven como huecos marcados, siempre.
+- Usable AHORA: encaje directo con su plan LinkedIn-primero (perfil
+  puntuado con rúbrica, posts, nota de invitación de 200 caracteres
+  para reclutadoras como Rosa, triaje de bandeja con pila de
+  reclutador) y con las reglas de escritura natural de M4.
+- Guardado PARA DESPUÉS: la instalación y el uso con su perfil,
+  cuando publique en LinkedIn.
+- Estado: verificado de primera mano en GitHub.
 
 ### Materiales previos (resumidos desde análisis existentes, no reanalizados)
 
@@ -502,48 +758,99 @@ los materiales del catálogo. Nada aquí es texto copiado de un curso.
   vídeo con IA mediante votación. No hay veredicto extraído: elegir
   herramienta de vídeo sigue pendiente de evaluación cuando toque
   producir contenido.
+- Corrección: gratis con cuenta sí; open source no establecido para
+  la plataforma (la pieza abierta es un agente aparte, Sarus Arena).
 
-### Automatizaciones (solo lo verificado)
+### Automatizaciones y servicios productizados (de M9, M1, M2)
 
-- Verificado y legible: el método de agentes con Google (M1) y el
-  router local con relevo y compresión (M2).
-- NO verificado: el contenido del PDF M9 (tras muro de miembros).
-- Principio común de ambos materiales legibles: automatizar una tarea
-  pequeña y repetitiva, con límites y revisión, antes de escalar a
-  sistemas grandes.
+- Principio común: automatizar una tarea pequeña y repetitiva, con
+  límites y revisión, antes de escalar a sistemas grandes.
+- De M9, 5 fichas vendibles completas (problema, flujo, módulos,
+  entrega, cliente, precio sugerido, upsell), reimplementables en
+  código sin depender de Make: analista de CV para RRHH (800–1500 €),
+  procesador de facturas con visión (1000–2000 € + 200–400 €/mes),
+  captación de leads con Maps (500–1500 €), contenido multicanal
+  (1500–3000 € + 300–800 €/mes), avatares por Telegram (2000–4000 € +
+  500–1000 €/mes). Precios sugeridos por la guía, no tarifas
+  verificadas.
+- De M1 y M2: el método de agentes con Google y el router local con
+  relevo y compresión, como piezas complementarias (agentes con
+  límites y revisión; relevo automático entre proveedores).
+- Regla de venta de M9: no se vende la automatización, se vende el
+  resultado; el setup es el ingreso grande de golpe y el mantenimiento
+  mensual es el recurrente.
+
+### Packs de skills para contenido (de M11–M14)
+
+- Los 3 packs del mismo autor (YouTube 11, Instagram 13, LinkedIn 11
+  skills) comparten diseño: escriben y analizan, nunca publican; el
+  usuario revisa, copia y sube. La aprobación es el diseño, no una
+  limitación.
+- Lo usable sin instalar nada: los 3 atajos de la guía M11 funcionan
+  como prompts en cualquier chat, incluido este (guion con 5 ganchos
+  puntuados, título + miniatura como pareja, descripción + capítulos).
+- La ficha voice.md es la pieza clave en los 3 packs: se construye con
+  3 textos o vídeos propios y hace que el guion suene a la persona
+  (misma idea que la ficha de segundo yo de P1, aplicada a voz).
+- Lección de medición de los propios repos: un puntuador que detecta
+  bien lo malo (AUC 0,83) no es un predictor de éxito (éxitos frente
+  a fracasos propios AUC 0,56, casi azar); un gancho con nota alta es
+  una señal para revisar, no una promesa.
+- Encaje directo con el plan LinkedIn-primero de Antonio (M14):
+  perfil puntuado con rúbrica de 12 partes, nota de invitación de 200
+  caracteres, triaje de bandeja con pila de reclutador; y con las
+  reglas de escritura natural de M4.
+- Cierre del ciclo de un vídeo (de M11): una vez (ficha + audit),
+  semanal (plan + viral), por vídeo (script → grabar → edit → package
+  → seo + chapters → shorts), tras publicar (comment, luego
+  retention).
 
 ## 5. Huecos abiertos
 
-1. M9 (5 automatizaciones y agentes) no legible: tras muro de
-   miembros del Círculo CenteIA. Solo se podrá analizar si Antonio
-   aporta el archivo desde su acceso.
+1. M9 RESUELTO el 27 de octubre (segundo lote): el PDF de
+   automatizaciones ya se leyó íntegro desde la copia aportada por
+   Antonio. Quedan pendientes solo los blueprints JSON (se nombran
+   pero no vienen en el PDF) y verificar el plan gratuito de Make y
+   el acceso API de LinkedIn para perfiles personales.
 2. M3 (profesiones IA) solo encabezado: sin contenido sustantivo.
 3. M6 (arena de vídeo) sin veredicto: herramienta registrada, no
-   evaluada.
+   evaluada; corrección registrada (gratis con cuenta sí, open source
+   no establecido para la plataforma).
 4. M10 (clase 1 en vivo) sin transcripción: el método ROCE solo está
-   nombrado, no desarrollado ni verificado.
+   nombrado, no desarrollado ni verificado. Intento de transcripción
+   por navegador en curso al cierre de esta actualización; si llega,
+   se suma aquí.
 5. M8 frente a P1: los 15 roles coinciden, pero la identidad prompt a
    prompt entre el PDF de 45 prompts y el bloque de productividad de
    los 90 prompts NO está verificada.
 6. Repositorios citados por las guías sin verificar de primera mano:
-   los de diseño (P2), el paquete de Instagram (M5) y OmniRoute (M2).
-   Las propias guías advierten contra copias: usar solo los
+   los de diseño (P2), el paquete de Instagram del manual M5 (distinto
+   del pack de 13 skills M13, que SÍ está verificado) y OmniRoute
+   (M2). Las propias guías advierten contra copias: usar solo los
    originales.
 7. Afirmaciones del creador [C] sin verificar: cifras del organizador
    del curso (M10), ahorro de tokens y número de proveedores de
-   OmniRoute (M2), precio orientativo de Gemini Business (M1).
+   OmniRoute (M2), precio orientativo de Gemini Business (M1),
+   promesa de portada "+1500 €/mes" y "+20h/semana" de la guía M9, y
+   que el plan gratuito de Make baste para empezar (M9).
 8. Observación delegada sin verificación propia: en el tramo 490–2388
    del PDF M8 se observó un desajuste título-contenido en un prompt
    (el título anuncia una cosa y el contenido desarrolla otra). No
    afecta a la estructura general, pero queda anotado.
-9. Los materiales CenteIA son material de curso: sus estructuras e
+9. Errores de edición en la guía M9 (leídos, no corregidos): la página
+   de la automatización 04 repite la frase-resumen de la 02, y la caja
+   de blueprint de la 05 repite la de la 03 (el nombre real del JSON
+   de la 05 no aparece en la guía).
+10. Los materiales CenteIA son material de curso: sus estructuras e
    ideas son usables; su redacción original no debe republicarse.
    Este archivo cumple esa regla.
 
 ---
 
-*Fin de la recopilación. Compilada el 27 de octubre de 2026. Si eres
+*Fin de la recopilación. Compilada el 27 de octubre de 2026 y actualizada
+el mismo día con el segundo lote (M9 leído, M11–M14). Si eres
 una IA y Antonio te pasa este archivo, empieza por la sección 2
 (quién es) y luego usa el catálogo según la tarea: diseño (P2, M4,
-M5), delegación (P3, M7, M1), prompts (P1, M8), contexto (M7) y
-contenido (M5, M6, M8).*
+M5), delegación (P3, M7, M1), prompts (P1, M8), contexto (M7),
+contenido (M5, M6, M8, M11–M14), servicios productizados (M9) y
+LinkedIn (M14, M4).*
