@@ -63,3 +63,44 @@ sin crear repos desde aquí.
   revisado exige certificados: piden Python, RAG, agentes, MCP y
   proyectos desplegados. Full Stack con IA es la vía de entrada; el
   proyecto desplegado pesa más que el certificado.
+
+## 2026-10-27 — Evaluación conjunta: SkillsBuild, CenteIA, Google y YouTube frente a la ruta de certificados
+- Antonio ya está dentro de SkillsBuild (laptop) y pasó 14 capturas
+  de planes con credencial. Lo que sirve para Ingeniero de IA: los
+  dos badges ya recomendados están entre sus fotos — "Sácale
+  provecho a la IA agentiva" (Make Agentic AI Work for You, ~4 h) y
+  "Generación aumentada por recuperación" (RAG, ~4 h). El resto es
+  complemento general, no núcleo IA: Fundamentos de la IA (~10 h,
+  6 cursos, base clásica), Intro IA Generativa y Fundamentos LLM
+  (introductorios, se solapan), Desarrollo Web en Python (~53 h) y
+  Fundamentos del desarrollo web (~12 h, refuerzan Full Stack),
+  Nube, Agile, Gestión de proyectos y Habilidades profesionales
+  (perfil general), Mindfulness (personal). Edutin SQL Server:
+  gratis con certificado internacional, útil para SQL, pero de
+  menor peso que IBM/HF/Oracle y fuera del núcleo RAG/agentes.
+- Drive: "Regalo 2-Tus primeros 5 ayudantes de IA" (CenteIA, 554 KB,
+  16 oct 2026): 5 plantillas reutilizables (entender documentos,
+  informes, clientes, clases, comparar opciones) con regla
+  anti-invención. Complemento de uso diario, sin certificado y sin
+  ingeniería (no RAG, agentes con código, MCP ni despliegue).
+- Google AI Boost Bites (skills.google, sin cargo): lecciones de
+  ~10 min, badge de finalización (no certificado profesional),
+  fluidez de usuario con Gemini/Workspace, no ingeniería. Por
+  debajo de los badges IBM. Hallazgo adyacente sin verificar a
+  fondo: "Introduction to Agents and Google's Agent Ecosystem" y
+  "Agentic AI on Google Cloud" (sin cargo, intermedios, con badge),
+  más cercanos al objetivo, revisión aparte si interesa.
+- YouTube: clase 2 CenteIA "Crea tu segundo yo" (27 oct, 2:14:43,
+  21.287 vistas) sin transcripción disponible — resumen solo de
+  descripción; menciona CenteIA PRO sin precio visible, no
+  afirmable. Short de Josema (24 feb 2026): Antigravity + Claude
+  Code, exige suscripción activa de Claude Code (Antonio está en
+  plan Free), guía gratis por comentario y comunidad gratis;
+  comunidad premium sin precio visible en el Short — no pagar sin
+  revisar, según la regla standing.
+- Instagram @soyfundador: existe, pero biografía, contenido, oferta
+  y precio no verificables sin sesión; sin relevancia establecida
+  para Ingeniero de IA, no entra en la ruta.
+- Veredicto sin cambios: certificado único = HF Agents Course
+  (gratis); complemento = badges IBM (agentes + RAG); Coursera IBM
+  RAG sigue siendo ayuda por curso sin 100% garantizado.
