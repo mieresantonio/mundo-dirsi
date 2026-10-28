@@ -46,7 +46,7 @@ Reglas para quien lo lea:
 6. Posicionamiento en curso: GitHub ordenado (perfil, repos propios),
    LinkedIn pendiente de publicar (titular, sobre mí, alertas por
    reconfigurar, contacto con una reclutadora IT pendiente).
-7. Brecha honesta: poca fluidez de sintaxis; trabaja entendiendo dónde
+7. Periodo junior: fluidez de sintaxis en entrenamiento; trabaja entendiendo dónde
    modificar siguiendo lo que la IA le indica. Prefiere efectividad y
    pipeline antes que pulido infinito.
 8. Teléfono primero (Xiaomi 14T Pro); laptop ASUS con Claude web (plan

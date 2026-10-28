@@ -32,8 +32,8 @@ La preparación se organiza en torno a un temario de 25 preguntas de
 entrevista para ingeniería de IA, usado como programa de estudio. El
 método:
 
-- **Responder en voz alta, no solo leer.** El riesgo que se nombra es la
-  falta de fluidez hablando de comandos, código y temas técnicos. La
+- **Responder en voz alta, no solo leer.** En periodo junior, la fluidez
+  hablando de comandos, código y temas técnicos está en entrenamiento. La
   fluidez se entrena con simulacros de entrevista, no con más lectura.
 - **Cada respuesta con un ejemplo propio.** Una respuesta que cita un
   proyecto real (qué se construyó, qué falló, cómo se verificó) vale más
