@@ -245,3 +245,21 @@ sin crear repos desde aquí.
   entradas del propio Ciclo 10 de barbería y tx-builder quedaron
   fuera de ese refresco y son el material del Ciclo 11; huella de
   los Ciclos 8–9 publicada en este registro (commit 2f2f889b).
+
+## 2026-11-02 (noche) — Ciclo 11 de mejora de apps
+
+- Ciclo 11: auditoría de lint con oxlint (vía npx, sin instalación
+  permanente) en las 10 apps web3 — clase de código muerto
+  demostrable vacía en las 10 (tres vías convergentes), 9 limpias
+  de origen y nft-studio con solo sus 4 avisos conocidos, sin
+  tocar ningún archivo; verificación cruzada frontend↔backend de
+  la barbería con scripts/verify-catalog.py nuevo (20
+  comprobaciones que extraen ambos lados de los archivos reales):
+  deriva ninguna hoy, servicios y profesionales por API en tiempo
+  real, horario escrito a mano en tres sitios del frontend cruzado
+  contra el backend, prueba de fuego con dos derivas deliberadas
+  cazadas; quinto refresco del corpus de rag-demo a 513
+  fragmentos, sin degradación, con la formulación oficial de
+  tx-builder en 0,674 y la concurrencia de la entrada de barbería
+  del propio ciclo dejada para el Ciclo 12; huella del Ciclo 10
+  publicada en este registro (commit 7c94e6b4).
