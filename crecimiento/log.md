@@ -168,3 +168,24 @@ sin crear repos desde aquí.
   una BD estricta no. Verificar promesa contra comportamiento real es
   ahora paso fijo de la triple verificación.
 - Fase 2 en marcha: Ciclo 1 arregla las 16 ALTA por grupo.
+
+## 2026-11-02 (noche) — Ciclos 1–3 de mejora de apps
+
+- Ciclo 1: las 16 ALTA de la revisión a fondo, cerradas con triple
+  verificación (validaciones reales en barbería y en la API, 7 prompts
+  completados en la biblioteca, wei exacto en gas-calc, direcciones
+  mainnet fuera de tx-builder, caso 9 de anti-phishing corregido,
+  filtros de dao-vote, mundo-vida-ia y rag-demo honestos).
+- Ciclo 2: medias de impacto + estándar reforzado nuevo — todo
+  artefacto se verifica POR CONTENIDO (cadenas decisivas en el bundle)
+  y contra el último build conocido-bueno; riesgo tipo «variable no
+  documentada» comprobado y ausente en las 13 apps con build.
+  Una corrección ejemplar: dos cifras de un experimento del rag-demo
+  no se reprodujeron y quedaron RETIRADAS por escrito en su log.
+- Ciclo 3: medias restantes y bajas seguras (persistencia en
+  segundo-yo, CORS restringido y validación de formato en barbería,
+  minteo que no se pierde en nft-studio, requirements fijados).
+- Pendientes con dueño o decisión: Blockali tiene frente dedicado
+  (fuera de estos ciclos); API-M3 espera decisión editorial de
+  Antonio (fuente única del glosario); B6/B15 de barbería son
+  decisión de producto/diseño, no arreglos.
