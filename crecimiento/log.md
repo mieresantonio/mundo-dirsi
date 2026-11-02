@@ -189,3 +189,26 @@ sin crear repos desde aquí.
   (fuera de estos ciclos); API-M3 espera decisión editorial de
   Antonio (fuente única del glosario); B6/B15 de barbería son
   decisión de producto/diseño, no arreglos.
+
+## 2026-11-02 (noche) — Ciclos 5–7 de mejora de apps
+
+- Ciclo 5: hash-lab alineada a React 18.3.1/Vite 6.4.5 (JS de
+  237.744 a 162.247 B); lint ESLint 9.39.5 instalado y limpio en
+  biblioteca-prompts y segundo-yo (tests 338/125); auditoría de
+  veracidad de los 16 README (6 veraces, 7 corregidos — etiqueta
+  «mobile-first» falsa retirada en 5 web3 y códigos 405/500
+  añadidos a api-segundo-yo y barbería —, rag-demo anotado y luego
+  corregido); corpus de rag-demo de 12 docs/116 fragmentos a
+  27/409, con script reproducible refresh_corpus_extra.py y
+  exclusión documentada de su propio registro por autorreferencia;
+  nft-studio N-B6 (stats que envuelven a 360px); rag-demo publicado
+  (26d98254). Corrección registrada: la fragmentación de versiones
+  era mayor que la de Fase 1 (también nft-studio y tx-builder).
+- Ciclo 6: nft-studio alineada (JS de 245.696 a 169.645 B; N-B8
+  cerrado), tx-builder a Vite 6.4.5, block-explorer E-B2/E-B4/E-B7
+  — conjunto web3 uniforme en React 18.3.1/Vite 6.4.5.
+- Ciclo 7: api-segundo-yo documenta 405/500 también en su página
+  integrada (smoke 26/26); suelo de tests de datos en
+  block-explorer (157 comprobaciones) y nft-studio (155), con
+  pruebas de fuego; corpus de rag-demo a 432 fragmentos sin
+  degradación (despliegue en posiciones 1–3).
