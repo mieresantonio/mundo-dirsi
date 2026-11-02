@@ -212,3 +212,21 @@ sin crear repos desde aquí.
   block-explorer (157 comprobaciones) y nft-studio (155), con
   pruebas de fuego; corpus de rag-demo a 432 fragmentos sin
   degradación (despliegue en posiciones 1–3).
+
+## 2026-11-02 (noche) — Ciclos 8–9 de mejora de apps
+
+- Ciclo 8: suelo de tests npm test en hash-lab (54 comprobaciones,
+  paridad SHA-256 19/19) y gas-calc (47, factor wei ×10⁹ fijado),
+  ambos con pruebas de fuego; suite unittest de 20 tests para
+  mundo-vida-ia (validaciones del motor, determinismo del registro,
+  textos acentuados) publicada en su repo (commit 2dc2fc4c);
+  huella de los Ciclos 5–7 publicada en este mismo registro
+  (commit 2f4d4b4f).
+- Ciclo 9: suelo de tests en wallet-sim (60 comprobaciones) y
+  token-explorer (137; bloqueo de símbolos de tokens reales y
+  contraste ≥4,5:1); suelo de tests en contract-play (43),
+  dao-vote (54) y anti-phishing (62); corrección veraz registrada:
+  el conjunto web3 quedó 9/10 con npm test y no 10/10, porque
+  tx-builder no tenía suelo (su turno es el Ciclo 10); corpus de
+  rag-demo a 467 fragmentos, publicado (commit c48cdf74), sin
+  degradación (despliegue en posiciones 1–3).
