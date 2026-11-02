@@ -230,3 +230,18 @@ sin crear repos desde aquí.
   tx-builder no tenía suelo (su turno es el Ciclo 10); corpus de
   rag-demo a 467 fragmentos, publicado (commit c48cdf74), sin
   degradación (despliegue en posiciones 1–3).
+
+## 2026-11-02 (noche) — Ciclo 10 de mejora de apps
+
+- Ciclo 10: suelo de tests para tx-builder (87 comprobaciones,
+  extracción y ejecución real desde App.jsx), con lo que el
+  conjunto web3 queda 10/10 con npm test; smoke permanente
+  scripts/smoke.py para la barbería (56 comprobaciones contra BD
+  temporal, BD real intacta verificada por MD5, cifra de
+  disponibilidad derivada: 30 inicios de Corte en día vacío);
+  cuarto refresco del corpus de rag-demo a 498 fragmentos, sin
+  degradación, con la pregunta oficial del 9/10 recuperando el
+  registro de anti-phishing (0,675); concurrencia acotada: las
+  entradas del propio Ciclo 10 de barbería y tx-builder quedaron
+  fuera de ese refresco y son el material del Ciclo 11; huella de
+  los Ciclos 8–9 publicada en este registro (commit 2f2f889b).
