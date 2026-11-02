@@ -152,3 +152,19 @@ sin crear repos desde aquí.
   propuesta para nueva-app.py ya estaba aplicada en el código
   (verificado generando una app: ningún resto de "plantilla-app"),
   así que ese archivo no se tocó.
+
+## 2026-11-02 (noche) — Revisión a fondo de todas las apps (Fase 1)
+
+- Antonio ordenó revisión y mejora continua de TODAS sus apps «al más
+  mínimo detalle», en ciclos con triple verificación por cambio.
+- Fase 1 (solo diagnóstico) cerrada: 16 apps/proyectos revisados línea
+  por línea (Blockali excluido: despliegue en vivo en paralelo).
+  Resultado: 208 hallazgos (16 alta · 63 media · 129 baja).
+  Informe: ~/workspace/revision-apps-2026-11-02.md (fuera de este repo)
+  y detalle en ~/workspace/revision-parts/.
+- Lección reutilizable: lo que más se repite no es lo roto, sino lo que
+  PROMETE de más — UIs que anuncian contenido inexistente, READMEs que
+  afirman lo contrario del código y validaciones que SQLite perdona y
+  una BD estricta no. Verificar promesa contra comportamiento real es
+  ahora paso fijo de la triple verificación.
+- Fase 2 en marcha: Ciclo 1 arregla las 16 ALTA por grupo.
