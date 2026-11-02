@@ -319,8 +319,10 @@ Reglas para quien lo lea:
   estructura y su función, por la regla de no copiar textos de cursos.
 - Solapamiento a tener en cuenta: los 15 roles coinciden con el
   bloque de productividad de los 90 prompts de la clase 1 (ver P1).
-  La identidad prompt a prompt entre ambos documentos NO está
-  verificada; queda como pregunta abierta.
+  Identidad prompt a prompt VERIFICADA el 2 de noviembre de 2026:
+  los 45 de este PDF son idénticos, en el mismo orden, a los 45 del
+  Bloque 02 de los 90 (es ese bloque republicado como PDF suelto).
+  Detalle en `aprendido/comparacion-prompts-45-vs-90.md`.
 
 #### M9. 5 Automatizaciones y Agentes de IA (CenteIA) — LEÍDO [A] (segundo lote)
 
@@ -701,6 +703,10 @@ Reglas para quien lo lea:
   método en 5 pasos (tarea concreta, salida visible, datos permitidos
   y excluidos, revisión humana con criterio de éxito, una semana de
   prueba con un caso pequeño).
+- Comparación con M8 (verificada el 2 nov 2026): los 45 prompts de
+  M8 son idénticos al Bloque 02 de este PDF; los 45 del Bloque 01
+  (negocio) son exclusivos de P1. Detalle en
+  `aprendido/comparacion-prompts-45-vs-90.md`.
 - Usable AHORA: la ficha, las 25 tareas, el método de 5 pasos y la
   estructura de prompts. Ya están encarnados en 3 apps de portafolio
   (biblioteca de prompts, diseña tu segundo yo, API).
@@ -912,9 +918,10 @@ los materiales del catálogo. Nada aquí es texto copiado de un curso.
    (aviso de acceso sobre el reproductor), textos solo en pantalla no
    verificados por completo y regalo final solo descrito, no
    verificado.
-5. M8 frente a P1: los 15 roles coinciden, pero la identidad prompt a
-   prompt entre el PDF de 45 prompts y el bloque de productividad de
-   los 90 prompts NO está verificada.
+5. M8 frente a P1: RESUELTA el 2 de noviembre de 2026 — comparación
+   prompt a prompt hecha: los 45 de M8 son idénticos a los del
+   Bloque 02 de P1 (mismo orden, títulos y 6 campos). Detalle en
+   `aprendido/comparacion-prompts-45-vs-90.md`.
 6. Repositorios citados por las guías sin verificar de primera mano:
    los de diseño (P2), el paquete de Instagram del manual M5 (distinto
    del pack de 13 skills M13, que SÍ está verificado) y OmniRoute
