@@ -263,3 +263,21 @@ sin crear repos desde aquí.
   tx-builder en 0,674 y la concurrencia de la entrada de barbería
   del propio ciclo dejada para el Ciclo 12; huella del Ciclo 10
   publicada en este registro (commit 7c94e6b4).
+
+## 2026-11-02 (noche) — Ciclo 12 de mejora de apps
+
+- Ciclo 12: sexto refresco del corpus de rag-demo a 527
+  fragmentos, sin degradación, con la pregunta nueva de
+  verify-catalog recuperando el registro de la barbería en 0,581
+  y sin concurrencia este ciclo; pasada de estilo de
+  inmutabilidad en 3 apps web3 (block-explorer toReversed,
+  token-explorer y wallet-sim toSorted, una línea por app,
+  equivalencia demostrada en Node sobre los datos reales, tests
+  intactos 157/137/60 y bundles con deltas de −2/−1/−1 bytes
+  explicados solo por el cambio de método); nota de
+  investigación en diseno-web-investigacion
+  (aplicacion-criterios-centeia.md) que mapea los rediseños de
+  los Ciclos 2 y 4 a los criterios de CenteIA con el límite de
+  verificación declarado (sin navegador visual: conformidad por
+  código, bundles y checklist; capturas pendientes); huella del
+  Ciclo 11 publicada en este registro (commit 7c94e6b4).
