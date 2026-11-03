@@ -31,6 +31,10 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 
 ## Índice
 
+### Raíz
+- `RECOPILACION-MATERIALES.md` — compilación maestra de materiales de estudio.
+- `CALIBRACION.md` — registro de calibración: las afirmaciones decisivas y comprobables de Dirsi, con su nivel de evidencia y su resultado cuando la realidad responde.
+
 ### aprendido/ — lo que Dirsi ya sabe (síntesis propia)
 - `aprendido/desarrollo-web.md` — principios, sistemas y patrones de diseño.
 - `aprendido/agentes-e-ia.md` — agentes de código, modelos, FreeLLMAPI, destilación.
