@@ -221,3 +221,13 @@ registro (4 nov, 8 nov, ~1 dic) y con la próxima corrida completa del
 banco (10/10, incluidos P-03 y P-04). Esta comparación tampoco equivale a
 las de Artificial Analysis: aquellas son estandarizadas e independientes;
 esta es retrospectiva, autodefinida y autoadministrada.
+
+**Actualización del mismo día (3 nov 2026, 19:00): la premisa de la
+dimensión 8 cambió.** El «sin ojo visual» resultó ser un hueco de
+herramientas, no un límite firme: el Chromium headless de Playwright ya
+estaba descargado en la máquina y, conectado vía `playwright-core`
+(`~/workspace/tools-visual/shot.mjs`), Dirsi ya captura páginas locales y
+públicas (escritorio y móvil) y las ve ella misma — demostrado el mismo
+día sobre biblioteca-prompts. La tabla corregida queda como el registro
+fiel de su momento; en la próxima corrida, la percepción visual se mide
+con una prueba real en vez de declararse imposible.
