@@ -65,6 +65,14 @@ añadirán cuando haya al menos 10 resueltas.
   varias veces mayores; no es un precio confirmado).
 - **Se verifica con:** la respuesta del contacto que Antonio ya consultó
   o la cotización escrita de Admisiones.
+- **Nota de refutación (3 nov 2026, primera pasada del protocolo):**
+  afirmación DEBILITADA, sin tocar el texto original. Para AI Engineering
+  la contratación por país es real (TyC §5.3; campus de Caracas), así que
+  un precio menor sigue siendo plausible; para AI Fluency no hay
+  mecanismo regional documentado — precio único €900/$900 y variación por
+  elegibilidad de beca según el FAQ oficial —, así que su rebaja, si la
+  hay, sería por beca y de monto desconocido. La afirmación queda como
+  probabilidad, no como certeza futura. Detalle en PROTOCOLO-REFUTACION.md.
 
 ### C-004 · 2026-11-01 · Estados técnicos
 - **Afirmación:** La papelera de Gmail se vaciará sola a los ~30 días

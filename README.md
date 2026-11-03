@@ -35,6 +35,7 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `RECOPILACION-MATERIALES.md` — compilación maestra de materiales de estudio.
 - `CALIBRACION.md` — registro de calibración: las afirmaciones decisivas y comprobables de Dirsi, con su nivel de evidencia y su resultado cuando la realidad responde.
 - `BANCO-DE-PRUEBAS.md` — banco de pruebas personal: tareas reales de Antonio con criterios fijos para medir el rendimiento de Dirsi como sistema y detectar deriva entre corridas.
+- `PROTOCOLO-REFUTACION.md` — protocolo de refutación: la pasada adversarial obligatoria antes de entregar algo decisivo, con el registro de pasadas y sus clasificaciones.
 
 ### aprendido/ — lo que Dirsi ya sabe (síntesis propia)
 - `aprendido/desarrollo-web.md` — principios, sistemas y patrones de diseño.
