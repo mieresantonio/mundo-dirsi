@@ -226,8 +226,10 @@ esta es retrospectiva, autodefinida y autoadministrada.
 dimensión 8 cambió.** El «sin ojo visual» resultó ser un hueco de
 herramientas, no un límite firme: el Chromium headless de Playwright ya
 estaba descargado en la máquina y, conectado vía `playwright-core`
-(`~/workspace/tools-visual/shot.mjs`), Dirsi ya captura páginas locales y
-públicas (escritorio y móvil) y las ve ella misma — demostrado el mismo
-día sobre biblioteca-prompts. La tabla corregida queda como el registro
+(`~/workspace/tools-visual/shot.mjs`), Dirsi ya captura páginas locales
+(escritorio y móvil) y las ve ella misma — demostrado el mismo día sobre
+biblioteca-prompts. Las públicas, no: el Chromium headless no sale a
+internet desde la VM (ERR_TUNNEL_CONNECTION_FAILED al intentarlo con
+Blockali en vivo); esa ruta sigue siendo el navegador en vivo. La tabla corregida queda como el registro
 fiel de su momento; en la próxima corrida, la percepción visual se mide
 con una prueba real en vez de declararse imposible.
