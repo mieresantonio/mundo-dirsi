@@ -160,6 +160,19 @@ sistema» (registro de incidentes del 19 oct–2 nov) y «con sistema» (el
 compuesto de **44 → 70 (+26)**. Antes de publicarse, la tabla pasó por el
 protocolo de refutación — y **el +26 no sobrevivió**.
 
+> **Corrección de términos (3 nov 2026, señalada por Antonio):** los
+> rótulos «sin sistema / con sistema» de esta sección están mal puestos.
+> «El sistema» es todo lo que rodea al motor y persiste — memoria,
+> archivos, procedimientos, skills, repos, conexiones — y existe desde
+> oct 2026; nunca hubo una Dirsi de Antonio sin sistema. La comparación
+> real de esta tabla es **el sistema sin capa de medición (hasta el
+> 2 nov) contra el sistema con capa de medición (desde el 3 nov)**:
+> registro de calibración, este banco y el protocolo son esa capa, no el
+> sistema entero. Las notas no cambian; cambia el nombre de lo comparado,
+> y con el nombre correcto el principal ataque del refutador («la era
+> “sin sistema” ya tenía la disciplina») se entiende solo: tenía razón,
+> era el mismo sistema.
+
 **Ataques que prosperaron (resumen del refutador):**
 
 - La era «sin sistema» no era una era sin reglas: parte de la disciplina

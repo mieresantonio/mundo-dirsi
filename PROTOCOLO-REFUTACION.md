@@ -144,4 +144,8 @@ muestran ganancia atribuible todavía (P-04 sin correr; ningún cron nuevo
 ha disparado). Compuesto corregido: ≈ +5,5 como techo ilustrativo, no
 como estimación. Lo que sí quedó demostrado: ganancia de gobernanza y
 auditabilidad, no de capacidad. La evaluación completa, con el borrador y
-la corrección lado a lado, vive en BANCO-DE-PRUEBAS.md.
+la corrección lado a lado, vive en BANCO-DE-PRUEBAS.md. Corrección de
+términos (la señaló Antonio el mismo día): la comparación era «el sistema
+sin capa de medición» contra «el sistema con capa de medición» — el
+sistema entero (memoria, procedimientos, repos) existe desde oct 2026 —,
+no una Dirsi con sistema contra otra sin sistema.
