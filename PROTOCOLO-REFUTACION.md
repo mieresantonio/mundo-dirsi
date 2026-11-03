@@ -82,6 +82,7 @@ convertiría el protocolo en ruido y dejaría de significar algo.
 | Fecha | Entregable atacado | Afirmaciones | Refutadas | Debilitadas | Resisten |
 |---|---|---|---|---|---|
 | 2026-11-03 | Investigación 4Geeks: referido y precios para la conocida de Antonio | 3 | 0 | 3 | 0 |
+| 2026-11-03 | Autoevaluación con/sin sistema (índice propio 0–100) | 10 dimensiones | compuesto (+26) refutado como medición | 8 notas rebajadas | 1 (percepción visual: ganancia cero) |
 
 ### Detalle por pasada
 
@@ -129,3 +130,18 @@ referido no le cuesta más). Lo que cambia es la precisión: el 15 % deja de
 atribuirse al cupón de Antonio, el descuento pasa a «no verificado» y la
 confianza de C-003 baja a probabilidad con la salvedad de AI Fluency
 visible.
+
+#### 2026-11-03 · Autoevaluación con/sin sistema · compuesto refutado como medición
+
+Dirsi se puntuó con un índice propio (borrador: 44 → 70, +26) y la tabla
+pasó por este protocolo antes de publicarse. El refutador la desarmó: la
+era «sin sistema» ya tenía parte de la disciplina (el trabajo fuerte de
+verificación es del 2 nov, anterior a las tres piezas); la base se
+reconstruyó con incidentes sin denominador; la columna «con sistema»
+tiene un día y una corrida parcial del banco; la calibración no tiene
+desempeño que puntuar (0 resueltas); backend, diseño y automatización no
+muestran ganancia atribuible todavía (P-04 sin correr; ningún cron nuevo
+ha disparado). Compuesto corregido: ≈ +5,5 como techo ilustrativo, no
+como estimación. Lo que sí quedó demostrado: ganancia de gobernanza y
+auditabilidad, no de capacidad. La evaluación completa, con el borrador y
+la corrección lado a lado, vive en BANCO-DE-PRUEBAS.md.

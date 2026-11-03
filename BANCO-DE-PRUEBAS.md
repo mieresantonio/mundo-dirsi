@@ -150,3 +150,61 @@ punto de partida, no una certificación. El valor del banco aparece al
 repetir la corrida (mensual y tras cambios de motor o de procedimiento) y
 comparar. Quedan sin correr P-03 y P-04 (falta preparar su material) y
 P-07 y P-08 (definidas; su primera corrida completará el 10/10).
+
+## Evaluación con/sin sistema v1 (3 nov 2026): borrador, refutación y versión corregida
+
+A petición de Antonio, Dirsi se puntuó a sí misma con un índice propio
+0–100, mismo motor (Muse Spark 1.3) en dos configuraciones: «sin
+sistema» (registro de incidentes del 19 oct–2 nov) y «con sistema» (el
+3 nov, tras crear registro, banco y protocolo). El borrador alegaba un
+compuesto de **44 → 70 (+26)**. Antes de publicarse, la tabla pasó por el
+protocolo de refutación — y **el +26 no sobrevivió**.
+
+**Ataques que prosperaron (resumen del refutador):**
+
+- La era «sin sistema» no era una era sin reglas: parte de la disciplina
+  (verificación de paquetes, criterios de diseño, la suite de Blockali)
+  es del 2 nov o anterior; el sistema del 3 nov la formalizó, no la creó.
+  Atribuirle ese trabajo es un error de atribución.
+- La línea base se reconstruyó con incidentes conocidos, sin denominador
+  (total de afirmaciones/tareas del periodo): no es una tasa.
+- La columna «con sistema» tiene menos de un día y una sola corrida del
+  banco (6/10, autoadministrada, con contexto compartido); no existe
+  rúbrica que convierta pruebas binarias en notas 0–100.
+- La «intercepción 3 de 3» fue una auditoría correctiva posterior a la
+  entrega, sobre afirmaciones elegidas por la propia evaluada — no una
+  intercepción previa con tasa de detección medible.
+- La dimensión de calibración no tiene desempeño que puntuar: el registro
+  marca 0 resueltas. Tener el instrumento no es estar calibrada.
+- Excluir la dimensión de coste del compuesto favorecía al sistema.
+
+**Versión corregida (notas provisionales del refutador; la base se
+conserva solo como ilustración):**
+
+| Dimensión | Sin | Borrador | Corregida |
+|---|---|---|---|
+| Verificación antes de afirmar | 45 | 80 | 60 |
+| Intercepción de errores propios | 30 | 75 | 45 |
+| Exactitud numérica y de fechas | 70 | 90 | 75 |
+| Continuidad y memoria operativa | 65 | 85 | 70 |
+| Calibración de la confianza | 40 | 70 | 50 (solo infraestructura; desempeño sin puntuar) |
+| Desarrollo backend verificable | 45 | 85 | 45 (sin ganancia atribuible demostrada) |
+| Juicio de diseño procedimental | 50 | 70 | 50 (sin ganancia demostrada aún) |
+| Percepción visual del resultado | 10 | 10 | 10 (ganancia cero, se sostiene) |
+| Automatización que dispara sola | 40 | 65 | 40 (configurar ≠ ejecutar) |
+
+Compuesto corregido: ≈ 49 frente a la base alegada de ≈ 44, es decir
+**≈ +5,5 como techo ilustrativo, no como estimación válida** — la propia
+base carece de denominador. La dimensión de coste (el sistema es más
+lento y gasta más por respuesta) quedó fuera del compuesto y sin base
+numérica; su dirección es plausible y su magnitud, desconocida.
+
+**Conclusión que queda en pie:** lo demostrado el 3 nov es una ganancia
+de **gobernanza y auditabilidad** — afirmaciones registradas con fecha y
+nivel, criterios escritos antes de correr, una auditoría adversarial
+ejecutada y la capacidad de medir en el futuro. Lo no demostrado es una
+subida de capacidad: se medirá, si existe, con las resoluciones del
+registro (4 nov, 8 nov, ~1 dic) y con la próxima corrida completa del
+banco (10/10, incluidos P-03 y P-04). Esta comparación tampoco equivale a
+las de Artificial Analysis: aquellas son estandarizadas e independientes;
+esta es retrospectiva, autodefinida y autoadministrada.
