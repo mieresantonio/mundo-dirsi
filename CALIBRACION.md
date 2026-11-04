@@ -35,22 +35,9 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 1 | 0 | 1 | 0 | 50 % | 4 |
+| 2 | 1 | 1 | 0 | 75 % | 3 |
 
 ## Pendientes
-
-### C-001 · 2026-11-03 · Fechas de terceros
-- **Afirmación:** Moonshot publicará los pesos abiertos de Kimi K3.1 Pro
-  el 4 de noviembre de 2026, según su fecha anunciada.
-- **Nivel al entregarla:** B (anuncio del propio laboratorio; el chequeo de
-  primera mano del 27 oct en huggingface.co/moonshotai aún no los mostraba).
-- **Se verifica con:** huggingface.co/moonshotai — chequeo programado el
-  4 nov 2026 ~10:15 (Caracas).
-- **Chequeo 4 nov 2026 ~10:15 Caracas (cron) y rechequeo directo de Dirsi
-  minutos después:** aún no publicados — HF moonshotai muestra 19
-  modelos, ningún K3.1 (lectura directa de la API de HF, nivel A). La
-  promesa cubre todo el día 4 nov, así que la entrada sigue abierta
-  hasta el cierre del día; si hoy no aparecen, se marca refutada.
 
 ### C-003 · 2026-11-03 · Precios
 - **Afirmación:** La cotización regional escrita de 4Geeks para
@@ -89,11 +76,12 @@ añadirán cuando haya al menos 10 resueltas.
 
 ## Resueltas
 
-La primera resolución fue C-002, el 4 nov 2026 (parcial). C-001 se
-resuelve el mismo 4 nov 2026.
+La primera resolución fue C-002, el 4 nov 2026 (parcial); la segunda,
+C-001, el mismo día (confirmada).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
+| C-001 | Moonshot publicará los pesos abiertos de Kimi K3.1 Pro el 4 nov 2026 | Confirmada | 2026-11-04 | El chequeo de las ~10:15 dio negativo de primera mano (404; 19 modelos, ningún K3.1) y el repo se hizo público la tarde del mismo día: Antonio lo detectó ~14:29 y Dirsi lo verificó por la API de HF minutos después (público, sin gating, 112 archivos, 96 shards, 1.561.355.969.963 bytes; licencia K3.1-Pro leída de primera mano: mismo esquema que la de K3, sin restricción a afinar ni a crear derivados; puerta MaaS >US$20M/año). Lecciones: un chequeo negativo vale para su hora, no para todo el día prometido; y el `createdAt` de HF (2 nov) refleja la creación/carga del repo, no su visibilidad pública. |
 | C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
 
 ## Antecedentes (no puntuados)
