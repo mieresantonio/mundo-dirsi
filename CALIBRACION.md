@@ -35,7 +35,7 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 0 | 0 | 0 | 0 | — | 5 |
+| 1 | 0 | 1 | 0 | 50 % | 4 |
 
 ## Pendientes
 
@@ -46,14 +46,11 @@ añadirán cuando haya al menos 10 resueltas.
   primera mano del 27 oct en huggingface.co/moonshotai aún no los mostraba).
 - **Se verifica con:** huggingface.co/moonshotai — chequeo programado el
   4 nov 2026 ~10:15 (Caracas).
-
-### C-002 · 2026-11-02 · Servicios contratados
-- **Afirmación:** Tras la sesión de Commit Academy del 3 nov (15:00
-  Caracas), la grabación llegará por correo a Antonio, porque la página de
-  registro confirmada incluía el acceso en directo y la grabación.
-- **Nivel al entregarla:** A/B (página de confirmación «Tu plaza está
-  reservada» leída de primera mano).
-- **Se verifica con:** la llegada del correo con la grabación o su enlace.
+- **Chequeo 4 nov 2026 ~10:15 Caracas (cron) y rechequeo directo de Dirsi
+  minutos después:** aún no publicados — HF moonshotai muestra 19
+  modelos, ningún K3.1 (lectura directa de la API de HF, nivel A). La
+  promesa cubre todo el día 4 nov, así que la entrada sigue abierta
+  hasta el cierre del día; si hoy no aparecen, se marca refutada.
 
 ### C-003 · 2026-11-03 · Precios
 - **Afirmación:** La cotización regional escrita de 4Geeks para
@@ -92,11 +89,12 @@ añadirán cuando haya al menos 10 resueltas.
 
 ## Resueltas
 
-Ninguna todavía. La primera resolución esperada es C-001, el 4 nov 2026.
+La primera resolución fue C-002, el 4 nov 2026 (parcial). C-001 se
+resuelve el mismo 4 nov 2026.
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
-| — | — | — | — | — |
+| C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
 
 ## Antecedentes (no puntuados)
 
