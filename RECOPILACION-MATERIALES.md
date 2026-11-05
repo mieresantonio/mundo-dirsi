@@ -1100,3 +1100,13 @@ este repo); transcripciones en `~/workspace/centeia-videos/textos/`.
   promesa (276 $ de ingresos frente a la meta de 1.000 $).
 
 *Fin del addendum del 4 de noviembre de 2026.*
+
+**Corrección al addendum anterior (4 nov 2026, 21:40)**: Antonio
+aportó la captura de su WhatsApp con CenteIA y su recuerdo era el
+correcto. El mecanismo completo del certificado no estaba en los
+videos: por WhatsApp (28 oct) le confirmaron que las grabaciones
+quedan activas hasta el miércoles 4 nov 2026 y que el **jueves 5 nov
+2026 recibirá un correo con un cuestionario breve** que demuestra su
+asistencia a todas las clases; tras responderlo, el **certificado de
+asistencia nominativo**. El QR era solo el registro; examen y fechas
+se comunicaron por WhatsApp.
