@@ -1060,3 +1060,43 @@ archivo desde el repo público no puede abrirlos.*
   exigiría sesión propia o captura del pie de foto.
 
 *Fin del addendum del 27 de octubre de 2026 (noche).*
+
+### Addendum 4 nov 2026 — Revisión de videos de CenteIA (26 videos)
+
+Revisados por transcripción (metadatos + subtítulos automáticos vía
+yt-dlp; sin descargar video ni audio) los 26 videos enlazados por
+Antonio: las 5 sesiones de «Tu segundo yo 24/7» (Clases 1–3, directo
+extra y Repaso) y 20 videos más del canal CenteIA Education, más 1 de
+Mark Tilbury (el único externo). Detalle completo:
+`~/workspace/centeia-materiales/sintesis-videos-2026-11-04.md` (fuera de
+este repo); transcripciones en `~/workspace/centeia-videos/textos/`.
+
+- **Certificado de asistencia gratuito** [A, de las transcripciones]:
+  se solicitaba escaneando el **QR mostrado al inicio de la Clase 3**
+  (constancia de asistencia; entrega prometida «la próxima semana» tras
+  el 28 oct, para LinkedIn). Cada sesión cerraba además con un
+  QR-formulario que registraba asistencia (Clase 2, [02:02:08]). Los
+  demás QR del material son de admisión a CenteIA PRO o letra de una
+  canción; la «triple certificación / 36 créditos» es del posgrado pago.
+- **Precio de CenteIA PRO, dicho en voz alta por primera vez**
+  [C, afirmación del presentador en el directo extra del 29 oct,
+  01:24:45–01:25:47]: pago único **1.997 €**; 547 €/mes × 4 cuotas;
+  235 € × hasta 10 cuotas; garantía declarada de 14 días con devolución
+  del 100 %. No son términos por escrito: la condición de Antonio
+  (precio, garantía y contenido exactos por escrito antes de decidir)
+  sigue vigente.
+- **Método reutilizable que dejan los videos** [A como contenido
+  enseñado]: anatomía de skill (SKILL.md + scripts/referencias/outputs;
+  crearla con Skill Creator desde un brief y juzgarla por «¿siguió el
+  método?»); presupuestos con tabla de validación previa («los precios
+  nunca los pone la IA»); flujo dirige/ejecuta con segundo rol que
+  rompe y memoria en archivo (CLAUDE.md / Design System persistente);
+  carpeta única de contexto + prompt con destino de guardado explícito.
+- **Señales de humo registradas**: la landing demo genera testimonios
+  ficticios automáticamente (admitido en el video); el gancho de
+  «208 €» de ChatGPT Work no cuadra con su propia demo (18,5 € netos);
+  los «9 casos reales» de Jev son una empresa ficticia; el video de
+  Mark Tilbury es el único que publica un resultado por debajo de su
+  promesa (276 $ de ingresos frente a la meta de 1.000 $).
+
+*Fin del addendum del 4 de noviembre de 2026.*
