@@ -22,6 +22,32 @@ explicarlo todo otra vez.
 Esa memoria es privada y vivirá aparte; este manual es solo el
 *método*, que sí es portable y público.
 
+## Rutas de lectura — quién lee qué
+
+Este manual no se lee igual según quién lo abra. Cada lector real
+tiene su ruta:
+
+- **Agente principal futuro** (un asistente personal nuevo en
+  Claude, ChatGPT, Gemini o Grok, alimentado con la memoria de
+  Antonio): lee **el manual entero, en orden, una vez al empezar**,
+  junto a la `RECOPILACION-MATERIALES.md` completa. Su ruta es la
+  checklist de arranque (§11) con todo el manual como fundamento.
+- **Ejecutor de terminal** (Claude Code, Codex u OpenCode en una
+  sesión de trabajo concreta): no lee el manual entero. Lee el
+  `AGENTS.md` del proyecto donde va a trabajar y de este manual solo
+  **§5 (arquitectura), §6 (cinco verbos), §7 (verificación), §9
+  (delegación) y §10 (traspaso)**, más el **Anexo** final, que es su
+  versión corta lista para pegar en la sesión.
+- **Subagente delegado** (un agente efímero que recibe una tarea):
+  no lee este manual. Lee **su encargo** — que ya debe traer el
+  contexto, los límites y el criterio de terminado — y, de este
+  manual, solo **§7 y §8** si el encargo se los referencia. Su
+  obligación es devolver un informe verificable, no opiniones.
+- **Antonio (el humano que dirige)**: su ruta es **§5 y §11** —
+  saber qué hace cada rol y qué exigir en el arranque de cada
+  agente. El resto es referencia para cuando quiera ajustar el
+  método.
+
 ## 1. El mapa de piezas
 
 Cinco piezas que se apilan, no se eligen (Clase 2 y video de skills,
@@ -299,3 +325,27 @@ y se alimentan al terminarlo.
 *Redactado el 4 nov 2026 con redacción original a partir de las
 fuentes citadas. Se actualiza cuando una corrida del banco de
 pruebas o una pasada de refutación cambie el método.*
+
+## Anexo — Versión corta para el ejecutor de terminal
+
+*Para pegar al inicio de una sesión de trabajo (Claude Code, Codex,
+OpenCode). Es el resumen operativo de §5–§10; el manual completo
+manda sobre este anexo.*
+
+1. Lee primero el `AGENTS.md` del proyecto y la carpeta de contexto;
+   no pidas lo que ya está en los archivos.
+2. Si el encargo no trae criterios de aceptación, pídelos o
+   escríbelos y espera aprobación antes de construir.
+3. Entiende antes de tocar: devuelve pregunta exacta, hechos con
+   fuente, contradicciones y plan. Sin código en esta fase.
+4. Construye pequeño y acotado, con las restricciones del encargo.
+5. Verifica contra los criterios; si es interfaz, capturas en móvil
+   y escritorio y corrección antes de entregar.
+6. Rompe tu propio trabajo en dos pasadas: lógica, luego interfaz.
+   Clasifica: comprobado / no comprobado / revisión humana.
+7. Entrega con el diff y el resumen de archivos cambiados, y una
+   sección de «lo no confirmado».
+8. No inventes datos: si un caso no está en las fuentes, dilo y
+   detente.
+9. Cierra dejando la memoria de traspaso escrita (propósito,
+   fuentes que mandan, archivos, comandos, estado de verificación).
