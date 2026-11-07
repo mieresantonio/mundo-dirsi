@@ -35,7 +35,7 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 2 | 1 | 1 | 0 | 75 % | 3 |
+| 2 | 1 | 1 | 0 | 75 % | 4 |
 
 ## Pendientes
 
@@ -73,6 +73,22 @@ añadirán cuando haya al menos 10 resueltas.
 - **Nivel al entregarla:** A (trabajo programado creado y verificado:
   ecc-fork-biweekly-review, cada 336 h).
 - **Se verifica con:** el informe de la revisión del 8 nov 2026.
+
+### C-006 · 2026-11-07 · Diseño
+- **Afirmación:** La primera aplicación del sistema `diseno_vitrina`
+  (destilado de Grok Build el mismo día) — el rediseño completo del
+  portafolio de Antonio — produce un acabado visiblemente superior al
+  borrador anterior ya en la primera pasada, sin correcciones de
+  composición ni de jerarquía durante la verificación visual.
+- **Nivel al entregarla:** juicio propio verificado con el ojo visual
+  (capturas de escritorio y móvil leídas de primera mano, comparadas
+  contra las del borrador del 21 oct 2026). Las dos correcciones
+  aplicadas fueron técnicas, no de diseño: el revelado por scroll pasó a
+  mejora progresiva (sin JS el contenido se ve siempre) y un enlace dejó
+  de partirse en móvil.
+- **Se verifica con:** el juicio de Antonio sobre el resultado entregado
+  el 7 nov 2026. Si lo juzga al nivel del borrador o peor, la afirmación
+  queda refutada; si lo juzga mejor pero no «de vitrina», parcial.
 
 ## Resueltas
 
