@@ -35,7 +35,7 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 2 | 1 | 1 | 0 | 75 % | 4 |
+| 3 | 2 | 1 | 0 | 83 % | 3 |
 
 ## Pendientes
 
@@ -74,31 +74,18 @@ añadirán cuando haya al menos 10 resueltas.
   ecc-fork-biweekly-review, cada 336 h).
 - **Se verifica con:** el informe de la revisión del 8 nov 2026.
 
-### C-006 · 2026-11-07 · Diseño
-- **Afirmación:** La primera aplicación del sistema `diseno_vitrina`
-  (destilado de Grok Build el mismo día) — el rediseño completo del
-  portafolio de Antonio — produce un acabado visiblemente superior al
-  borrador anterior ya en la primera pasada, sin correcciones de
-  composición ni de jerarquía durante la verificación visual.
-- **Nivel al entregarla:** juicio propio verificado con el ojo visual
-  (capturas de escritorio y móvil leídas de primera mano, comparadas
-  contra las del borrador del 21 oct 2026). Las dos correcciones
-  aplicadas fueron técnicas, no de diseño: el revelado por scroll pasó a
-  mejora progresiva (sin JS el contenido se ve siempre) y un enlace dejó
-  de partirse en móvil.
-- **Se verifica con:** el juicio de Antonio sobre el resultado entregado
-  el 7 nov 2026. Si lo juzga al nivel del borrador o peor, la afirmación
-  queda refutada; si lo juzga mejor pero no «de vitrina», parcial.
 
 ## Resueltas
 
 La primera resolución fue C-002, el 4 nov 2026 (parcial); la segunda,
-C-001, el mismo día (confirmada).
+C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
+(confirmada).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
 | C-001 | Moonshot publicará los pesos abiertos de Kimi K3.1 Pro el 4 nov 2026 | Confirmada | 2026-11-04 | El chequeo de las ~10:15 dio negativo de primera mano (404; 19 modelos, ningún K3.1) y el repo se hizo público la tarde del mismo día: Antonio lo detectó ~14:29 y Dirsi lo verificó por la API de HF minutos después (público, sin gating, 112 archivos, 96 shards, 1.561.355.969.963 bytes; licencia K3.1-Pro leída de primera mano: mismo esquema que la de K3, sin restricción a afinar ni a crear derivados; puerta MaaS >US$20M/año). Lecciones: un chequeo negativo vale para su hora, no para todo el día prometido; y el `createdAt` de HF (2 nov) refleja la creación/carga del repo, no su visibilidad pública. |
 | C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
+| C-006 | La primera aplicación del sistema diseno_vitrina (rediseño del portafolio) produce un acabado visiblemente superior al borrador anterior en la primera pasada, sin correcciones de composición | Confirmada | 2026-11-07 | Antonio lo juzgó el mismo día («entonces sí funcionó») al ver el resultado verificado con el ojo. La composición y la jerarquía no necesitaron correcciones; las dos aplicadas fueron técnicas (revelado por scroll como mejora progresiva y un enlace que se partía en móvil). Lección: el diseño «de molde» sí se transfiere por documentos (tokens, disciplina, recetas, checklist); lo que no se transfiere (prior generativo, generación de imágenes) no hizo falta para esta clase de página. |
 
 ## Antecedentes (no puntuados)
 
