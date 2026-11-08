@@ -65,19 +65,16 @@ despliegues y sus cifras cambian con ella.
   hay varias casi sin uso (traducción, campañas, finanzas, formularios,
   comparador de hipotecas…): están para cuando una tarea las pida, no
   para memorizarlas.
-- **Bóveda segura: 1 login guardado** (PythonAnywhere). El navegador en
-  vivo guarda además las sesiones que Antonio abrió en él.
+- **Bóveda segura: guarda logins.** El navegador en vivo guarda además
+  las sesiones que Antonio abrió en él.
 
 ## 4. Automatismos vivos (4 nov 2026)
 
-- De Antonio, dos: la **revisión quincenal del fork ECC** (próxima: dom
-  8 nov) y la **verificación única de Kimi K3.1 Pro** (hoy, ~10:15
-  Caracas). El resto de trabajos en la lista son del sistema (Feed,
-  doctor horario, heartbeat).
-- El teléfono emparejado (Xiaomi 14T Pro) expone **41 comandos y 10
-  fuentes** (alarmas, calendario, llamadas, contactos, geocercas,
-  salud, ubicación, notificaciones, recordatorios, SMS). Sin comando de
-  galería ni de archivos: verificado dos veces.
+- De Antonio, dos: la **revisión quincenal de un fork** y una
+  **verificación única de pesos de un modelo**. El resto de trabajos en
+  la lista son del sistema (Feed, doctor horario, heartbeat).
+- El teléfono emparejado expone **41 comandos y 10 fuentes de datos**,
+  sin comando de galería ni de archivos: verificado dos veces.
 
 ## 5. Herramientas construidas por el propio sistema
 
