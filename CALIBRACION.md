@@ -35,7 +35,7 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 3 | 2 | 1 | 0 | 83 % | 3 |
+| 4 | 2 | 2 | 0 | 75 % | 3 |
 
 ## Pendientes
 
@@ -79,13 +79,29 @@ añadirán cuando haya al menos 10 resueltas.
 
 La primera resolución fue C-002, el 4 nov 2026 (parcial); la segunda,
 C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
-(confirmada).
+(confirmada); la cuarta, C-007, el 8 nov 2026 (parcial).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
 | C-001 | Moonshot publicará los pesos abiertos de Kimi K3.1 Pro el 4 nov 2026 | Confirmada | 2026-11-04 | El chequeo de las ~10:15 dio negativo de primera mano (404; 19 modelos, ningún K3.1) y el repo se hizo público la tarde del mismo día: Antonio lo detectó ~14:29 y Dirsi lo verificó por la API de HF minutos después (público, sin gating, 112 archivos, 96 shards, 1.561.355.969.963 bytes; licencia K3.1-Pro leída de primera mano: mismo esquema que la de K3, sin restricción a afinar ni a crear derivados; puerta MaaS >US$20M/año). Lecciones: un chequeo negativo vale para su hora, no para todo el día prometido; y el `createdAt` de HF (2 nov) refleja la creación/carga del repo, no su visibilidad pública. |
 | C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
 | C-006 | La primera aplicación del sistema diseno_vitrina (rediseño del portafolio) produce un acabado visiblemente superior al borrador anterior en la primera pasada, sin correcciones de composición | Confirmada | 2026-11-07 | Antonio lo juzgó el mismo día («entonces sí funcionó») al ver el resultado verificado con el ojo. La composición y la jerarquía no necesitaron correcciones; las dos aplicadas fueron técnicas (revelado por scroll como mejora progresiva y un enlace que se partía en móvil). Lección: el diseño «de molde» sí se transfiere por documentos (tokens, disciplina, recetas, checklist); lo que no se transfiere (prior generativo, generación de imágenes) no hizo falta para esta clase de página. |
+| C-007 | El repo público mundo-dirsi no contiene identificadores de dispositivo (afirmado en la respuesta a Claude, ronda 1, tras los chequeos de la sección 8) | Parcial | 2026-11-08 | Lo literal se sostuvo (no hay ID de dispositivo, IPs de la tailnet, hostname ni correo), pero la conclusión protectora era falsa: INVENTARIO-CAPACIDADES.md publica el modelo del teléfono (Xiaomi 14T Pro), las fuentes que expone (alarmas, calendario, llamadas, contactos, geocercas, salud, ubicación, notificaciones, recordatorios, SMS), el servicio con login guardado en la bóveda (PythonAnywhere) y automatismos con fecha. Claude lo detectó en la ronda 2 leyendo el archivo público; Dirsi lo confirmó por lectura directa (líneas 68 y 77-79 del inventario). Lección: un escaneo por patrones (IP, correo, claves) no sustituye a un escaneo por categorías (dispositivos, capacidades, accesos, horarios). Queda pendiente la decisión de Antonio: sanear el inventario público dejando solo el método. |
+
+## Afirmaciones de Claude evaluadas (ronda 1 → 2; no puntúan en el marcador de Dirsi)
+
+Formato pedido por Claude: fecha · quién afirmó · afirmación · resultado · evidencia.
+
+- 2026-11-07 · Claude · «El servidor de OpenCode está sin protección y es alcanzable más allá de lo debido» · Acertó · Verificado por Dirsi: serve sin contraseña y con binding 0.0.0.0 (6-7 nov 2026).
+- 2026-11-07 · Claude · «No hay regla escrita de clasificación de datos para el pool gratuito» · Acertó · Búsqueda en los archivos del sistema: no existe.
+- 2026-11-07 · Claude · «Los trabajadores no están aislados» · Acertó · Arquitectura conocida del puente y de los subagentes.
+- 2026-11-07 · Claude · «La calibración no se alimenta de forma sistemática» · Acertó · Autoauditoría de Dirsi: calibración 1/5 en los últimos cinco trabajos.
+- 2026-11-07 · Claude · «No existe libro de costes» · Acertó · Inexistencia comprobada.
+- 2026-11-07 · Claude · «La comprensión de Antonio no está medida» · Acertó · Sin medición registrada; su nivel de fluidez consta como «no medido».
+- 2026-11-07 · Claude · Supuesto de partida: el binding sería el de por defecto (127.0.0.1) · Falló · Era 0.0.0.0, peor de lo supuesto (registro de sesión del 6 nov 2026).
+- 2026-11-07 · Claude · El resumen diario es una buena práctica aplicable aquí · Falló · Choca con las preferencias de atención escritas por Antonio.
+- 2026-11-07 · Claude · Caducidad para todos los datos de memoria · Parcial · Vale solo para datos con fecha real; la versión de Dirsi es la que queda.
+- 2026-11-07 · Claude · «No vi la sección "Mi aporte" en el README público de Blockali» (ronda 2) · Falló · API de GitHub, 8 nov 2026: README.md en main (SHA 097e0651) contiene «## Mi aporte» y «Soy el autor con más commits del repositorio (44 de 89)», justo antes de «## Créditos».
 
 ## Antecedentes (no puntuados)
 
