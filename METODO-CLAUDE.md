@@ -46,8 +46,8 @@ hechos, inferencias y opiniones separados.
 
 ## 2. Saber mirar [adoptado 9 nov]
 
-Filtro de selección por detalle: puntuá 1-3 impacto si falla, exposición
-y irreversibilidad; dividí entre coste de arreglo (1 barato, 3 caro).
+Filtro de selección por detalle: puntúa 1-3 impacto si falla, exposición
+y irreversibilidad; divide entre coste de arreglo (1 barato, 3 caro).
 Pasan los 3-4 más altos. No busca precisión: busca orden.
 
 Un problema es más real cuantos más cumpla: reproducible · tiene
