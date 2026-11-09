@@ -35,11 +35,11 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 4 | 2 | 2 | 0 | 75 % | 3 |
+| 6 | 3 | 3 | 0 | 75 % | 1 |
 
 ## Pendientes
 
-### C-003 · 2026-11-03 · Precios
+### C-003 · 2026-11-03 · Precios — RESUELTA PARCIAL el 2026-11-09 (ver Resueltas)
 - **Afirmación:** La cotización regional escrita de 4Geeks para
   Venezuela/LatAm, cuando llegue, será inferior a los precios globales
   publicados (AI Fluency $900 total; AI Engineering $15,999 en el enlace
@@ -57,6 +57,20 @@ añadirán cuando haya al menos 10 resueltas.
   elegibilidad de beca según el FAQ oficial —, así que su rebaja, si la
   hay, sería por beca y de monto desconocido. La afirmación queda como
   probabilidad, no como certeza futura. Detalle en PROTOCOLO-REFUTACION.md.
+- **Resolución (9 nov 2026): PARCIAL.** Paula (el contacto) llamó
+  directamente a Antonio y le dio los precios DE PALABRA — nunca hubo
+  cotización escrita. La dirección de la afirmación se sostuvo con
+  claridad: AI Fluency $450 frente a $900 global; el bootcamp (ahora solo
+  AI Engineering; Full Stack con IA fue el último de su tipo) $2.400
+  frente a $15.999 de EE. UU. ($1.000 directo sin financiamiento + $1.400
+  por clases en vivo, mentorías ilimitadas y ayuda activa de búsqueda de
+  empleo). Flex ~$50. Es parcial y no confirmada porque: (1) la forma
+  pedida — por escrito — nunca llegó; (2) son precios verbales según lo
+  que Antonio entendió de la llamada, sin documento que los fije; y
+  (3) la propia Paula indicó que probablemente cambien el año que viene.
+  Lección: acertar la dirección de un precio no equivale a tener el
+  precio; sin escrito, el dato sirve para decidir si vale la pena
+  seguir, no para pagar.
 
 ### C-004 · 2026-11-01 · Estados técnicos
 - **Afirmación:** La papelera de Gmail se vaciará sola a los ~30 días
@@ -66,27 +80,29 @@ añadirán cuando haya al menos 10 resueltas.
   conteo verificado en la cuenta).
 - **Se verifica con:** el espacio libre de la cuenta después del 1 dic 2026.
 
-### C-005 · 2026-10-25 · Estados técnicos
-- **Afirmación:** La primera revisión quincenal del fork ECC correrá el
-  domingo 8 nov 2026 (~16:03 Caracas) y entregará informe aunque no haya
-  cambios en el upstream.
-- **Nivel al entregarla:** A (trabajo programado creado y verificado:
-  ecc-fork-biweekly-review, cada 336 h).
-- **Se verifica con:** el informe de la revisión del 8 nov 2026.
-
 
 ## Resueltas
 
 La primera resolución fue C-002, el 4 nov 2026 (parcial); la segunda,
 C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
-(confirmada); la cuarta, C-007, el 8 nov 2026 (parcial).
+(confirmada); la cuarta, C-007, el 8 nov 2026 (parcial); la quinta,
+C-005, el 8 nov 2026 (confirmada); la sexta, C-003, el 9 nov 2026
+(parcial).
+
+| Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
+|---|---|---|---|---|
+| C-003 | La cotización regional de 4Geeks será inferior a los precios globales publicados (AI Fluency $900; AI Engineering $15.999) | Parcial | 2026-11-09 | Paula dio los precios de palabra por llamada (nunca por escrito): AI Fluency $450 y AI Engineering $2.400 ($1.000 directo + $1.400 por clases en vivo, mentorías y ayuda de empleo), ambos muy por debajo del precio global — la dirección acertó. Es parcial porque la cotización escrita pedida nunca existió y los precios verbales pueden cambiar (la propia Paula lo advirtió para el año que viene). Lección: dirección correcta ≠ precio en mano; sin escrito no se paga sobre un verbal. |
+
+| Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
+|---|---|---|---|---|
+| C-005 | La primera revisión quincenal del fork ECC correrá el domingo 8 nov 2026 (~16:03 Caracas) y entregará informe aunque no haya cambios en el upstream | Confirmada | 2026-11-08 | La revisión corrió a la hora programada y entregó informe; además el upstream traía 370 commits nuevos y el fork se sincronizó (merge 9f78dc5, padres 040461d + d2ef268, SKILL.md intacto, 0 por detrás). Lección: la fusión por API MCP falló con 403 (la app no tiene escritura de contenidos para fusionar); la ruta que funcionó fue el navegador en vivo con la sesión guardada de Antonio. |
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
 | C-001 | Moonshot publicará los pesos abiertos de Kimi K3.1 Pro el 4 nov 2026 | Confirmada | 2026-11-04 | El chequeo de las ~10:15 dio negativo de primera mano (404; 19 modelos, ningún K3.1) y el repo se hizo público la tarde del mismo día: Antonio lo detectó ~14:29 y Dirsi lo verificó por la API de HF minutos después (público, sin gating, 112 archivos, 96 shards, 1.561.355.969.963 bytes; licencia K3.1-Pro leída de primera mano: mismo esquema que la de K3, sin restricción a afinar ni a crear derivados; puerta MaaS >US$20M/año). Lecciones: un chequeo negativo vale para su hora, no para todo el día prometido; y el `createdAt` de HF (2 nov) refleja la creación/carga del repo, no su visibilidad pública. |
 | C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
 | C-006 | La primera aplicación del sistema diseno_vitrina (rediseño del portafolio) produce un acabado visiblemente superior al borrador anterior en la primera pasada, sin correcciones de composición | Confirmada | 2026-11-07 | Antonio lo juzgó el mismo día («entonces sí funcionó») al ver el resultado verificado con el ojo. La composición y la jerarquía no necesitaron correcciones; las dos aplicadas fueron técnicas (revelado por scroll como mejora progresiva y un enlace que se partía en móvil). Lección: el diseño «de molde» sí se transfiere por documentos (tokens, disciplina, recetas, checklist); lo que no se transfiere (prior generativo, generación de imágenes) no hizo falta para esta clase de página. |
-| C-007 | El repo público mundo-dirsi no contiene identificadores de dispositivo (afirmado en la respuesta a Claude, ronda 1, tras los chequeos de la sección 8) | Parcial | 2026-11-08 | Lo literal se sostuvo (no hay ID de dispositivo, IPs de la tailnet, hostname ni correo), pero la conclusión protectora era falsa: INVENTARIO-CAPACIDADES.md publica el modelo del teléfono (Xiaomi 14T Pro), las fuentes que expone (alarmas, calendario, llamadas, contactos, geocercas, salud, ubicación, notificaciones, recordatorios, SMS), el servicio con login guardado en la bóveda (PythonAnywhere) y automatismos con fecha. Claude lo detectó en la ronda 2 leyendo el archivo público; Dirsi lo confirmó por lectura directa (líneas 68 y 77-79 del inventario). Lección: un escaneo por patrones (IP, correo, claves) no sustituye a un escaneo por categorías (dispositivos, capacidades, accesos, horarios). Queda pendiente la decisión de Antonio: sanear el inventario público dejando solo el método. |
+| C-007 | El repo público mundo-dirsi no contiene identificadores de dispositivo (afirmado en la respuesta a Claude, ronda 1, tras los chequeos de la sección 8) | Parcial | 2026-11-08 | Lo literal se sostuvo (no hay ID de dispositivo, IPs de la tailnet, hostname ni correo), pero la conclusión protectora era falsa: INVENTARIO-CAPACIDADES.md publica el modelo del teléfono (Xiaomi 14T Pro), las fuentes que expone (alarmas, calendario, llamadas, contactos, geocercas, salud, ubicación, notificaciones, recordatorios, SMS), el servicio con login guardado en la bóveda (PythonAnywhere) y automatismos con fecha. Claude lo detectó en la ronda 2 leyendo el archivo público; Dirsi lo confirmó por lectura directa (líneas 68 y 77-79 del inventario). Lección: un escaneo por patrones (IP, correo, claves) no sustituye a un escaneo por categorías (dispositivos, capacidades, accesos, horarios). La decisión de Antonio llegó el mismo 8 nov: aprobó el saneamiento y el inventario público quedó solo con el método (commit 3842460a en mundo-dirsi; la copia completa, local). |
 
 ## Afirmaciones de Claude evaluadas (ronda 1 → 2; no puntúan en el marcador de Dirsi)
 
