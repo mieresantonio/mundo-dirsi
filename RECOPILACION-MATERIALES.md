@@ -976,6 +976,11 @@ archivo desde el repo público no puede abrirlos.*
   universitario, sin precio visible: no afirmable.
 - Clase 3: prevista el 28 oct ~14:00 Caracas según el esquema del
   curso (día 3 del evento). Pendiente de registrar cuando ocurra.
+- *Nota del 9 nov 2026: los dos puntos anteriores son la foto del
+  27 oct y quedan superados dentro de este mismo archivo — el
+  addendum del 4 nov 2026 registra las clases 1 a 3 (y el directo
+  extra y el Repaso) ya revisadas por transcripción. No leer el
+  «pendiente» ni el «sin transcripción» como estado actual.*
 
 ### Decisión de certificados de Ingeniero de IA (27 oct)
 
@@ -1035,6 +1040,12 @@ archivo desde el repo público no puede abrirlos.*
   agregador, NO fuente oficial]: es lo más cercano en cifra, pero
   remoto desde Venezuela NO establecido y la sede es Valencia. No
   contar con él hasta verificar la vacante oficial.
+  *Nota del 9 nov 2026: la verificación posterior del sistema
+  (estudio de prácticas pagadas del 2 nov 2026) lo deja como casi
+  seguro NO elegible para Antonio — presencial en Valencia,
+  exige matrícula o titulación reciente e inglés fluido —, así
+  que ya no figura como candidato cercano, solo como descarte
+  documentado.*
 
 ### Nota K3.1 (27 oct)
 
@@ -1045,6 +1056,11 @@ archivo desde el repo público no puede abrirlos.*
   **Licencia SIN publicar: no asumir que hereda la de K3.** El paso
   0 de la PoC de destilación se repite para K3.1 antes de generar
   nada, y nunca se genera vía Databricks (sus términos lo vetan).
+  *Nota del 9 nov 2026: esta nota es la foto del 27 oct y ya no
+  describe el estado actual — los pesos se publicaron el 4 nov
+  2026 y la licencia se leyó de primera mano con el mismo esquema
+  que la de K3 (registro de calibración C-001, confirmado el
+  4 nov 2026, en este mismo repo).*
 
 ### Nota @soyfundador (27 oct, noche)
 
@@ -1110,6 +1126,11 @@ quedan activas hasta el miércoles 4 nov 2026 y que el **jueves 5 nov
 asistencia a todas las clases; tras responderlo, el **certificado de
 asistencia nominativo**. El QR era solo el registro; examen y fechas
 se comunicaron por WhatsApp.
+
+*Nota del 9 nov 2026: ese trámite ya se completó — el certificado
+gratuito de asistencia a «Tu segundo yo 24/7» quedó completado el
+5 nov 2026. El párrafo anterior es el mecanismo tal como se conoció
+el 4 nov, no un trámite pendiente.*
 
 ## ADDENDUM — 5 de noviembre de 2026 (noche): documento «Muse al máximo», lote de 28 videos y respaldos en GitHub
 

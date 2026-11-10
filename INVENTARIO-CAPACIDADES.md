@@ -53,15 +53,29 @@ despliegues y sus cifras cambian con ella.
   imagen/vídeo/audio, TTS, Spotify, búsqueda de imágenes), sistema
   (medidor de suscripción, almacenamiento remoto, Tailscale, datos del
   dispositivo, lector de códigos QR/barras `zbar-lib`).
-- **74 conectores con documentación.** Conectados y verificados en uso:
+- **79 conectores con documentación** *(corregido el 9 nov 2026 en la
+  Ronda 6 de mejora de repos: el censo del 4 nov decía 74, pero la
+  verificación de primera mano del 5 nov recogida en
+  `RECOPILACION-MATERIALES.md` ya contó 79, y el conteo directo de
+  `/opt/hatch/connectors/` —79 carpetas, las 79 con su `CONNECTOR.md`—
+  lo confirma esta noche)*. Conectados y verificados en uso:
   Gmail, Google Calendar, Drive, Docs, Sheets, Dropbox, GitHub.
   **Existe conector y CLI de Slack** — la nota vieja decía que no había;
   existe, con su conexión sin verificar. Que un conector exista no
   significa que la cuenta esté conectada: eso se comprueba por servicio
   antes de prometer nada con él.
-- **Skills: 56 del sistema + 4 propias** (ingeniería inversa en sala
+- **Skills: 57 del sistema + 8 propias** (ingeniería inversa en sala
   limpia, explicaciones claras al negarse, verificación de artefactos
-  antes de publicar, notas de skills recuperadas). Entre las del sistema
+  antes de publicar, notas de skills recuperadas, comprobación de
+  todas las fuentes antes de concluir una ausencia, dirección de cine
+  y vídeo con IA, sistema de diseño vitrina para interfaces y
+  verificación de la colocación de credenciales tras una configuración
+  de acceso) *(corregido el 9 nov 2026 en la operación de mejora:
+  antes decía 56 del sistema + 4 propias; el conteo directo de hoy da
+  57 carpetas con su `SKILL.md` en el directorio de skills del sistema
+  y 8 carpetas con su `SKILL.md` entre las skills propias del
+  workspace, y las cuatro propias nuevas son posteriores al censo del
+  4 nov: se crearon entre el 5 y el 7 nov)*. Entre las del sistema
   hay varias casi sin uso (traducción, campañas, finanzas, formularios,
   comparador de hipotecas…): están para cuando una tarea las pida, no
   para memorizarlas.
@@ -70,11 +84,19 @@ despliegues y sus cifras cambian con ella.
 
 ## 4. Automatismos vivos (4 nov 2026)
 
-- De Antonio, dos: la **revisión quincenal de un fork** y una
-  **verificación única de pesos de un modelo**. El resto de trabajos en
-  la lista son del sistema (Feed, doctor horario, heartbeat).
-- El teléfono emparejado expone **41 comandos y 10 fuentes de datos**,
-  sin comando de galería ni de archivos: verificado dos veces.
+- De Antonio, tres: **dos revisiones quincenales de forks** y la
+  **bandeja semanal de decisiones**. El resto de trabajos en
+  la lista son del sistema (Feed, doctor horario, heartbeat)
+  *(corregido el 9 nov 2026 en la operación de mejora: antes decía
+  dos —la revisión quincenal de un fork y una verificación única de
+  pesos de un modelo—; la lista de trabajos de hoy muestra tres de
+  Antonio y ya no muestra aquella verificación única)*.
+- El teléfono emparejado expone **43 comandos y 10 fuentes de datos**,
+  sin comando de galería ni de archivos *(corregido el 9 nov 2026 en
+  la operación de mejora: antes decía 41 comandos; hoy la lista del
+  dispositivo declara 43 y su descripción completa permite
+  enumerarlos uno a uno —43, sin ninguno de galería ni de archivos—,
+  y las fuentes de datos siguen siendo 10)*.
 
 ## 5. Herramientas construidas por el propio sistema
 

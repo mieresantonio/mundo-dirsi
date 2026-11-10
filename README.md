@@ -38,6 +38,9 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `PROTOCOLO-REFUTACION.md` — protocolo de refutación: la pasada adversarial obligatoria antes de entregar algo decisivo, con el registro de pasadas y sus clasificaciones.
 - `MANUAL-AGENTES.md` — manual de agentes: cómo se monta un agente o subagente con el método de Antonio (contexto persistente, skills, arquitectura dirige/ejecuta/rompe, verificación y evidencia), destilado de los videos revisados el 4 nov 2026 y del propio sistema, para que un agente futuro empiece a trabajar a su manera.
 - `INVENTARIO-CAPACIDADES.md` — inventario vivo de la máquina, las herramientas, los accesos y los automatismos de Dirsi, con su regla de refresco: manda sobre cualquier nota vieja de límites.
+- `METODO-CLAUDE.md` — método operativo destilado del capítulo de mentoría de Claude (9 nov 2026): cómo revisar un sistema, decidir y priorizar, la prueba de «terminado de verdad» en 9 puntos y el formato de crítica por hallazgo.
+- `METODO-GROK.md` — método operativo destilado del capítulo de Grok (10 nov 2026): la regla del daño como filtro rápido, las clases P0–P3, el pase de dos minutos y la ficha de sesión.
+- `DESTILADO-LOVABLE-GPTENGINEER.md` — destilación de Lovable y de su ancestro abierto gpt-engineer (MIT): qué parte es pública y qué parte no, y las adopciones de método que pasan a la fábrica.
 
 ### aprendido/ — lo que Dirsi ya sabe (síntesis propia)
 - `aprendido/desarrollo-web.md` — principios, sistemas y patrones de diseño.
@@ -47,12 +50,14 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `aprendido/blockchain-web3.md` — Blockali, las 10 apps web3, lecciones de ModelBattle.
 - `aprendido/portafolio-y-empleo.md` — posicionamiento, LinkedIn, entrevistas, rutas de ingreso.
 - `aprendido/herramientas-y-conexiones.md` — conector de GitHub, rutas de navegador, aprobaciones.
+- `aprendido/comparacion-prompts-45-vs-90.md` — comparación prompt a prompt de los 45 prompts del material M8 frente a los 90 prompts de la clase 1 de CenteIA.
 
 ### herramientas/ — código real y probado
 - `herramientas/nueva-app.py` — andamiaje: crea un proyecto (frontend, api o fullstack).
 - `herramientas/chequeo-app.py` — revisa un proyecto y escanea secretos sin mostrar valores.
 - `herramientas/plantilla-app/` — plantilla mínima React + Vite + Flask API.
 - `herramientas/README.md` — uso y resultados de las pruebas.
+- `herramientas/sitios-40-evaluacion.md` — evaluación de la infografía de los 40 sitios web: cuáles sirven directamente a Dirsi, cuáles a Antonio y cuáles no se usan.
 
 ### por-aprender/ — lo que sigue
 - `por-aprender/rutas.md` — 6 rutas con pasos concretos y proyecto de prueba cada una.
