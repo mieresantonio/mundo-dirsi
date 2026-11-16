@@ -29,6 +29,12 @@
   delegación explícita del usuario para fusionar, crear repos y modificar
   sin límites. Esa delegación, cuando existe, se respeta; sin ella, no se
   escribe.
+- **Delegación permanente en GitHub (16 nov 2026).** Antonio dio
+  permiso permanente para todas las actualizaciones en GitHub: ya no
+  hace falta pedir aprobación por cada cambio en GitHub. La regla de
+  preparar y pedir aprobación sigue valiendo para todo lo demás
+  (otros servicios, cuentas nuevas, pagos, despliegues fuera de
+  GitHub).
 
 ## Rutas con el navegador y la sesión del usuario
 

@@ -17,7 +17,10 @@
 > (pesos publicados el 4 nov, licencia leída de primera mano; C-001
 > confirmada en CALIBRACION.md). Q1 sigue abierta por los términos
 > de la API directa de Moonshot, que son la pregunta original.
-> Siguen siendo 9 abiertas.
+> Siguen siendo 9 abiertas. Q3 anota el empate informal
+> DeepSeek/GLM-5.3 del 5–6 nov (no cierra la pregunta) y Q14
+> corrige su enlace: la checklist es la base de la métrica
+> «demo lista», no la lista completa.
 
 ---
 
@@ -69,6 +72,12 @@
   corregir un bug provocado), midiendo tiempo, número de intentos,
   calidad del resultado y consumo. La respuesta puede ser distinta por
   entorno y debe quedar escrita así, no como un único ganador.
+- **Nota 16 nov 2026:** comparación informal del 5–6 nov entre
+  DeepSeek y GLM-5.3-Flash en el flujo real terminó en empate, y
+  Antonio duda de que North Mini Code los supere. No cierra la
+  pregunta: falta el experimento comparativo con la misma tarea en
+  ambos entornos y medidas (tiempo, intentos, calidad, consumo)
+  que aquí se pide.
 
 ## 4. ¿Existe un repositorio compartido entre Muse y Muse Code, o son productos separados sin código común público?
 
@@ -228,9 +237,44 @@
   funcionamiento en móvil) a tres demos ya construidas y ver si la
   lista distingue la que está lista de la que no. Ajustar la lista
   hasta que lo haga. Enlace: `consultas/checklist-verificacion.md`
-  YA es esa lista y se adopta como la métrica "demo lista": la
-  pregunta se cierra probándola en tres demos, no inventando otra
-  métrica.
+  es la BASE de esa lista (flujo principal, build, limpieza), pero
+  no la lista completa: le faltan tres de los cinco criterios de
+  aquí — datos de ejemplo coherentes, rendimiento aceptable y
+  funcionamiento en móvil. La pregunta se cierra probando la lista
+  completa en tres demos, no inventando otra métrica.
+- **Experimento 16 nov 2026 (parcial — NO cierra la pregunta):**
+  la lista completa se aplicó a las tres demos (barbería,
+  biblioteca de prompts, segundo-yo), con build, tests, capturas
+  de escritorio y móvil (390×844) leídas con el ojo visual y grep
+  de textos pendientes. Puntuación criterio por criterio:
+  - *Build:* 3/3 en verde (biblioteca 5,11 s; segundo-yo 4,48 s;
+    barbería 4,60 s; JS 165–182 kB, gzip 52–60 kB).
+  - *Flujo principal:* barbería 56/56 en smoke de API
+    (reserva/solape/cancelación/reprogramación) + 20/20 en
+    catálogo frontend↔backend; biblioteca y segundo-yo con sus
+    invariantes de datos en verde (`npm test`).
+  - *Datos de ejemplo coherentes:* 3/3 (mismas pruebas).
+  - *Rendimiento aceptable:* 3/3 por tamaño de bundle y carga
+    local; sin medir en red lenta (sin verificar).
+  - *Textos sin errores:* 3/3 — nada visible en las 6 capturas
+    y sin lorem/TODO en `src/` (grep; los positivos fueron
+    falsos: «todos», «todo momento»).
+  - *Funcionamiento en móvil:* 3/3 — capturas 390×844 sin
+    desbordes ni texto ilegible; la barbería cargó datos en
+    vivo de su API en la captura.
+  - *Capturas:* `~/workspace/tools-visual/shots/q14-*.png`
+    (6 archivos, 16 nov 2026).
+  - **Resultado:** las 3 demos pasan los 5 criterios. La lista
+    funciona como puerta de paso, pero su capacidad de
+    DISTINGUIR no quedó probada: las 3 ya estaban
+    triple-verificadas y ninguna era «no lista». Falta un
+    control negativo (una demo que se sepa no lista) para
+    cerrar la pregunta.
+  - **Sin verificar:** el flujo clic a clic en el navegador
+    (el script Playwright `tools-visual/q14-flows.mjs` se quedó
+    colgado sin salida y se mató sin diagnosticar; no es un
+    fallo de las demos, es trabajo pendiente) y el rendimiento
+    en red lenta.
 
 ---
 

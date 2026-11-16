@@ -40,6 +40,8 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 ## Índice
 
 ### Raíz
+- `STATUS.md` — tablero de estado del sistema en una página: marcador de calibración, puntuación del banco de pruebas, último refresco del censo y próximos vencimientos.
+- `GLOSARIO.md` — los términos del sistema, definidos una sola vez, cada uno con su documento fuente.
 - `RECOPILACION-MATERIALES.md` — compilación maestra de materiales de estudio.
 - `CALIBRACION.md` — registro de calibración: las afirmaciones decisivas y comprobables de Dirsi, con su nivel de evidencia y su resultado cuando la realidad responde.
 - `BANCO-DE-PRUEBAS.md` — banco de pruebas personal: tareas reales de Antonio con criterios fijos para medir el rendimiento de Dirsi como sistema y detectar deriva entre corridas.
@@ -60,6 +62,7 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `aprendido/portafolio-y-empleo.md` — posicionamiento, LinkedIn, entrevistas, rutas de ingreso.
 - `aprendido/herramientas-y-conexiones.md` — conector de GitHub, rutas de navegador, aprobaciones.
 - `aprendido/comparacion-prompts-45-vs-90.md` — comparación prompt a prompt de los 45 prompts del material M8 frente a los 90 prompts de la clase 1 de CenteIA.
+- `aprendido/decisiones.md` — registro de decisiones del sistema: 10 fichas (D-01–D-10) con contexto, alternativas descartadas y fuente.
 
 ### herramientas/ — código real y probado
 - `herramientas/nueva-app.py` — andamiaje: crea un proyecto (frontend, api o fullstack).

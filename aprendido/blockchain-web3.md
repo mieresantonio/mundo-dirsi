@@ -24,6 +24,11 @@ hasta nivel profesional. Su estructura:
   cómo se rompe. Esta fue la pieza que convirtió la plataforma en algo
   más que lectura.
 
+Desde el 16 nov 2026 Block Ethos tiene repo propio
+(`mieresantonio/block-ethos`); el fork original del proyecto final
+queda como registro histórico. Detalle del despliegue y de la demo en
+vivo en `aprendido/despliegue.md`.
+
 ## Lecciones de la evaluación inicial
 
 La primera evaluación encontró que la base era sólida (un producto real,

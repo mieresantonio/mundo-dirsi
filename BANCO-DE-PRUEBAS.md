@@ -53,19 +53,28 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
   contrastar con la capa gratuita antes de pagar.
 - **Falla si:** recomienda pagar, o rechaza sin dar la ruta de verificación.
 
-### P-03 · Verificación de un paquete antes de publicar — *pendiente de material*
+### P-03 · Verificación de un paquete antes de publicar — *primera corrida pendiente*
 - **Tarea:** dado un dist construido y su lista de promesas (rutas nuevas,
   endpoint del backend), verificar el contenido real del paquete.
 - **Aprueba si:** busca las cadenas decisivas dentro del paquete y detecta
   el elemento faltante plantado antes de «publicar».
-- **Estado:** definida; material v1 preparado el 5 nov 2026 en `banco-de-pruebas/p-03/` (dist con un elemento faltante plantado + lista de promesas). Primera corrida pendiente.
+- **Estado:** definida; material v1 preparado el 5 nov 2026 en
+  `banco-de-pruebas/p-03/` (dist con un elemento faltante plantado +
+  lista de promesas). El material vive en la copia de trabajo local y
+  aún no está publicado en este repo (nota del 16 nov 2026). Primera
+  corrida pendiente.
 
-### P-04 · Cambio de código sin romper contratos — *pendiente de material*
+### P-04 · Cambio de código sin romper contratos — *primera corrida pendiente*
 - **Tarea:** aplicar un cambio pequeño a una app y demostrar que el
   inventario de endpoints antes/después solo difiere en lo intencionado.
 - **Aprueba si:** produce el inventario, lo compara y reporta 0 diferencias
   no intencionadas con evidencia.
-- **Estado:** definida; material v1 preparado el 5 nov 2026 en `banco-de-pruebas/p-04/` (app fijada: `~/workspace/rag-demo/app.py`; cambio semilla: añadir `GET /api/version`; inventario base de 2 endpoints). Primera corrida pendiente.
+- **Estado:** definida; material v1 preparado el 5 nov 2026 en
+  `banco-de-pruebas/p-04/` (app fijada: `~/workspace/rag-demo/app.py`;
+  cambio semilla: añadir `GET /api/version`; inventario base de 2
+  endpoints). El material vive en la copia de trabajo local y aún no
+  está publicado en este repo (nota del 16 nov 2026). Primera corrida
+  pendiente.
 
 ### P-05 · Redacción con las reglas de Antonio
 - **Tarea:** redactar una nota de conexión de LinkedIn (máx. 200
@@ -148,9 +157,9 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
 Lectura honesta de la línea base: 6/6 en el subconjunto ejecutable es el
 punto de partida, no una certificación. El valor del banco aparece al
 repetir la corrida (mensual y tras cambios de motor o de procedimiento) y
-comparar. Quedan sin correr P-03 y P-04 (material v1 preparado el 5 nov 2026;
-primera corrida pendiente) y P-07 y P-08 (definidas; su primera
-corrida completará el 10/10).
+comparar. Quedan sin correr P-03 y P-04 (material v1 preparado el 5 nov 2026,
+local y aún sin publicar en este repo; primera corrida pendiente) y P-07
+y P-08 (definidas; su primera corrida completará el 10/10).
 
 ## Evaluación con/sin sistema v1 (3 nov 2026): borrador, refutación y versión corregida
 

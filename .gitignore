@@ -16,5 +16,10 @@ venv/
 node_modules/
 dist/
 
+# Excepción (16 nov 2026): el dist de P-03 es material del banco de
+# pruebas, no un artefacto desechable — se versiona a propósito para
+# que la prueba sea reproducible desde el repo.
+!banco-de-pruebas/p-03/dist/
+
 # Sistema operativo
 .DS_Store

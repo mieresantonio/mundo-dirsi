@@ -38,6 +38,24 @@ sin crear repos desde aquí.
 - Los trabajos largos se delegan en paralelo; la verificación final es
   propia e independiente.
 
+## 2026-10-26 — Block Ethos vivo en PythonAnywhere
+- Primera demostración pública real: cuenta BC123, URL
+  https://BC123.pythonanywhere.com, con el repo clonado, migraciones
+  aplicadas y seed completo (2 usuarios, 2 rutas, 3 módulos, 4
+  lecciones, 4 quizzes). Confirma la doctrina de despliegue: sin
+  tarjeta, variables en el WSGI, y el error de registro conocido
+  (cuenta creada pero inactiva por falta de remitente de correo).
+  Pendiente entonces: configuración de correo y FLASK_APP_KEY, pasos
+  reservados al usuario en sesión de portátil.
+
+## 2026-10-26 — Loop de 300 pases de rediseño
+- 300 pases de mejora visual sobre 4 proyectos (barbería, biblioteca
+  de prompts, segundo-yo, API segundo-yo), 0 revertidos, con
+  verificación independiente: builds en verde, sin archivos de
+  respaldo olvidados, puerto 5000 libre. Lección: un pase que reescribe
+  sin criterio no mejora nada; el criterio (sección por sección,
+  móvil, flujo real) es lo que hace que el pase sume.
+
 ## 2026-10-27 — Kimi K3.1 Pro y certificados gratis de Ingeniero de IA
 - Vídeo semanal de Fazt (19–25 oct) visto por transcripción: Kimi K3.1
   Pro, lanzado el 23 oct, post-entrenamiento de K3, mismo tamaño
@@ -104,24 +122,6 @@ sin crear repos desde aquí.
 - Veredicto sin cambios: certificado único = HF Agents Course
   (gratis); complemento = badges IBM (agentes + RAG); Coursera IBM
   RAG sigue siendo ayuda por curso sin 100% garantizado.
-
-## 2026-10-26 — Block Ethos vivo en PythonAnywhere
-- Primera demostración pública real: cuenta BC123, URL
-  https://BC123.pythonanywhere.com, con el repo clonado, migraciones
-  aplicadas y seed completo (2 usuarios, 2 rutas, 3 módulos, 4
-  lecciones, 4 quizzes). Confirma la doctrina de despliegue: sin
-  tarjeta, variables en el WSGI, y el error de registro conocido
-  (cuenta creada pero inactiva por falta de remitente de correo).
-  Pendiente entonces: configuración de correo y FLASK_APP_KEY, pasos
-  reservados al usuario en sesión de portátil.
-
-## 2026-10-26 — Loop de 300 pases de rediseño
-- 300 pases de mejora visual sobre 4 proyectos (barbería, biblioteca
-  de prompts, segundo-yo, API segundo-yo), 0 revertidos, con
-  verificación independiente: builds en verde, sin archivos de
-  respaldo olvidados, puerto 5000 libre. Lección: un pase que reescribe
-  sin criterio no mejora nada; el criterio (sección por sección,
-  móvil, flujo real) es lo que hace que el pase sume.
 
 ## 2026-10-27 (noche) — Investigación de plataformas fuera de LinkedIn
 - Pregunta de Antonio: lugares al nivel de LinkedIn para una beca
@@ -190,11 +190,23 @@ sin crear repos desde aquí.
   Antonio (fuente única del glosario); B6/B15 de barbería son
   decisión de producto/diseño, no arreglos.
 
+## 2026-11-02 (noche) — Ciclo 4 de mejora de apps
+
+- Ciclo 4: gestos de identidad visual por app web3 (dao-vote
+  intencionalmente sin gesto); etiquetas demo persistentes en
+  wallet-sim; foco de token-explorer; mundo-vida-ia M-M3/M-M4;
+  modal accesible de nft-studio; y suelo de tests en
+  portfolio-apps (biblioteca 338, segundo-yo 125, API smoke 26),
+  probado a fuego. (Entrada reconstruida el 16 nov 2026 desde el
+  informe de revisión del 2 nov: el ciclo no dejó huella en este
+  registro en su día; la lista de huellas del propio informe
+  confirma «Ciclos 1–3 y 5–12».)
+
 ## 2026-11-02 (noche) — Ciclos 5–7 de mejora de apps
 
 - Ciclo 5: hash-lab alineada a React 18.3.1/Vite 6.4.5 (JS de
   237.744 a 162.247 B); lint ESLint 9.39.5 instalado y limpio en
-  biblioteca-prompts y segundo-yo (tests 338/125); auditoría de
+  biblioteca-prompts y segundo-yo; auditoría de
   veracidad de los 16 README (6 veraces, 7 corregidos — etiqueta
   «mobile-first» falsa retirada en 5 web3 y códigos 405/500
   añadidos a api-segundo-yo y barbería —, rag-demo anotado y luego
@@ -280,7 +292,46 @@ sin crear repos desde aquí.
   los Ciclos 2 y 4 a los criterios de CenteIA con el límite de
   verificación declarado (sin navegador visual: conformidad por
   código, bundles y checklist; capturas pendientes); huella del
-  Ciclo 11 publicada en este registro (commit 7c94e6b4).
+  Ciclo 11 publicada en este registro (commit 8899e1e3).
+
+## 2026-11-02 (noche) — Ciclo 13 de mejora de apps (parcial)
+
+- Ciclo 13 (parcial, 3 de 4 frentes): gran re-verificación del
+  universo — 1.441 comprobaciones numeradas, 0 fallos, 0 derivas
+  (web3 856/856 con bundles byte-idénticos a sus conocidos-buenos;
+  biblioteca 338 + lint 0; segundo-yo 125 + lint 0; API smoke 26;
+  barbería smoke 56 + verify-catalog 20, BD real intacta por MD5;
+  mundo-vida-ia 20/20 con registro reproducible; rag-demo coherente
+  27/527) —; auditoría de devDependencies web3 (0 retiradas; los
+  `@types/*` de hash-lab y nft-studio quedaron DUDOSOS); y huella
+  del Ciclo 12 en este registro (commit 798cb40a). El cuarto frente
+  (refresco del corpus de rag-demo con las entradas del Ciclo 12)
+  NO se ejecutó: el corpus publicado (527 fragmentos) quedó
+  coherente y verificado sin ellas. (Entrada reconstruida el 16 nov
+  2026 desde el informe de revisión del 2 nov: el ciclo parcial no
+  dejó huella en este registro en su día.)
+
+## 2026-11-04 — Pesos y licencia de Kimi K3.1 Pro verificados (C-001)
+
+- Los pesos de Kimi K3.1 Pro se hicieron públicos la tarde del 4 nov
+  2026 (repo en Hugging Face, sin gating: 112 archivos, 96 shards,
+  1.561.355.969.963 bytes). Antonio los detectó ~14:29 y Dirsi lo
+  verificó por la API de HF minutos después; el chequeo de la mañana
+  (~10:15) todavía había dado negativo (404). La licencia se leyó de
+  primera mano el mismo día: mismo esquema que la de K3, sin
+  restricción a afinar ni a crear derivados, puerta MaaS por encima
+  de 20 M US$/año. C-001 confirmada en CALIBRACION.md. Lección: un
+  chequeo negativo vale para su hora, no para todo el día prometido;
+  y el `createdAt` de HF (2 nov) refleja la creación/carga del repo,
+  no su visibilidad pública.
+- Anatomía del repo: frente a K3, K3.1 Pro difiere SOLO en +120
+  tensores BF16 de indexador Gated DSA; el salto de capacidad es
+  post-entrenamiento (RL) y su receta NO está en el repo. Queda sin
+  verificar la otra mitad de la pregunta abierta nº 1: los términos
+  de la API directa de Moonshot sobre entrenar otros modelos con sus
+  salidas. (Entrada anotada el 16 nov 2026 desde CALIBRACION.md
+  C-001 y la auditoría del 4 nov: el hito no dejó huella en este
+  registro en su día.)
 
 ## 2026-11-16 — Renombre Blockali → Block Ethos en este repo
 

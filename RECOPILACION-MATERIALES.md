@@ -48,8 +48,9 @@ Reglas para quien lo lea:
 6. Posicionamiento en curso: GitHub ordenado (perfil, repos propios,
    portafolio publicado en GitHub Pages el 16 nov 2026), LinkedIn
    pendiente de publicar (titular, sobre mí, alertas por
-   reconfigurar, contacto con una reclutadora IT pendiente). Inglés:
-   B1 lectura, A1 habla/escucha (medido el 14 nov 2026).
+   reconfigurar, contacto con una reclutadora IT pendiente), Upwork
+   creado el 11 nov (a completar cuando el LinkedIn esté listo).
+   Inglés: B1 lectura, A1 habla/escucha (medido el 14 nov 2026).
 7. Periodo junior: fluidez de sintaxis en entrenamiento; trabaja entendiendo dónde
    modificar siguiendo lo que la IA le indica. Prefiere efectividad y
    pipeline antes que pulido infinito.
@@ -58,7 +59,8 @@ Reglas para quien lo lea:
    va en mensaje o archivo propio.
 9. Regla de evidencia: hechos demostrados o clasificados; el marketing
    no es un hecho; no se copian textos de cursos.
-10. Delegación total en Dirsi para repos y despliegues; el único paso
+10. Delegación total en Dirsi para repos y despliegues (permiso
+    permanente para GitHub desde el 16 nov 2026); el único paso
     manual que guarda son las claves y valores .env.
 
 ## 3. Catálogo de materiales
@@ -1141,6 +1143,8 @@ el 4 nov, no un trámite pendiente.*
 Trabajo encargado por Antonio el 5 nov 2026. Materiales locales: `~/workspace/notas/` (documento e inventario), `~/workspace/lote-videos-2026-11-05/` (transcripciones, síntesis por grupos y síntesis completa).
 
 - **Documento «Muse al máximo: 100 pruebas, contextos y curiosidades»** (preparado por Claude para Antonio): mapa de capacidades de Muse con etiquetas de confianza [OFICIAL]/[REPORTADO]/[HIPÓTESIS] y protocolo de trabajo. Guardado en `~/workspace/notas/muse-potencial.md`; contraste ítem a ítem contra el entorno real de Dirsi en `~/workspace/notas/inventario-100.md` y registro en `muse-lab-log.md`. Verificado de primera mano ese día: Codex CLI SÍ está en la imagen (0.164.0-alpha.9); el catálogo suma 79 conectores con doc (Slack, Canva, Klaviyo y 1Password presentes; Polymarket ausente); Claude Code no está instalado y exigiría plan pago de Claude o clave API de Anthropic. Varias «hipótesis» del documento ya eran realidad de Antonio (banco de 10 tareas = banco de pruebas; segunda opinión = protocolo de refutación; respaldo privado = su visión del 2 nov).
+
+*Nota del 16 nov 2026: el conteo de conectores de esa fecha (79) ya no es el actual — el refresco del inventario del 16 nov cuenta 90 carpetas con su `CONNECTOR.md` (ver `INVENTARIO-CAPACIDADES.md` §3). El resto de esa verificación sigue vigente hoy: Codex CLI sigue en la imagen (0.164.0-alpha.9), Claude Code sigue sin estar instalado y Polymarket sigue ausente del catálogo.*
 - **Skill «Director de cine y vídeo con IA» CREADA** el 5 nov desde el encargo consolidado del 29 oct 2026 (Google Doc de Antonio): `~/workspace/custom-skills/director_cine_video_ia/` — 11 fases, elección obligatoria del número de tomas por el usuario y parada obligatoria de aprobación del guion antes de preparar prompts.
 - **Kit «Tu fábrica de software» (Jesús, AlpacaTech)**: inspeccionado (56 archivos; scripts sin red ni credenciales, solo telemetría local). Publicado en el GitHub de Antonio como copia de trabajo con crédito al autor: **mieresantonio/fabrica-de-software** (commit 3d1841ee; fuera solo el PDF del mapa, porque la vía de publicación es de texto). Método: cerebro con «qué es bien» + contexto + lecciones, pasos de un solo puesto, quien produce no revisa, telemetría desde el primer paso, nada sale fuera sin OK humano.
 - **Forks de respaldo creados el 5 nov** (petición expresa de Antonio, como con ECC): **mieresantonio/rea** (de morluto/rea, MIT) y **mieresantonio/craft-anything** (de storytold/craft-anything, Apache-2.0), cada uno con `MANTENIMIENTO.md` como marca propia (solo una nota; el código no se toca). Verificado por Dirsi en la API de GitHub: REA 434.279 estrellas y activo; Craft Anything creado el 31 oct 2026, 14.952 estrellas (el video de Serudda decía 8.000 y «284 herramientas»; el README vigente dice 314). **Revisión quincenal programada** de ambos forks (cron `rea-craft-biweekly-review`, primera corrida el 19 nov 2026): comparar, sincronizar conservando la nota, detenerse ante conflictos.
@@ -1148,3 +1152,13 @@ Trabajo encargado por Antonio el 5 nov 2026. Materiales locales: `~/workspace/no
 - **Sin analizar por falta de enlace**: el video «de la jerga» que Antonio describió (clonar apps de otros idiomas para vender productos digitales vía Instagram/WhatsApp/Facebook, con llamadas) no venía enlazado y ningún video del lote junta esas piezas; queda pendiente de que lo reenvíe.
 
 *Fin del addendum del 5 de noviembre de 2026.*
+
+---
+
+## ADDENDUM — 16 de noviembre de 2026: taller Agentic Engineer 2027, Upwork y plazo 2FA de GitHub
+
+- **Taller Agentic Engineer 2027** (Tech Sherpas / LIDR, Álvaro Moya): martes 24 nov 2026, 13:00 Caracas, en directo y gratis, sin grabación; GDD (desarrollo guiado por objetivos), agentes en la nube y revisión automatizada. Los asistentes en directo reciben el repo con GDD y skills de revisión. **Registro confirmado** la noche del 15–16 nov (correo de hi@lidr.co, 00:52 Caracas); Antonio ya está en la comunidad privada de WhatsApp. Solo queda asistir.
+- **Upwork**: cuenta creada por Antonio el 11 nov 2026 (inicio con Google); borrador de perfil listo en el workspace. Decisión: completarlo enlazado a LinkedIn cuando el LinkedIn esté listo, porque es más profesional. Pendientes: tarifa por hora y método de pago. Su cédula de identidad está vencida: la renovación (SAIME) es prerrequisito para verificar identidad en Upwork, Payoneer y demás plataformas.
+- **GitHub 2FA**: GitHub exige activar la autenticación de dos factores antes del **20 dic 2026** (aviso en su propio banner de GitHub, visto el 6 nov); sin 2FA, las acciones en la cuenta quedarán restringidas. Es un paso manual suyo, pendiente; conviene una sesión corta antes del plazo, porque la estrategia de repos/forks depende de la cuenta.
+
+*Fin del addendum del 16 de noviembre de 2026.*

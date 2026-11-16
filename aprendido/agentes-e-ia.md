@@ -47,8 +47,16 @@ máquina del usuario, no una nube con claves compartidas:
   que primero muestra la diferencia y hace copia de seguridad antes de
   modificar la configuración existente, sin pisar los proveedores ya
   definidos.
-- Decisión tomada: instalarlo en el portátil, no en el teléfono, cuando el
-  usuario se siente frente a él.
+- Decisión tomada: instalarlo en el portátil, no en el teléfono.
+- **Instalado en el portátil el 6 nov 2026:** app de escritorio
+  v0.16.20, gateway local en `http://127.0.0.1:31415/v1`,
+  funcionando de extremo a extremo a 0,00 $. Matiz: los huecos
+  «Opus/Sonnet/Haiku» son alias que el router dirige a modelos
+  gratuitos, NO son los modelos de Anthropic. Cuidado registrado:
+  la configuración de OpenCode del portátil mezcló la credencial
+  de Zen con la clave unificada del router (error 401 de Zen); la
+  corrección quedó pendiente de verificar en la siguiente sesión
+  de portátil.
 
 ## Destilación y Kimi K3: verificado frente a hype
 
@@ -114,6 +122,15 @@ máquina del usuario, no una nube con claves compartidas:
   K3.1 publicado. No asumir que hereda la licencia de K3: el paso 0
   de la PoC de destilación (licencia + términos de la API sobre
   entrenar con salidas) se repite para K3.1 antes de generar nada.
+- **Nota 16 nov 2026:** el paso 0 de K3.1 ya se hizo: los pesos se
+  publicaron el 4 nov 2026 (repo público en Hugging Face, sin gating)
+  y la licencia se leyó de primera mano el mismo día — mismo esquema
+  que la de K3, sin restricción a afinar ni a crear derivados, puerta
+  MaaS por encima de 20 M US$/año (CALIBRACION.md, C-001, confirmada
+  el 4 nov 2026). Lo que sigue sin verificar son los términos de la
+  API directa de Moonshot sobre entrenar otros modelos con sus
+  salidas: pregunta abierta nº 1 en `por-aprender/preguntas-abiertas.md`.
+  Hasta verificarlos, no se genera nada por esa vía.
 - **API más barata que K3:** 2 dólares de entrada y 10 de salida por
   millón de tokens (33 % menos), lo que abarataría el presupuesto de
   la PoC si se mantiene la ruta de destilación de caja negra.

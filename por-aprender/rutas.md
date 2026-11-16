@@ -146,13 +146,21 @@ escribir fuera de su directorio y el arnés detecta un fallo provocado.
 - **Construir:** tres circuitos pequeños y ejecutables en simulador
   local, sin hardware real: (a) un qubit en superposición medida 1.000
   veces, (b) dos qubits entrelazados (par de Bell) medidos 1.000 veces,
-  (c) el mismo circuito (b) con una puerta extra que rompe el
-  entrelazamiento, para comparar.
+  (c) el mismo circuito (b) con una puerta Hadamard extra en un qubit,
+  que cambia la base de medida, para comparar.
 - **Verificar:** los resultados numéricos coinciden con lo esperado
   dentro de un margen razonable: (a) cerca de 50/50 entre 0 y 1, (b)
   casi solo 00 y 11 en proporciones parecidas, (c) aparecen los cuatro
-  resultados. Guardar las salidas en un archivo para poder compararlas
-  después.
+  resultados en proporciones parecidas (~25 % cada uno). Guardar las
+  salidas en un archivo para poder compararlas después.
+  Nota (corrección 16 nov 2026): la versión anterior decía que la
+  puerta extra «rompe el entrelazamiento», y eso es falso: ninguna
+  puerta de un solo qubit puede romperlo (el entrelazamiento no
+  cambia con operaciones locales); lo que hace Hadamard es cambiar
+  la base en la que se mide, y por eso aparecen los cuatro
+  resultados. Para deshacer el par de Bell haría falta otra puerta
+  de dos qubits (un segundo CNOT, que devuelve el estado a producto
+  y deja solo 00 y 10).
 
 ### Paso 3 — Hype frente a realidad, con fechas y límites
 
