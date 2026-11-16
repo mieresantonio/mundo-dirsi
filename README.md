@@ -40,6 +40,7 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `INVENTARIO-CAPACIDADES.md` — inventario vivo de la máquina, las herramientas, los accesos y los automatismos de Dirsi, con su regla de refresco: manda sobre cualquier nota vieja de límites.
 - `METODO-CLAUDE.md` — método operativo destilado del capítulo de mentoría de Claude (9 nov 2026): cómo revisar un sistema, decidir y priorizar, la prueba de «terminado de verdad» en 9 puntos y el formato de crítica por hallazgo.
 - `METODO-GROK.md` — método operativo destilado del capítulo de Grok (10 nov 2026): la regla del daño como filtro rápido, las clases P0–P3, el pase de dos minutos y la ficha de sesión.
+- `METODO-CLAUDE-PLAYBOOK.md` — método operativo destilado del playbook del ingeniero senior de Claude (12 nov 2026): regla de tres, siete lentes, ciclo de vida de lecciones, tareas de oro con métricas, brief de delegación y referencia por dominios.
 - `DESTILADO-LOVABLE-GPTENGINEER.md` — destilación de Lovable y de su ancestro abierto gpt-engineer (MIT): qué parte es pública y qué parte no, y las adopciones de método que pasan a la fábrica.
 
 ### aprendido/ — lo que Dirsi ya sabe (síntesis propia)
@@ -47,7 +48,7 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `aprendido/agentes-e-ia.md` — agentes de código, modelos, FreeLLMAPI, destilación.
 - `aprendido/ingenieria-inversa.md` — REA y el método de sala limpia.
 - `aprendido/despliegue.md` — Render, PythonAnywhere, variables de entorno, runbook.
-- `aprendido/blockchain-web3.md` — Blockali, las 10 apps web3, lecciones de ModelBattle.
+- `aprendido/blockchain-web3.md` — Block Ethos, las 10 apps web3, lecciones de ModelBattle.
 - `aprendido/portafolio-y-empleo.md` — posicionamiento, LinkedIn, entrevistas, rutas de ingreso.
 - `aprendido/herramientas-y-conexiones.md` — conector de GitHub, rutas de navegador, aprobaciones.
 - `aprendido/comparacion-prompts-45-vs-90.md` — comparación prompt a prompt de los 45 prompts del material M8 frente a los 90 prompts de la clase 1 de CenteIA.
