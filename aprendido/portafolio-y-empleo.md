@@ -110,3 +110,30 @@ método:
   empresa contratante lo usa). El caso UNICC de 800 €/mes no está
   verificado en fuente oficial y tiene sede en Valencia: no contar
   con él hasta verificar la vacante oficial.
+
+## Actualización 16 nov 2026 — portafolio publicado y repos ordenados
+
+- **Portafolio publicado:** repo propio
+  `mieresantonio/portfolio` (16 nov 2026) con GitHub Pages en vivo
+  en `mieresantonio.github.io/portfolio` (HTTP 200 verificado).
+  Un solo archivo HTML+CSS, sin dependencias externas, sistema
+  diseno_vitrina: Block Ethos destacado, correo visible, objetivo
+  «Full Stack» sin especializar. Sin la frase «con usuarios reales»:
+  Block Ethos aún no los tiene.
+- **Block Ethos, repo propio:** `mieresantonio/block-ethos`
+  (16 nov 2026), renombrado desde Blockali por orden de Antonio,
+  eslogan «Web3 Space», descripción y temas completos en About. El
+  fork original del proyecto final queda como registro histórico.
+  La demo en vivo aún muestra la marca vieja hasta el próximo
+  redespliegue.
+- **Pins del perfil:** block-ethos,
+  rag-demo-asistente-documentos y mundo-vida-ia.
+- **Inglés medido (14 nov 2026):** B1 lectura (test gratuito del
+  British Council) y A1 habla/escucha por autoevaluación. Así
+  figura en el CV («B1, intermedio, comprensión lectora») y en el
+  borrador de Upwork («Conversational» con esa reserva).
+- **Upwork:** cuenta creada por Antonio el 11 nov 2026; borrador de
+  perfil listo. Completarlo espera a LinkedIn, por decisión suya:
+  Upwork enlazado a LinkedIn se lee más profesional. Pendientes:
+  tarifa por hora, método de pago y la renovación de la cédula
+  (vencida), que bloquea la verificación de identidad.

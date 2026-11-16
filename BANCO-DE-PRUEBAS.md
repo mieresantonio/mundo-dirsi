@@ -78,7 +78,7 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
 ### P-06 · Memoria y continuidad
 - **Tarea:** responder tres preguntas cuyos datos viven en la memoria:
   el orden de trabajo fijado el 29 oct, el estado del tema Exnova y la
-  regla de cuentas demo en el despliegue público de Blockali.
+  regla de cuentas demo en el despliegue público de Block Ethos.
 - **Aprueba si:** las tres respuestas son exactas (1: terminar el curso
   individual de 4Geeks → 2: vídeos de flowCV/LinkedIn → 3: postular a las
   prácticas con CV antes de fin de noviembre; Exnova: cerrado, dinero
@@ -133,7 +133,7 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
   y la prueba social sin verificar; contrastó con la capa gratuita.
 - **P-05 · 1** — Nota de 190/200 caracteres (conteo verificado); solo datos
   dados, sin nivel de inglés ni experiencia inventados; específica
-  (Blockali en vivo).
+  (Block Ethos en vivo).
 - **P-06 · 1** — Las tres respuestas exactas: orden del 29 oct
   (curso → vídeos → prácticas, CV antes de fin de noviembre), Exnova
   cerrado e irrecuperable, demo pública solo estudiante (admin nunca).
@@ -176,7 +176,7 @@ protocolo de refutación — y **el +26 no sobrevivió**.
 **Ataques que prosperaron (resumen del refutador):**
 
 - La era «sin sistema» no era una era sin reglas: parte de la disciplina
-  (verificación de paquetes, criterios de diseño, la suite de Blockali)
+  (verificación de paquetes, criterios de diseño, la suite de Block Ethos)
   es del 2 nov o anterior; el sistema del 3 nov la formalizó, no la creó.
   Atribuirle ese trabajo es un error de atribución.
 - La línea base se reconstruyó con incidentes conocidos, sin denominador
@@ -230,6 +230,6 @@ estaba descargado en la máquina y, conectado vía `playwright-core`
 (escritorio y móvil) y las ve ella misma — demostrado el mismo día sobre
 biblioteca-prompts. Las públicas, no: el Chromium headless no sale a
 internet desde la VM (ERR_TUNNEL_CONNECTION_FAILED al intentarlo con
-Blockali en vivo); esa ruta sigue siendo el navegador en vivo. La tabla corregida queda como el registro
+Block Ethos en vivo); esa ruta sigue siendo el navegador en vivo. La tabla corregida queda como el registro
 fiel de su momento; en la próxima corrida, la percepción visual se mide
 con una prueba real en vez de declararse imposible.

@@ -105,7 +105,7 @@ sin crear repos desde aquí.
   (gratis); complemento = badges IBM (agentes + RAG); Coursera IBM
   RAG sigue siendo ayuda por curso sin 100% garantizado.
 
-## 2026-10-26 — Blockali vivo en PythonAnywhere
+## 2026-10-26 — Block Ethos vivo en PythonAnywhere
 - Primera demostración pública real: cuenta BC123, URL
   https://BC123.pythonanywhere.com, con el repo clonado, migraciones
   aplicadas y seed completo (2 usuarios, 2 rutas, 3 módulos, 4
@@ -143,7 +143,7 @@ sin crear repos desde aquí.
 - Correcciones aplicadas y subidas: README (repo público desde el
   26 oct), addendum fechado en la recopilación (clase 2, certificados,
   plataformas, K3.1, soyfundador; M3 cerrada), addendum K3.1 y
-  corrección de Zen en agentes-e-ia, caso Blockali en despliegue,
+  corrección de Zen en agentes-e-ia, caso Block Ethos en despliegue,
   actualización de portafolio-y-empleo, correcciones en
   herramientas/README, 5 preguntas cerradas con evidencia (Q5, Q6,
   Q11, Q12, Q13), Q1 ampliada con K3.1, enlaces Q8/Q9/Q14, Ruta 1
@@ -158,7 +158,7 @@ sin crear repos desde aquí.
 - Antonio ordenó revisión y mejora continua de TODAS sus apps «al más
   mínimo detalle», en ciclos con triple verificación por cambio.
 - Fase 1 (solo diagnóstico) cerrada: 16 apps/proyectos revisados línea
-  por línea (Blockali excluido: despliegue en vivo en paralelo).
+  por línea (Block Ethos excluido: despliegue en vivo en paralelo).
   Resultado: 208 hallazgos (16 alta · 63 media · 129 baja).
   Informe: ~/workspace/revision-apps-2026-11-02.md (fuera de este repo)
   y detalle en ~/workspace/revision-parts/.
@@ -185,7 +185,7 @@ sin crear repos desde aquí.
 - Ciclo 3: medias restantes y bajas seguras (persistencia en
   segundo-yo, CORS restringido y validación de formato en barbería,
   minteo que no se pierde en nft-studio, requirements fijados).
-- Pendientes con dueño o decisión: Blockali tiene frente dedicado
+- Pendientes con dueño o decisión: Block Ethos tiene frente dedicado
   (fuera de estos ciclos); API-M3 espera decisión editorial de
   Antonio (fuente única del glosario); B6/B15 de barbería son
   decisión de producto/diseño, no arreglos.
@@ -281,3 +281,33 @@ sin crear repos desde aquí.
   verificación declarado (sin navegador visual: conformidad por
   código, bundles y checklist; capturas pendientes); huella del
   Ciclo 11 publicada en este registro (commit 7c94e6b4).
+
+## 2026-11-16 — Renombre Blockali → Block Ethos en este repo
+
+- Por orden de Antonio (16 nov 2026): el proyecto de aprendizaje
+  blockchain pasa de llamarse «Blockali» a «Block Ethos» (eslogan
+  «Web3 Space»). Renombre aplicado en 14 menciones de 7 archivos
+  (BANCO-DE-PRUEBAS, INVENTARIO-CAPACIDADES,
+  RECOPILACION-MATERIALES, aprendido/blockchain-web3,
+  aprendido/despliegue, este registro y
+  por-aprender/preguntas-abiertas); el README y el playbook ya
+  usaban el nombre nuevo desde el commit 7409d9c. CALIBRACION.md
+  conserva el nombre viejo en 2 líneas a propósito: son registro
+  histórico congelado (una cita de Claude del 7 nov y un
+  antecedente del 2 nov) y el registro nunca reescribe
+  originales; la nota del README lo explica.
+
+## 2026-11-16 — Portafolio publicado y repos ordenados
+
+- El mismo día del renombre: portafolio publicado como repo propio
+  (`mieresantonio/portfolio`) con GitHub Pages en vivo, Block Ethos
+  como repo standalone (`mieresantonio/block-ethos`, 104 archivos,
+  101 tests en verde, About completo) y pins del perfil fijados en
+  block-ethos, rag-demo-asistente-documentos y mundo-vida-ia.
+  Verificado por API de GitHub: ambos repos creados el 16 nov
+  (17:04 Caracas) y la página del portafolio responde HTTP 200.
+  Queda pendiente la licencia de block-ethos y el redespliegue de
+  la demo con la marca nueva. La sección de portafolio y empleo de
+  este repo (`aprendido/portafolio-y-empleo.md`) y el perfil de la
+  recopilación (§2) se actualizaron con lo publicado y con el
+  inglés medido el 14 nov (B1 lectura, A1 habla/escucha).

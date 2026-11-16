@@ -12,6 +12,12 @@
 > Q13 (ver cada una). Quedan 9 abiertas. Q1 se amplía con K3.1; Q8, Q9
 > y Q14 quedan enlazadas con las rutas y el checklist que las
 > resuelven en la práctica.
+>
+> Actualización 16 nov 2026: la parte K3.1 de Q1 queda resuelta
+> (pesos publicados el 4 nov, licencia leída de primera mano; C-001
+> confirmada en CALIBRACION.md). Q1 sigue abierta por los términos
+> de la API directa de Moonshot, que son la pregunta original.
+> Siguen siendo 9 abiertas.
 
 ---
 
@@ -30,6 +36,15 @@
   No asumir que hereda la licencia de K3: el paso 0 se rehace para
   K3.1 tras el 4 nov, y no se genera nada por esa vía hasta verificar
   licencia y términos.
+- **Nota 16 nov 2026:** el paso 0 de K3.1 ya se hizo: los pesos se
+  publicaron el 4 nov 2026 (repo público en Hugging Face, sin gating)
+  y la licencia se leyó de primera mano el mismo día — mismo esquema
+  que la de K3, sin restricción a afinar ni a crear derivados, puerta
+  MaaS por encima de 20 M US$/año (CALIBRACION.md, C-001, confirmada
+  el 4 nov 2026). Lo que sigue sin verificar es la otra mitad de
+  esta pregunta: los términos de la API directa de Moonshot sobre
+  entrenar otros modelos con sus salidas. Hasta verificarlos, no se
+  genera nada por esa vía.
 
 ## 2. ¿Rechaza Render las tarjetas prepagas, como la virtual de Zinli, en su verificación?
 
@@ -68,7 +83,7 @@
 
 ## 5. ¿Cómo se verifica que una URL de demo en vivo pertenece realmente a un repositorio concreto? — CERRADA el 27 oct 2026
 
-- **Evidencia de cierre:** el despliegue de Blockali en PythonAnywhere
+- **Evidencia de cierre:** el despliegue de Block Ethos en PythonAnywhere
   (repo → dist construida → https://BC123.pythonanywhere.com) ES la
   demostración pedida: la cadena repo → despliegue → URL quedó
   documentada en `aprendido/despliegue.md` y en la bitácora.

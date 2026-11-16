@@ -1,8 +1,8 @@
 # Blockchain y web3 — lo aprendido
 
-## Blockali: un producto real, no una demo
+## Block Ethos: un producto real, no una demo
 
-Blockali es una plataforma de aprendizaje de blockchain con cuentas
+Block Ethos es una plataforma de aprendizaje de blockchain con cuentas
 reales, construida como proyecto final de un bootcamp y luego mejorada
 hasta nivel profesional. Su estructura:
 

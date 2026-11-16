@@ -8,6 +8,14 @@ siguiente construcción.
 
 Creado el 26 de octubre de 2026, por orden expresa de Antonio, para Dirsi.
 
+Nota de nombre (16 nov 2026): el proyecto de aprendizaje blockchain
+se llamó «Blockali» hasta el 16 de noviembre de 2026; desde entonces
+es «Block Ethos» (eslogan «Web3 Space»). Las entradas de este repo
+usan el nombre actual, también las anteriores a esa fecha. Solo
+`CALIBRACION.md` conserva el nombre viejo en dos líneas: son registro
+histórico congelado (una cita de Claude del 7 nov y un antecedente
+del 2 nov) y el registro de calibración nunca reescribe originales.
+
 ## Regla de crecimiento
 
 Cada trabajo que termina deja aquí al menos una de estas huellas:

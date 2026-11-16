@@ -102,7 +102,7 @@ despliegues y sus cifras cambian con ella.
 
 - `~/workspace/tools-visual/` — el ojo: capturas locales en escritorio y
   móvil (`shot.mjs`) y de URL vía navegador en vivo cuando aplica.
-- Runbook de despliegue de Blockali, kit de prueba de concepto de
+- Runbook de despliegue de Block Ethos, kit de prueba de concepto de
   destilación Kimi K3, scripts de audio (8D, mezclas) en el workspace.
 - La capa de medición: `CALIBRACION.md`, `BANCO-DE-PRUEBAS.md`,
   `PROTOCOLO-REFUTACION.md`.

@@ -41,11 +41,15 @@ Reglas para quien lo lea:
    empleo).
 4. Nicho elegido para contenido: web3; quiere vivir creando contenido en
    YouTube y TikTok.
-5. Proyecto final Blockali (plataforma de aprendizaje blockchain con rutas,
-   quizzes y certificados verificables), en vivo en PythonAnywhere.
-6. Posicionamiento en curso: GitHub ordenado (perfil, repos propios),
-   LinkedIn pendiente de publicar (titular, sobre mí, alertas por
-   reconfigurar, contacto con una reclutadora IT pendiente).
+5. Proyecto final Block Ethos (plataforma de aprendizaje blockchain con rutas,
+   quizzes y certificados verificables), en vivo en PythonAnywhere;
+   repo propio publicado el 16 nov 2026 (antes fork del proyecto
+   final; se llamó Blockali hasta ese día).
+6. Posicionamiento en curso: GitHub ordenado (perfil, repos propios,
+   portafolio publicado en GitHub Pages el 16 nov 2026), LinkedIn
+   pendiente de publicar (titular, sobre mí, alertas por
+   reconfigurar, contacto con una reclutadora IT pendiente). Inglés:
+   B1 lectura, A1 habla/escucha (medido el 14 nov 2026).
 7. Periodo junior: fluidez de sintaxis en entrenamiento; trabaja entendiendo dónde
    modificar siguiendo lo que la IA le indica. Prefiere efectividad y
    pipeline antes que pulido infinito.
