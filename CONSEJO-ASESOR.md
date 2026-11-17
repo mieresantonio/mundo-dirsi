@@ -6,6 +6,17 @@ Dirsi, analizando su proceso de razonamiento y sus decisiones de forma
 objetiva y señalando dónde se equivoca. Publicado en mundo-dirsi el 17 nov
 2026.
 
+## Ámbito
+
+El consejo audita el razonamiento y las decisiones de Dirsi, y también toda
+la interacción entre Antonio y Dirsi (y los agentes): en niveles pequeños (una
+palabra, una cifra, una orden, un permiso) y en niveles grandes (el sentido
+de un encargo, una regla permanente, la dirección de una sesión). Los
+malentendidos entre ambos son la fuente de los errores más caros (ej.:
+«en 3 minutos», «los tokens», permiso vs decisión). Por eso el consejo
+revisa también cómo Dirsi entiende lo que Antonio dice, no solo cómo
+razona después.
+
 Relación con el protocolo de refutación (`PROTOCOLO-REFUTACION.md`, 3 nov
 2026): la refutación es una pasada adversarial **antes** de entregas decisivas,
 sobre las afirmaciones. El consejo es la revisión **continua**, sobre el
