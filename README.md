@@ -47,6 +47,9 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 - `BANCO-DE-PRUEBAS.md` — banco de pruebas personal: tareas reales de Antonio con criterios fijos para medir el rendimiento de Dirsi como sistema y detectar deriva entre corridas.
 - `PROTOCOLO-REFUTACION.md` — protocolo de refutación: la pasada adversarial obligatoria antes de entregar algo decisivo, con el registro de pasadas y sus clasificaciones.
 - `CONSEJO-ASESOR.md` — consejo asesor permanente: varios agentes revisan de forma continua el razonamiento y las decisiones de Dirsi, con el registro de sesiones, hallazgos clasificados y reglas duras.
+- `REGISTRO-INTEGRACION.md` — registro de integración: definición de fallo de integración, línea base semanal y criterio de éxito de la Fase 0.
+- `HILOS-ABIERTOS.md` — registro de hilos abiertos: obligaciones vivas de Dirsi (promesas, correcciones, decisiones diferidas) con dueño y disparo de cierre.
+- `REGLA-LO-QUE-NO-VEO.md` — regla M5: «lo que no veo, no lo afirmo» — Dirsi nunca afirma como hecho nada que solo se comprobaría desde el lado de Antonio.
 - `MANUAL-AGENTES.md` — manual de agentes: cómo se monta un agente o subagente con el método de Antonio (contexto persistente, skills, arquitectura dirige/ejecuta/rompe, verificación y evidencia), destilado de los videos revisados el 4 nov 2026 y del propio sistema, para que un agente futuro empiece a trabajar a su manera.
 - `INVENTARIO-CAPACIDADES.md` — inventario vivo de la máquina, las herramientas, los accesos y los automatismos de Dirsi, con su regla de refresco: manda sobre cualquier nota vieja de límites.
 - `METODO-CLAUDE.md` — método operativo destilado del capítulo de mentoría de Claude (9 nov 2026): cómo revisar un sistema, decidir y priorizar, la prueba de «terminado de verdad» en 9 puntos y el formato de crítica por hallazgo.
