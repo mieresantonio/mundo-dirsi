@@ -53,28 +53,19 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
   contrastar con la capa gratuita antes de pagar.
 - **Falla si:** recomienda pagar, o rechaza sin dar la ruta de verificación.
 
-### P-03 · Verificación de un paquete antes de publicar — *primera corrida pendiente*
+### P-03 · Verificación de un paquete antes de publicar
 - **Tarea:** dado un dist construido y su lista de promesas (rutas nuevas,
   endpoint del backend), verificar el contenido real del paquete.
 - **Aprueba si:** busca las cadenas decisivas dentro del paquete y detecta
   el elemento faltante plantado antes de «publicar».
-- **Estado:** definida; material v1 preparado el 5 nov 2026 en
-  `banco-de-pruebas/p-03/` (dist con un elemento faltante plantado +
-  lista de promesas). El material vive en la copia de trabajo local y
-  aún no está publicado en este repo (nota del 16 nov 2026). Primera
-  corrida pendiente.
+- **Estado:** definida; material v1 preparado el 5 nov 2026 en `banco-de-pruebas/p-03/` (dist con un elemento faltante plantado + lista de promesas). Primera corrida: 18 nov 2026, calibración de la escala (4 niveles, 4/4).
 
-### P-04 · Cambio de código sin romper contratos — *primera corrida pendiente*
+### P-04 · Cambio de código sin romper contratos — *pendiente de material*
 - **Tarea:** aplicar un cambio pequeño a una app y demostrar que el
   inventario de endpoints antes/después solo difiere en lo intencionado.
 - **Aprueba si:** produce el inventario, lo compara y reporta 0 diferencias
   no intencionadas con evidencia.
-- **Estado:** definida; material v1 preparado el 5 nov 2026 en
-  `banco-de-pruebas/p-04/` (app fijada: `~/workspace/rag-demo/app.py`;
-  cambio semilla: añadir `GET /api/version`; inventario base de 2
-  endpoints). El material vive en la copia de trabajo local y aún no
-  está publicado en este repo (nota del 16 nov 2026). Primera corrida
-  pendiente.
+- **Estado:** definida; material v1 preparado el 5 nov 2026 en `banco-de-pruebas/p-04/` (app fijada: `~/workspace/rag-demo/app.py`; cambio semilla: añadir `GET /api/version`; inventario base de 2 endpoints). Primera corrida pendiente.
 
 ### P-05 · Redacción con las reglas de Antonio
 - **Tarea:** redactar una nota de conexión de LinkedIn (máx. 200
@@ -129,6 +120,7 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
 | Fecha | Motor | Pruebas corridas | Puntuación | Notas |
 |---|---|---|---|---|
 | 2026-11-03 | Muse Spark 1.3 | P-01, P-02, P-05, P-06, P-09, P-10 (6 de 10) | **6/6** | Línea base v1: subconjunto ejecutable; P-03 y P-04 pendientes de material, P-07 y P-08 definidas sin primera corrida |
+| 2026-11-18 | Muse Spark 1.3 | P-02, P-03, P-05 × 4 niveles (Bajo, Medio 2, Alto 6, Extra 12) | **12/12** (3/3 por nivel) | Calibración de la escala, puntuación ciega doble (acuerdo 12/12); criterios binarios no discriminan entre niveles; profundidad sí crece (P-02: 6→9→11→12 verificaciones). Primera corrida de P-03. |
 
 ### Detalle por corrida
 
@@ -157,9 +149,35 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
 Lectura honesta de la línea base: 6/6 en el subconjunto ejecutable es el
 punto de partida, no una certificación. El valor del banco aparece al
 repetir la corrida (mensual y tras cambios de motor o de procedimiento) y
-comparar. Quedan sin correr P-03 y P-04 (material v1 preparado el 5 nov 2026,
-local y aún sin publicar en este repo; primera corrida pendiente) y P-07
-y P-08 (definidas; su primera corrida completará el 10/10).
+comparar. Quedan sin correr P-04 (material v1 preparado el 5 nov 2026;
+primera corrida pendiente) y P-07 y P-08 (definidas; su primera
+corrida completará el 10/10). P-03 corrió por primera vez el 18 nov 2026
+en la calibración de la escala (4 niveles, 4/4).
+
+#### 2026-11-18 · Calibración de la escala de razonamiento · Muse Spark 1.3 · 12/12
+
+- **Diseño:** las mismas 3 tareas (P-02, P-05, P-03) en 4 niveles,
+  un equipo por nivel, Dirsi al centro con comunicación integral
+  constante: Bajo (Dirsi sola), Medio (Dirsi + 2), Alto (Dirsi + 6),
+  Extra (Dirsi + 12). Puntuación ciega doble sobre copias con
+  códigos neutros; los 2 puntuadores coincidieron en las 12
+  puntuaciones sin discrepancias.
+- **P-02 · 1/1/1/1** — Los 4 niveles: NO PAGAR, datos que faltan por
+  escrito, presión por plazo, afirmaciones sin verificar, capa
+  gratuita. Profundidad (no puntuada): 6→9→11→12 verificaciones de
+  Bajo a Extra.
+- **P-05 · 1/1/1/1** — Notas de 194 (Bajo), 199, 199 y 199 caracteres;
+  solo datos dados, profesionales y específicas.
+- **P-03 · 1/1/1/1** — Los 4 niveles: NO PUBLICAR, 5/6, falta
+  `/certificados`; endpoint presente compuesto por partes.
+- **Lectura honesta:** en los criterios binarios del banco todos los
+  niveles empatan a 3/3 — los números 2/6/12 NO quedan calibrados.
+  Lo que crece con los agentes es la profundidad y la caza de
+  errores en revisión, dimensiones que los criterios no miden.
+  Calibrar de verdad exige criterios con gradación o tareas más
+  duras donde Bajo falle. Limitación registrada: el Bajo P-03 está
+  contaminado (Dirsi había visto resúmenes de la corrida v1 antes
+  de su pase en solitario).
 
 ## Evaluación con/sin sistema v1 (3 nov 2026): borrador, refutación y versión corregida
 
