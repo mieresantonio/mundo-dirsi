@@ -75,6 +75,31 @@ python3 plantilla-app/app.py   # backend en http://localhost:5000
 npm install && npm run dev    # frontend (proxy /api → :5000)
 ```
 
+## 4. chequeo-repo.py — verificador mecánico del repo (solo lectura)
+
+```bash
+python3 herramientas/chequeo-repo.py            # sobre este repo
+python3 herramientas/chequeo-repo.py /ruta/al/repo
+```
+
+10 comprobaciones: fecha del tablero, vencimientos pasados,
+marcador de calibración (recalculado desde las entradas),
+censo contra el inventario, última corrida del banco citada en
+STATUS.md, frescura del inventario, índice contra archivos,
+referencias `.md`, conteos del README y fechas de revisión de
+los hilos abiertos. Lee un directorio plano: sin git, sin red,
+sin escribir nada. Código de salida 0 si todo pasa, 1 si algo
+falla, 2 si el directorio no parece mundo-dirsi. Si el formato
+de un documento cambia y el verificador ya no puede parsearlo,
+la comprobación FALLA en voz alta: hay que actualizar el script
+junto con el documento.
+
+Probado el 23 nov 2026 contra el HEAD de GitHub (38 `.md` por
+raw): 5 OK y 5 FAIL, cada FAIL un hallazgo real de la auditoría
+de coherencia (2 vencimientos cumplidos sin marcar, la corrida
+del 18 nov sin citar en STATUS, un archivo sin indexar, 2
+referencias sin resolver, 3 hilos sin fecha de revisión).
+
 ## Probado (2026-10-26, real, en /tmp; todo borrado tras las pruebas)
 
 - `nueva-app.py` para los 3 tipos (`frontend`, `api`, `fullstack`): **OK** —

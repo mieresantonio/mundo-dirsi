@@ -553,3 +553,56 @@ sin crear repos desde aquí.
   Cambios adoptados (sin capas nuevas:
   operar lo que existe, con gatillos mecánicos): ver CONSEJO-ASESOR.md,
   sesión 2, y `revision-sistema-2026-11-23/cambios/`.
+
+## 2026-11-23 — Publicación de los 4 documentos de cola + verificador (decisión 1, tanda 3)
+
+- La tanda 3 encontró que 4 documentos preparados en la 2ª tanda
+  no estaban publicados (404 en raw) ni el verificador mecánico
+  ni la guardia de deriva. Antonio eligió revisarlos antes de
+  publicar: Dirsi los leyó de primera mano (4 documentos
+  completos + especificación de la guardia + cabecera del
+  verificador) y verificó las cifras decisivas contra el repo.
+- Mapa del sistema en una página (`MAPA-DEL-SISTEMA.md`):
+  publicado con un refresco de 6 puntos — la publicación del
+  23 nov lo había dejado desfasado en el día (48→58 archivos,
+  calibración 6/75 %→9/77,8 %, skills 58+9→58+8, Q15 mal
+  redactada, y la sección «aún sin publicar» entera obsoleta:
+  `auditoria-de-coherencia.md` y el material P-03/P-04 ya
+  estaban publicados). La sección se eliminó y la tabla ganó la
+  fila de auditoría y la nota del material del banco.
+- «Qué no está en este repo» (`QUE-NO-ESTA-EN-ESTE-REPO.md`),
+  ciclo de vida de lecciones (`CICLO-DE-VIDA-DE-LECCIONES.md`)
+  y criterios graduados (`CRITERIOS-GRADUADOS.md`): publicados
+  tal cual, todo verificado. El ciclo propone una regla nueva
+  («las cifras heredadas son hipótesis»); queda como propuesta,
+  la decide Antonio.
+- Verificador mecánico (`herramientas/chequeo-repo.py`, 10
+  comprobaciones, solo lectura): publicado con su línea en el
+  índice y su sección en `herramientas/README.md`. Dará FAIL
+  hasta que los hilos abiertos tengan fecha de revisión (paso 3
+  del programa, aparte) y hasta que el estado de H-002 se
+  actualice (trabajo cerrado, HILOS aún dice ABIERTO).
+- Integración completa: 5 líneas nuevas en el índice del README
+  (4 documentos + verificador), el mapa como paso 1 bis en
+  «Cómo leer este repo», la capa graduada en § Diseño del banco
+  y 3 entradas nuevas en el glosario (criterio graduado, mapa
+  del sistema, profundidad; 63 entradas, orden alfabético
+  comprobado).
+- La guardia de deriva de diseno (5 comprobaciones) NO se
+  publicó: pertenece al repo diseno-web-investigacion, su
+  cuenta total no cuadra con el verificar.py publicado (20 vs
+  23) y su inventario de selectores se midió antes de la
+  republicación de la plantilla del rag-demo. Queda pendiente
+  remediarlo. Tampoco entraron la auditoría mensual ni las
+  fechas de revisión de hilos (pasos 2 y 3 del programa):
+  piezas aparte, para otra decisión.
+- Verificación pre-publicación (9 comprobaciones del APLICAR
+  de la 2ª tanda, adaptadas): 4 archivos nuevos presentes,
+  índice completo, glosario 63 en orden, referencias internas
+  resueltas, CALIBRACION.md intacto (2 «Blockali» históricos),
+  sin secretos; sintaxis del verificador probada por su .pyc
+  (más nuevo que el .py).
+- M1r: revisión de primera mano de la tanda 3 / el mapa llegó
+  desfasado por la publicación del mismo día y se refrescó
+  antes de publicar; la guardia no se publicó por cuenta y
+  semilla sin verificar.

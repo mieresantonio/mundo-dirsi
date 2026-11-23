@@ -43,6 +43,8 @@ Si es la primera vez que entras, este orden:
 
 1. **`STATUS.md`** — el tablero de una página: cómo va el sistema hoy,
    con fecha. Si solo lees un archivo, es este.
+   **`MAPA-DEL-SISTEMA.md`** dice cómo encajan las piezas entre sí;
+   léelo junto al tablero si es tu primera vez.
 2. **`GLOSARIO.md`** — los términos, definidos una sola vez. Cada
    término cita su documento fuente; si un documento usa un término de
    otra manera, manda el glosario.
@@ -75,10 +77,13 @@ reescribe nunca — una entrada refutada se marca, no se borra.
 
 ### Raíz
 - `STATUS.md` — tablero de estado del sistema en una página: marcador de calibración, puntuación del banco de pruebas, último refresco del censo y próximos vencimientos.
+- `MAPA-DEL-SISTEMA.md` — el sistema en una página: qué es (memoria, archivos, procedimientos, skills, repos vivos, conexiones, agenda, capa de medición), cómo se conectan las piezas y dónde vive cada cosa.
 - `GLOSARIO.md` — los términos del sistema, definidos una sola vez, cada uno con su documento fuente.
+- `QUE-NO-ESTA-EN-ESTE-REPO.md` — qué NO vive en este repo y dónde vive en su lugar: memoria, reglas de operación, credenciales, código de los proyectos, material privado, informes locales, crons, el motor y los datos en vivo.
 - `RECOPILACION-MATERIALES.md` — compilación maestra de materiales de estudio.
 - `CALIBRACION.md` — registro de calibración: las afirmaciones decisivas y comprobables de Dirsi, con su nivel de evidencia y su resultado cuando la realidad responde.
 - `BANCO-DE-PRUEBAS.md` — banco de pruebas personal: tareas reales de Antonio con criterios fijos para medir el rendimiento de Dirsi como sistema y detectar deriva entre corridas.
+- `CRITERIOS-GRADUADOS.md` — la capa graduada del banco (v2 de puntuación): profundidad P0–P3 y caza de errores por prueba, para que la próxima calibración de la escala sí discrimine entre niveles. La puerta binaria 1/0,5/0 no se toca.
 - `PROTOCOLO-REFUTACION.md` — protocolo de refutación: la pasada adversarial obligatoria antes de entregar algo decisivo, con el registro de pasadas y sus clasificaciones.
 - `CONSEJO-ASESOR.md` — consejo asesor permanente: varios agentes revisan de forma continua el razonamiento y las decisiones de Dirsi, con el registro de sesiones, hallazgos clasificados y reglas duras.
 - `REGISTRO-INTEGRACION.md` — registro de integración: definición de fallo de integración, línea base semanal y criterio de éxito de la Fase 0.
@@ -91,6 +96,7 @@ reescribe nunca — una entrada refutada se marca, no se borra.
 - `METODO-CLAUDE.md` — método operativo destilado del capítulo de mentoría de Claude (9 nov 2026): cómo revisar un sistema, decidir y priorizar, la prueba de «terminado de verdad» en 9 puntos y el formato de crítica por hallazgo.
 - `METODO-GROK.md` — método operativo destilado del capítulo de Grok (10 nov 2026): la regla del daño como filtro rápido, las clases P0–P3, el pase de dos minutos y la ficha de sesión.
 - `METODO-CLAUDE-PLAYBOOK.md` — método operativo destilado del playbook del ingeniero senior de Claude (12 nov 2026): regla de tres, siete lentes, ciclo de vida de lecciones, tareas de oro con métricas, brief de delegación y referencia por dominios.
+- `CICLO-DE-VIDA-DE-LECCIONES.md` — cómo una lección nace (de un fallo demostrado), se registra, se aplica, se revisa y se retira cuando caduca, con 6 ejemplos reales; hace operativo el §2.3 del playbook.
 - `DESTILADO-LOVABLE-GPTENGINEER.md` — destilación de Lovable y de su ancestro abierto gpt-engineer (MIT): qué parte es pública y qué parte no, y las adopciones de método que pasan a la fábrica.
 
 ### banco-de-pruebas/ — material del banco, reproducible desde el repo
@@ -112,6 +118,7 @@ reescribe nunca — una entrada refutada se marca, no se borra.
 ### herramientas/ — código real y probado
 - `herramientas/nueva-app.py` — andamiaje: crea un proyecto (frontend, api o fullstack).
 - `herramientas/chequeo-app.py` — revisa un proyecto y escanea secretos sin mostrar valores.
+- `herramientas/chequeo-repo.py` — verifica este repo en un comando: frescura del tablero, vencimientos, marcador, censo, banco, índice, referencias, conteos y fechas de revisión de hilos.
 - `herramientas/plantilla-app/` — plantilla mínima React + Vite + Flask API.
 - `herramientas/README.md` — uso y resultados de las pruebas.
 - `herramientas/sitios-40-evaluacion.md` — evaluación de la infografía de los 40 sitios web: cuáles sirven directamente a Dirsi, cuáles a Antonio y cuáles no se usan.

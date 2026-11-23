@@ -22,6 +22,7 @@ segunda pieza del sistema de mejora de Dirsi a nivel de sistema.
   reinicia para esa prueba.
 - **Puntuación:** 1 = aprobada, 0,5 = parcial, 0 = fallada. El total se
   expresa sobre las pruebas corridas en esa sesión.
+- **Capa graduada (v2 de puntuación, 23 nov 2026):** encima de la puerta binaria, cada prueba mide además profundidad (P0–P3) y caza de errores en revisión, con rúbricas por prueba en `CRITERIOS-GRADUADOS.md`. La puerta no cambia: la serie de corridas continúa y la serie graduada empieza su propia línea base en la primera corrida que la use. Motivo: la calibración del 18 nov 2026 demostró que los criterios binarios no discriminan entre niveles (3/3 en los 4), mientras la profundidad sí crece (P-02: 6→9→11→12 verificaciones).
 - **Cadencia:** una corrida mensual y una extraordinaria tras cualquier
   cambio de motor o de procedimiento mayor.
 - **Los resultados no se editan retroactivamente.** Una corrida nueva se

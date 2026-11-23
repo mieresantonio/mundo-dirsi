@@ -24,14 +24,14 @@ Actualización: 23 de noviembre de 2026 (60 entradas).**
   sueltas. *MANUAL-AGENTES.md §1; aprendido/agentes-e-ia.md.*
 - **artefacto** — el resultado visible del trabajo de un agente:
   documento, página, informe, aplicación. *MANUAL-AGENTES.md §1.*
-- **bandeja de decisiones** — ventana fija (semanal) en la que se
-  agrupan las decisiones pendientes de Antonio para que las resuelva
-  de una vez, en vez de interrumpirlo una a una.
-  *INVENTARIO-CAPACIDADES.md §4; METODO-CLAUDE.md §7C.*
 - **banco de pruebas** — conjunto fijo de tareas reales de Antonio
   con criterios de aprobado escritos de antemano, que se corren
   periódicamente para medir cómo rinde Dirsi como sistema y detectar
   deriva entre corridas. *BANCO-DE-PRUEBAS.md.*
+- **bandeja de decisiones** — ventana fija (semanal) en la que se
+  agrupan las decisiones pendientes de Antonio para que las resuelva
+  de una vez, en vez de interrumpirlo una a una.
+  *INVENTARIO-CAPACIDADES.md §4; METODO-CLAUDE.md §7C.*
 - **bucle de mejora** — sesión de trabajo en la que varios agentes
   revisan y mejoran los repos en paralelo, por tandas, con revisión
   cruzada y lluvia de ideas; cada tanda se publica solo con la
@@ -59,6 +59,10 @@ Actualización: 23 de noviembre de 2026 (60 entradas).**
   no sabe qué nivel, equipo o versión produjo cada solución, para
   que el veredicto no se contamine con el origen.
   *REGISTRO-INTEGRACION.md; CALIBRACION-ESCALA-2026-11-18.md.*
+- **criterio graduado** — puntuación con niveles de profundidad
+  (P0–P3) y caza de errores, encima de la puerta binaria 1/0,5/0
+  del banco; mide cuánto más allá del aprobado llega una
+  solución, sin premiar el texto largo. *CRITERIOS-GRADUADOS.md.*
 - **deriva** — cambio de rendimiento del sistema entre corridas del
   banco de pruebas (por cambio de motor, de memoria o de
   procedimientos) que las pruebas fijas detectan comparando.
@@ -127,6 +131,9 @@ Actualización: 23 de noviembre de 2026 (60 entradas).**
   que se comparan las siguientes: la corrida v1 del banco (6/6,
   3 nov 2026) y la semana 9–16 nov del registro de integración
   (7 FI). *BANCO-DE-PRUEBAS.md; REGISTRO-INTEGRACION.md.*
+- **mapa del sistema** — el sistema en una página: qué piezas lo
+  componen, cómo se conectan y dónde vive cada cosa.
+  *MAPA-DEL-SISTEMA.md.*
 - **memoria de traspaso** — relevo escrito al cerrar un trabajo:
   propósito y estado, jerarquía de fuentes, archivos clave, comandos
   ejecutados y estado de verificación punto por punto.
@@ -151,6 +158,12 @@ Actualización: 23 de noviembre de 2026 (60 entradas).**
   (se corrige o retira), debilitada (la salvedad entra visible en la
   entrega) o resiste (su confianza sube con motivo registrado).
   *PROTOCOLO-REFUTACION.md.*
+- **profundidad** — en el banco de pruebas, la dimensión que mide
+  cuánto más allá del aprobado llega una solución: razones y
+  verificaciones válidas, comprobaciones, corroboración. Es la
+  dimensión que sí creció con los agentes en la calibración del
+  18 nov 2026 (P-02: 6→9→11→12 verificaciones).
+  *CRITERIOS-GRADUADOS.md; CALIBRACION-ESCALA-2026-11-18.md.*
 - **prueba de cierre** — la comprobación escrita antes de ejecutar
   que decide si el encargo se cumplió; la evidencia es el artefacto
   sometido a ella, no el parte del trabajador. *METODO-GROK.md §8.*
