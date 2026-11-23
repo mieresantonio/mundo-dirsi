@@ -276,6 +276,34 @@
     fallo de las demos, es trabajo pendiente) y el rendimiento
     en red lenta.
 
+## 15. ¿Cuál es la semilla correcta de P-04 y se sincroniza la copia del workspace con GitHub?
+
+- **Por qué importa:** la prueba P-04 fija una app y mide que el
+  inventario de endpoints solo cambie en lo intencionado. Su
+  material v1 (5 nov 2026) se preparó contra la copia local
+  `~/workspace/rag-demo/app.py` (MD5 `d976b50e…`, 2 endpoints),
+  pero la app publicada en GitHub (`mieresantonio/rag-demo-
+  asistente-documentos`) ya divergió: su HEAD (MD5 `7423c8c3…`)
+  tiene 3 rutas (`GET /` nueva, `GET /api/health`,
+  `POST /preguntar`) más configuración por entorno y errores JSON.
+  Sin decidir cuál es la semilla canónica, la primera corrida de
+  P-04 no tiene base de comparación definida; y una copia local
+  desincronizada de GitHub es un FI en potencia (el dato correcto
+  está en un lado y el trabajo lee el otro).
+- **Cómo resolverla:** decisión de Antonio/Dirsi entre dos opciones:
+  (a) la semilla canónica sigue siendo la v1 congelada
+  (`banco-de-pruebas/p-04/app-semilla.py`, MD5 `d976b50e…`) y la
+  primera corrida usa esa; o (b) se versiona el material a v2 con
+  la semilla rebasada sobre el HEAD de GitHub (MD5 `7423c8c3…`,
+  inventario base de 3 rutas). En paralelo, decidir si
+  `~/workspace/rag-demo/` se sincroniza con GitHub o se mantiene
+  como archivo histórico. La pregunta se cierra con la decisión
+  escrita y el material (v1 o v2) ajustado a ella. Detectada en la
+  auditoría de coherencia del 23 nov 2026 y confirmada por el
+  trabajador de rag-demo en revisión cruzada el mismo día (14:10):
+  `app.py` en el clon fresco es idéntico al HEAD de GitHub, sin
+  cambios de la sesión.
+
 ---
 
 ## Cómo se cierra una pregunta

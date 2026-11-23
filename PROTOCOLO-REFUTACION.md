@@ -36,6 +36,22 @@ No se dispara en conversación casual, en datos ya demostrados de primera
 mano en el mismo acto (nivel A) ni en trabajo creativo. Refutarlo todo
 convertiría el protocolo en ruido y dejaría de significar algo.
 
+## Disparador auditable (23 nov 2026)
+
+Ninguna subida por snapshot a un repo público se ejecuta sin una línea en
+el LOG de la tarea que diga `refutación: [fecha] [agente]
+[refutadas/debilitadas/resisten]` o `refutación: no dispara porque
+[motivo de la lista de exclusiones]`. La línea es comprobable por el
+consejo desde el registro; una pregunta («¿refuté?») no lo es.
+
+Límite honesto: la línea es un checkbox auditable, no una función
+forzadora — la escribe el mismo agente que podría olvidar la pasada, y
+«refutación: no dispara porque…» puede inventarse con la misma facilidad
+con la que hoy se omite. No se vende como garantía de que la pasada
+ocurra. La función forzadora real sería una verificación por un segundo
+agente antes del snapshot-push; mientras no exista, el consejo audita la
+línea en su muestreo semanal.
+
 ## La pasada, paso a paso
 
 1. **Congelar las afirmaciones decisivas.** Se extrae la lista corta de
@@ -83,6 +99,18 @@ convertiría el protocolo en ruido y dejaría de significar algo.
 |---|---|---|---|---|---|
 | 2026-11-03 | Investigación 4Geeks: referido y precios para la conocida de Antonio | 3 | 0 | 3 | 0 |
 | 2026-11-03 | Autoevaluación con/sin sistema (índice propio 0–100) | 10 dimensiones | compuesto (+26) refutado como medición | 8 notas rebajadas | 1 (percepción visual: ganancia cero) |
+| 2026-11-23 | Revisión del sistema: informes de los 5 asesores (A–E) | ~70 | 3 | ~15 | ~45 |
+
+**Brecha 4–23 nov 2026: sin pasadas.** Entregas decisivas sin pasada en
+ese periodo: publicación de Block Ethos standalone (16 nov), 2ª tanda
+(16 nov), destilado del Playbook (16 nov), evaluación de los 7 enlaces
+(16 nov), investigación Muse/Meta AI (17 nov), veredictos del Ejercicio 3
+(17–18 nov), 1ª revisión REA/Craft (19 nov), revisión ECC + PR #2
+(22 nov). Causa: el disparador dependía de que Dirsi recordara correr la
+pasada; ningún paso mecánico la exigía. No se rellenan pasadas
+retroactivas: las entregas ya hechas y verificadas no ganan nada con un
+teatro de refutación posterior. La próxima entrega decisiva estrena el
+disparador auditable de arriba.
 
 ### Detalle por pasada
 
@@ -149,3 +177,43 @@ términos (la señaló Antonio el mismo día): la comparación era «el sistema
 sin capa de medición» contra «el sistema con capa de medición» — el
 sistema entero (memoria, procedimientos, repos) existe desde oct 2026 —,
 no una Dirsi con sistema contra otra sin sistema.
+
+#### 2026-11-23 · Revisión del sistema: informes de los 5 asesores · 3 refutadas, ~15 debilitadas, ~45 resisten
+
+Pasada adversarial sobre los 5 informes de asesores de la revisión del
+sistema (sesión 2 del consejo), corrida por un agente que no produjo
+ninguno de ellos, verificando de primera mano contra archivos primarios,
+re-ejecutando comandos literales, diffs contra clones frescos de GitHub
+y consultas propias a la transcripción completa (33 mensajes de Antonio,
+59 de Dirsi, 17–23 nov).
+
+- **Refutada — A1, la propuesta («101 → 129 tests» en MEMORY.md).**
+  129 es la fase 1 de la 2ª tanda, no el final: `LOG.md:940-941` y
+  `RESUMEN:151` dicen 144 passed (101 base → 129 fase 1 → 144 fase 2).
+  Además son 115 archivos en HEAD, no 104. El diagnóstico (MEMORY.md
+  obsoleto) resiste; la cifra de reemplazo introduciría un error nuevo.
+- **Refutada — D-C3 («el informe REA afirma que la fusión por API/MCP no
+  tiene permiso de escritura»).** La frase no existe en la revisión REA
+  (su :14 dice con precisión «falló con 403»); la frase parecida vive en
+  la revisión ECC del 8 nov, ya calificada («para fusionar»). La adenda
+  propuesta iba al archivo equivocado.
+- **Refutada — A8, segunda mitad («44 de 89» muerto en bandeja:66).** La
+  cita es del fork grupal, cuyas copias locales siguen diciendo 44/89;
+  el asesor grepó el README del repo standalone. Añadir «(hoy 48 de 93)»
+  introduciría un error.
+- **Debilitadas (~15):** la mayoría ya debilitadas por los propios
+  asesores (A6, B H4c, B H8, C-4/O-3, C B-5, D-R4, D-S1 como acusación,
+  E 1.3, E 1.4, E 2.2 como coste); más la dirección de la resolución del
+  conteo WhatsApp (A4: la hipótesis 17 nov = 4º fallo real, 19 nov = 5º,
+  no se puede descartar sin el historial de notificaciones).
+- **Resisten (~45):** el patrón central —la regla existe y no se aplica,
+  también en la capa de medición— no se pudo refutar en ningún punto:
+  los ceros son ceros en archivos, mtimes, clones frescos, crons y
+  transcripción. Incluye la verificación de los comandos literales del
+  censo (144/186/58/9) y de los 3 disparos de refutación del 16–22 nov.
+
+**Efecto práctico:** la consolidación adopta los cambios de los informes
+con las 3 correcciones de esta pasada y rechaza 10 propuestas (ver
+CONSEJO-ASESOR.md, sesión 2). Informe completo del falsificador en
+`revision-sistema-2026-11-23/trabajo/falsificador.md` (local, no
+publicado).

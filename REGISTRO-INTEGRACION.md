@@ -2,6 +2,46 @@
 
 > Publicado en mundo-dirsi el 17 nov 2026 (Fase 0 de la auditoría de integración, aprobada por Antonio). Fuente: auditoría nocturna del 17 nov 2026 (`~/workspace/auditoria-integracion-2026-11-17/INFORME.md`, §6).
 
+## Piezas de la Fase 0 (adoptadas el 17 nov 2026)
+
+- **M5 — «Lo que no veo, no lo afirmo»:** nunca afirmar como hecho
+  nada que solo se comprobaría desde el lado de Antonio.
+  `REGLA-LO-QUE-NO-VEO.md`.
+- **M1r — Puerta de 3 preguntas:** antes de una respuesta decisiva,
+  tres preguntas que terminan en un comando o en una afirmación
+  suavizada. Vive en `REGLA-LO-QUE-NO-VEO.md` (§ Puerta de
+  3 preguntas).
+- **M3 — Registro de hilos abiertos:** las obligaciones vivas con
+  dueño y disparo de cierre. `HILOS-ABIERTOS.md`.
+- **M6 — Falsadores pre-registrados:** cada afirmación decisiva
+  lleva el comando o la comprobación literal que la tumbaría.
+  Abajo, en este archivo.
+- **Regla de emergencia:** con una cuenta atrás de menos de
+  5 minutos y una acción reversible, la acción sale antes que la
+  explicación. Vive en `AGENTS.md` (fuera de este repo).
+
+La adopción es condicional: nada sobrevive sin la corrida ciega
+R-01–R-06. La auditoría propuso además M4f (perspectiva fusionada),
+que NO entró en la Fase 0. Fuente de los mecanismos: el informe de
+la auditoría (`~/workspace/auditoria-integracion-2026-11-17/INFORME.md`).
+
+## Estado al 23 nov 2026
+
+- Semana 0 de rodaje (17–22 nov): terminada, sin puntuar. Primera
+  semana puntuable en curso desde el lun 23 nov 2026.
+- Corrida ciega R-01–R-06: ejecutada y puntuada el 23 nov 2026
+  (X 8,5/9, Y 8,33/9; acuerdo entre puntuadores 17/18; baremo 6/6
+  no evaluable por el bloqueo del clon en R-06). Resultado
+  registrado en `BANCO-DE-PRUEBAS.md` (sección R) y en
+  `CALIBRACION.md` (C-008, confirmada). La corrida mide capacidad,
+  no operación: la supervivencia de Fase 0 la decide la medición
+  de 3 semanas en operación real (hilo H-009).
+- La corroboración de la línea base por el consejo asesor (6 de 7
+  FI descansan en el encargo, nivel B) sigue pendiente: la sesión
+  2 del consejo (23 nov 2026) la dejó para la primera adjudicación
+  del dom 29 nov 2026, junto con los 4 FI-candidatos de la semana 0
+  (FI-C1–C4).
+
 ## Definición operativa v1 — fallo de integración (FI)
 
 Un **FI** es una entrega de Dirsi (mensaje, archivo, commit o despliegue que
@@ -40,6 +80,10 @@ Normalizado a 7 días: ≈6,1 FI/semana. Mínimo declarado (≥7; la cifra oscur
 es desconocida). 6 de 7 FI descansan en el encargo (nivel B); el consejo debe
 corroborar cada uno contra LOGs/chat en su primera adjudicación.
 
+**Corroboración de la línea base: pendiente.** Encargo de Fase 1 paso 7, no
+hecho en la semana 0 (el consejo no sesionó). Primera adjudicación: sesión
+semanal del consejo del dom 29 nov 2026, antes de la bandeja (10:15).
+
 | FI | Incidente | Fecha entrega | Severidad | Clase |
 |----|-----------|---------------|-----------|-------|
 | FI-01 | 5a — Grok leyó el capítulo de Claude | 9–10 nov | FI-1 | (d) inferencia sin anclaje |
@@ -52,6 +96,41 @@ corroborar cada uno contra LOGs/chat en su primera adjudicación.
 
 I2 («sin una sola tarjeta», 17 nov 00:2x) queda fuera de la ventana por horas;
 extendiendo hasta el cierre de la auditoría (17 nov ~01:00), el total es 8 FI.
+
+## Semana 0 de rodaje (17–22 nov 2026) — no puntuable
+
+FI propuestos durante la semana: **0**. La revisión del sistema del 23 nov
+2026 (sesión 2 del consejo) propone 4 FI-candidatos, pendientes de
+adjudicación del consejo (no adjudicados aquí). La semana 0 era «sin
+puntuar», pero rodaje significa practicar el registro sin que puntúe, no no
+registrar: cero registros en 6 días con 3 correcciones de Antonio significa
+que el ensayo no ocurrió, y la primera semana puntuable empieza sin haber
+ensayado nunca el mecanismo que la mide.
+
+- **FI-C1 — Play Store.** Dirsi afirmó que la app de Muse no le aparecía a
+  Antonio en Play Store ni con VPN (17 nov 20:36); Antonio corrigió un
+  minuto después (20:37): a él sí le aparece, con su VPN. Candidato
+  automático (corrección de Antonio). Ocurrió horas después de adoptarse
+  Fase 0. Por el texto de la definición sería FI-1: la corrección bastó,
+  nadie actuó sobre el error.
+- **FI-C2 — Escala, conteos.** Diseño de la calibración 1-2-6 con
+  coordinador en vez de 2-6-12 con Dirsi al centro; 33 agentes lanzados
+  antes de la corrección (18 nov 02:04–02:10). Dato presente (la propuesta
+  de escala de Antonio en la misma sesión), no conectado, material
+  (trabajo rehecho, cuota quemada).
+- **FI-C3 — Escala, «3 parejas».** Explicación con términos propios de
+  Dirsi que confundió a Antonio (18 nov 02:50; «esto no puede seguir
+  así»). El consejo puede fusionar C2+C3 en un solo FI si lo ve un
+  incidente.
+- **FI-C4 — «Dirsi no puede extender la demo».** El 19 nov se afirmó que
+  extender la demo de PythonAnywhere era paso manual de Antonio; el 23
+  nov Dirsi la extendió ella misma con el login BC123 guardado en la
+  bóveda (hasta 23 dic 2026). Dato recuperable (la bóveda), no conectado,
+  material (Antonio entendió que tenía que hacerlo él).
+
+TCE semana 0: no medible (C = 0 registrados, E sin adjudicar, cobertura de
+revisión 0 %). Entregas decisivas contadas: 0 (el conteo no se empezó; el
+piso de actividad sigue sin denominador).
 
 ## Tasa de cazados-antes-de-entregar (TCE)
 

@@ -38,6 +38,15 @@
   las consolas gratuitas no tienen Node ni npm (no se puede construir un
   frontend desde la consola gratuita), y el despliegue de un frontend ya
   construido exige otros medios.
+- **La web gratuita caduca y hay que extenderla.** La aplicación web
+  de la cuenta gratuita deja de servirse si no se extiende: extender
+  es gratis, desde la pestaña Web de la cuenta, y si caduca se puede
+  reactivar con el mismo enlace, no se pierde. PythonAnywhere avisa
+  por correo con 7 días (19 nov 2026: la demo de Block Ethos dejaba
+  de servirse ~26 nov si no se extendía). Extender es manual: se pulsa
+  «Run until 1 month from today» en la pestaña Web (el 23 nov 2026 lo
+  hizo Dirsi con el login guardado de BC123; la nota del 19 nov que
+  decía que el agente no podía quedó corregida ese día).
 - **Variables de entorno en el archivo WSGI.** La configuración del
   entorno (claves, remitente de correo, URL pública del frontend) se pone
   en el archivo WSGI, no en el código. Si falta una variable, el fallo

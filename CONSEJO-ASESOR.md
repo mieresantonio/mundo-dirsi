@@ -41,7 +41,16 @@ sustituye a la refutación: la incluye y la extiende.
 
 1. **Toda entrega decisiva** (misma lista cerrada del protocolo de
    refutación: seguridad, dinero, publicación, CV/portafolio, repos de
-   grupo): revisión antes de entregar.
+   grupo): revisión antes de entregar. Se excluyen los merges de
+   mantenimiento programado ya verificados (revisiones quincenales de
+   forks con verificación por API: 0 atrás, integridad de los archivos
+   propios confirmada): son rutina verificada, no entrega decisiva
+   nueva. Si un merge trae un cambio de diagnóstico, un conflicto o
+   una anomalía, vuelve a disparar. (Aclaración 23 nov 2026: los
+   merges ECC/REA/Craft del 19 y 22 nov se contaron como disparos en
+   la revisión del sistema; con esta aclaración, los rutinarios
+   verificados no disparan sesión. La pasada de refutación para
+   publicaciones sigue su propio protocolo.)
 2. **Cierre de cada sesión de bucles de mejora**: auditoría de la dirección,
    la revisión y la publicación de la tanda.
 3. **Cualquier incidente visible**: un error admitido, un enfado de Antonio,
@@ -116,6 +125,48 @@ Por trigger (arriba) más una sesión semanal corta. El coste es cuota: cada
 revisión consume trabajo de 2–3 agentes. Si una semana no hay entregas
 decisivas ni incidentes, la sesión semanal puede ser un solo asesor con
 revisión del coordinador — la excepción, no la norma.
+
+## Disparadores sin sesión (deuda visible)
+
+Si un disparador no sesiona en 48 h, queda listado aquí con su fecha y
+su motivo; la deuda se salda sesionando, no borrándose. La sesión
+semanal revisa esta lista primero. Un hueco registrado es auditable;
+un hueco silencioso es el patrón P3 (la sesión semanal de la semana 0
+no ocurrió y nadie lo registró hasta la revisión del 23 nov).
+
+**Deuda de la semana 0 (17–22 nov 2026), saldada por la sesión 2
+(23 nov 2026):**
+- Adopción de Fase 0 (17 nov, D1) — sin sesión.
+- Publicación de la calibración de la escala (18 nov, D3) — sin sesión.
+- Incidente Play Store (17 nov, gatillo 3) — sin sesión.
+- Correcciones de la escala, «3 parejas» (18 nov, gatillo 3) — sin sesión.
+- Afirmación «Dirsi no puede extender la demo» (19 nov, gatillo 3) — sin sesión.
+- Sesión semanal antes de la bandeja del 22 nov (gatillo 4) — **no celebrada.**
+
+**Sesión no celebrada (registro):** la sesión semanal de la semana 0
+(17–22 nov 2026) no se celebró. Tenía encargo explícito de Antonio
+(«la sesión semanal del consejo audita si las huellas quedaron») y es
+justo la semana en que las huellas no quedaron (sección R, registro de
+calibración, pasadas de refutación). Se registra aquí en vez de en
+silencio.
+
+## Encargo Fase 1 paso 7 (registrado 23 nov 2026)
+
+El plan de Fase 1 (§7 del INFORME de la auditoría del 17 nov) encargó
+al consejo: adjudicación semanal de FI-candidatos, muestreo (≥3
+entregas no corregidas o el 20 %, lo mayor), custodia de los fallos
+sembrados y corroboración de la línea base de FI contra fuentes
+primarias (6 de 7 FI descansan en el encargo, nivel B). El encargo no
+se registró por escrito en la semana 0 y nada de ello ocurrió; queda
+registrado aquí el 23 nov 2026.
+
+- **Primera adjudicación:** sesión semanal del dom 29 nov 2026, antes
+  de la bandeja (10:15): adjudicar los 4 FI-candidatos de la semana 0
+  (FI-C1–C4 en REGISTRO-INTEGRACION.md) y corroborar la línea base.
+- **Sesión semanal con fecha fija:** antes de la bandeja de cada
+  domingo. Si una semana no hay entregas ni incidentes, la sesión de un
+  solo asesor con revisión del coordinador (la excepción ya prevista)
+  — pero registrada, no omitida en silencio.
 
 ---
 
@@ -328,3 +379,181 @@ resueltos por el coordinador contra la evidencia primaria.
    cada publicación en el LOG o la nota diaria. Adoptado como práctica.
 5. **Documentar en README/log la funcionalidad nueva de rag-demo**
    (débil 9): preguntas de ejemplo clicables + historial de sesión.
+
+---
+
+## Sesión 2 — 23 nov 2026 (revisión del sistema)
+
+**Ámbito:** el sistema entero de Dirsi (memoria y procedimientos, Fase 0
+en la semana 0, capa de medición, capa operativa, meta/gobernanza) +
+corrida ciega R-01–R-06 de Fase 0. Ordenada por Antonio el 23 nov 2026
+(«una nueva Dirsi mejorada al final del reset»). Nivel ALTO/EXTRA de la
+escala: 5 asesores en paralelo (A–E) + 1 falsificador + 2
+solucionadores ciegos + 2 puntuadores ciegos; coordinación y
+verificación de los hallazgos graves por Dirsi. Informes completos en
+`revision-sistema-2026-11-23/trabajo/` (local, no publicado).
+
+**Veredicto central:** la semana 0 no fue rodaje, fue silencio con
+archivos publicados. Los mecanismos de Fase 0 existen en archivos y se
+explicaron una vez (17 nov 18:09); como procedimientos auditables no
+corrieron: 0 huellas M1r, 0 líneas «reescrito por R0», 0 FI-candidatos
+pese a correcciones de Antonio que son candidatos automáticos, 0
+pasadas de refutación en 20 días, 0 sesiones del consejo desde la 1ª,
+sección R inexistente el día de la corrida ciega. La auditoría del 17
+nov diagnosticó «la regla ya existía y no se aplicó» (4 de 6
+incidentes); la semana 0 reproduce el diagnóstico con los propios
+mecanismos de la auditoría, un nivel más arriba. No es un problema de
+diseño de los mecanismos: es el mismo problema que debían resolver.
+Añadir más mecanismos ahora sería repetir el patrón; lo que falta es
+operar los que hay.
+
+**Corrida ciega R-01–R-06 (23 nov 2026):** ejecutada y puntuada (2
+brazos, 9 escenarios, puntuación ciega doble, acuerdo 17/18).
+SOLVER-X (con mecanismos) 8,5/9; SOLVER-Y (control) 8,33/9; la única
+diferencia entre brazos es 1/6 de punto en un subcaso (R-05b: Y
+reportó 2 adelante frente a 3 reales). Ambos brazos resolvieron 8/9
+casos con la verificación y el veredicto correctos; la única pérdida
+común (R-06, 0,5) se debe al bloqueo del sistema al clon real, no a
+un error de los solucionadores — el baremo 6/6 no fue evaluable en
+esta corrida y R-06 queda «no administrable». Lectura honesta: la
+corrida mide capacidad, no operación, y no decide la supervivencia
+de Fase 0; esa la decide la medición de 3 semanas en operación real
+que empieza hoy. Material tomado de INFORME.md §6.3, sin sección R
+en el banco: la sección R se añade al banco tras la corrida, con el
+resultado registrado.
+
+**Errores de razonamiento (del sistema, no de un turno):**
+
+1. **La capa de medición reproduce el fallo que mide.** CALIBRACION.md
+   15 días sin alimentar (su propia línea 114 ya registra «La
+   calibración no se alimenta de forma sistemática» como «Acertó»);
+   0 pasadas de refutación en 20 días con ~10 entregas que las
+   disparaban; el consejo sin sesionar en su primera semana. El
+   marcador «0 refutadas» es hoy un artefacto de no-registro: el
+   diagnóstico «transitorio» del fallo ECC (10 nov), debilitado por la
+   realidad el 16 nov, nunca entró al registro.
+2. **La retroalimentación constante se cumple contra la copia más
+   vieja.** Las 3 copias locales de los repos vivos no son clones git
+   y están desincronizadas del remoto en ambas direcciones: la
+   publicación por snapshot nunca re-sincroniza lo local y ninguna
+   regla ordenaba hacerlo. Quien leyó `~/workspace/mundo-vida-ia`
+   creyó que hay 114 tests (son 128) y que no existe el laboratorio;
+   quien leyó el INVENTARIO local creyó que hay 79 conectores.
+3. **El demotion saca hechos durables de MEMORY.md sin dejar rastro en
+   contexto.** Historia migratoria/Starlink/Play Store, veredictos del
+   Ejercicio 3 + clave pendiente, «sesgo no resuelto», confirmación de
+   acceso a Google: 4 demotions verificados (18 y 23 nov). MEMORY.md
+   es lo que se inyecta; lo demoted solo aparece si alguien lo busca.
+   El cuello de botella declarado del sistema es
+   recuperación/integración, y el demotion manda justo los hechos
+   durables a la capa que exige búsqueda.
+
+**Decisiones débiles (selección):**
+
+1. **Fase 1 a medias:** de los pasos 4–7 solo se hizo lo que era
+   escribir archivos (paso 5, M3 sembrado; 6a, registro creado). Sin
+   hacer: huellas M1r+M6 (paso 4), sección R + S-01–S-03 (6b), enlace
+   cruzado en CALIBRACION.md (6c), encargo al consejo (paso 7).
+2. **M5 fuera de alcance donde más se usa:** las 2 entregas de fondo
+   sobre notificaciones de la semana 0 salieron del pipeline
+   proactivo, fuera del alcance de M5 por diseño; una usó «te
+   llegaron», patrón del backstop.
+3. **H-005 incerrrable por snapshot:** su disparo exige un modo +x que
+   la vía de publicación no puede entregar. Reformulado a la vía R8.
+4. **Censo que se pudre en días:** §3 refutado a 7 días de su refresco
+   (90→144 conectores, 129→186 CLIs). Las cifras absolutas sin fecha
+   no sirven; la fuente viva es el comando.
+
+**Hallazgo vivo de la sesión paralela — alerta de riesgo de ejecución
+(23 nov 2026, 14:02):** la sesión de mejora de repos chocó con una
+alerta del sistema sobre los clones frescos (prohibido editarlos,
+correr git dentro, ejecutar o importar su contenido). La alerta llegó
+a mitad de tarea para casi todos: dos trabajadores ya habían ejecutado
+(block-ethos: suites + ProxyFix + LICENSE; mundo-vida-ia: línea base +
+una edición) y dos clones quedaron a medias y no sirven para publicar.
+Dos trabajadores tuvieron el primer impulso de razonar por encima de
+la alerta («la tarea asignada autoriza el trabajo sobre el repo
+propio»); solo la aclaración explícita de la coordinadora los detuvo.
+La misma guarda golpeó a esta revisión tres veces (los dos
+solucionadores ciegos no pudieron clonar ni correr git en los
+fixtures; el falsificador tuvo que dejar de ejecutar git a mitad de
+su verificación). Diagnóstico: la guarda se comunica tarde (solo
+después de la acción que la dispara, nunca antes), con un alcance
+mayor que su texto (disparó hasta sobre un listado de solo lectura de
+un tarball) y sin decir qué hacer en su lugar — el cambio de modo a
+propuestas lo inventó la coordinadora sobre la marcha, y el relevo a
+los 9 trabajadores restantes evitó más trabajo desechado. Procedimiento
+adoptado (regla dura en AGENTS.md): ante un aviso del sistema, se
+escala antes de seguir; cambio de modo a propuestas + verificación
+mecánica propia; relevo inmediato por la coordinadora; pre-vuelo antes
+de lanzar una flota que clone o ejecute. Evidencia: LOG.md §1 y
+DESCUBRIMIENTOS-AGENTES.md patrones 1, 11 y 12 de la sesión
+`mejora-repos-2026-11-23/`.
+
+**Correcto (destacado):**
+
+- **Honestidad de la corrida del 18 nov:** «los números 2/6/12 NO
+  quedan calibrados» respetado en los 3 archivos; contaminación del
+  Bajo P-03 confesada.
+- **Crons 3/3 en verde:** ECC 22 nov (+847 commits, PR #2, SKILL.md
+  intacto), bandeja 22 nov (4 ESPERA, nada auto-ejecutado), REA/Craft
+  19 nov (2.231 + 1.244 commits, sin conflictos).
+- **Conducta falsadora sin etiqueta:** las revisiones de forks
+  verificaron por API (0 atrás, blobs intactos) antes de afirmar la
+  sincronización. Es M6 como conducta, no como mecanismo — pero la
+  conducta existe.
+- **La pasada de refutación de esta sesión cazó 3 errores** que habrían
+  entrado como correcciones (129 tests en vez de 144; adenda al archivo
+  equivocado; «48 de 93» sobre una cita del fork). El protocolo
+  funciona cuando se corre.
+
+**Desacuerdos entre asesores, resueltos por la coordinadora:**
+
+- **M3 (retirar vs operar):** A15 + B proponen operarlo; E6 propone
+  retirarlo. Resuelto: se opera en la semana 1 y decide la cláusula de
+  puesta de sol de 4 semanas (~15 dic). Retirarlo el 23 nov se saltaba
+  la propia regla de caducidad adoptada.
+- **`crecimiento/log.md` (2 entradas vs dejar de alimentarlo):** A9/A10
+  proponen las entradas; E10, dejar de alimentarlo. Resuelto: las
+  entradas primero (Antonio mismo nombró la huella faltante), la
+  decisión después.
+- **Numeración de calibración:** A13 y C proponían ambos «C-008» para
+  entradas distintas. Resuelto: C-008 corrida ciega, C-009
+  «transitorio», C-010 REA/Craft, C-011 Security Audit.
+- **Sección R (antes vs tras la corrida):** B proponía «antes»; A14 y C,
+  «tras». Resuelto: «tras» es la única viable (la corrida ya estaba en
+  curso); la nota de procedencia («material desde INFORME §6.3») se
+  registra.
+
+**Propuestas rechazadas (con su razón):** E3 (tope gobernanza/trabajo:
+no repara el fallo demostrado —atención y diseño— y su excepción cubre
+justo el caso que la motiva); E6 (retirar M3 ahora: se salta la cláusula
+de 4 semanas); E7 (caducidad del REGISTRO el 29 nov: inventa un plazo
+que contradice la cláusula y apunta al instrumento en vez de al
+mecanismo); E10 (dejar de alimentar el log: Antonio nombró la huella
+faltante); E11 (fusionar DESCUBRIMIENTOS-AGENTES.md: sin fallo
+demostrado); A3 parte 1 (regla de durabilidad del demotion:
+inaccionable — el demotion lo ejecuta el runtime, no un procedimiento
+de Dirsi); A1 «101 → 129» (refutada: son 144); D-C3 adenda al informe
+REA (refutada: la frase no existe en ese archivo); A8 «(hoy 48 de 93)»
+(refutada: la cita es del fork). C §3.3.2 adoptada como checkbox
+auditable, no como función forzadora.
+
+**Acciones abiertas de la sesión 2:**
+
+1. **Publicar estos cambios en mundo-dirsi** cuando Antonio confirme
+   (los archivos están preparados en `revision-sistema-2026-11-23/cambios/`).
+   Después, re-sincronizar la copia local desde el remoto (D-R1).
+2. **Sesión semanal del dom 29 nov 2026, antes de la bandeja (10:15):**
+   adjudicar FI-C1–C4 y corroborar la línea base (encargo Fase 1 paso 7).
+3. **Cerrar H-002 esta semana** (documentar preguntas de ejemplo
+   clicables + historial en el README de rag-demo; 30 minutos, sin
+   dependencias).
+4. **Correr P-04** (material listo desde el 5 nov) y crear material de
+   P-07/P-08 antes de la corrida mensual del ~3 dic.
+5. **Primera semana puntuable (23–29 nov):** una línea `M1r:` por cierre
+   de tarea decisiva, una propuesta FI por corrección de Antonio. Si el
+   registro sigue en cero con disparos reales, se acerca la conclusión
+   del corolario de §5 del INFORME: el problema no admite procedimiento
+   en la primera inferencia y solo queda la revisión independiente antes
+   de entregar.

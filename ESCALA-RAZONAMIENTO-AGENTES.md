@@ -53,14 +53,23 @@ Cada uso de Max se decide y se presupuesta antes de lanzarlo.
 - Todos los agentes corren sobre el mismo motor: comparten puntos
   ciegos. La revisión cruzada los reduce, no los elimina.
 - Los números (0, 2, 6, 12, 12+ agentes con Dirsi) son una suposición hasta medirlos.
+- Como **perilla de presupuesto** la escala está justificada hoy: la
+  profundidad medida crece con los agentes (P-02: 6→9→11→12
+  verificaciones del Bajo al Extra, 18 nov 2026). Como **niveles de
+  razonamiento** NO está calibrada: los criterios binarios no
+  discriminan. Usarla para dimensionar el esfuerzo es honesto;
+  usarla para afirmar que un nivel «razona mejor» no lo es.
 
-## Calibración (en curso desde el 18 nov 2026)
+## Calibración PAUSADA (1ª corrida 18 nov 2026; 2ª corrida con plan, sin fecha)
 
 Correr las mismas tareas del banco de pruebas en nivel bajo (Dirsi
 sola) y con 2, 6 y 12 agentes, con Dirsi al centro y comunicación
 integral constante en cada nivel, y puntuación ciega, y comparar la
 calidad medida. Si la calidad no escala con el número, la escala se
-corrige o se abandona. La calibración vive en `BANCO-DE-PRUEBAS.md`.
+corrige o se abandona. Cada corrida de calibración se registra en
+`BANCO-DE-PRUEBAS.md` (§ Registro de corridas) y su detalle vive en
+su propio informe (la primera, en
+`CALIBRACION-ESCALA-2026-11-18.md`).
 
 Primera corrida v1 (misma noche, niveles 1/2/6 con un coordinador al
 centro) superada por corrección de Antonio antes de puntuarse: el
@@ -76,4 +85,31 @@ profundidad sí crece con los agentes (P-02: 6→9→11→12
 verificaciones; P-03: de conteos a contabilización línea por línea).
 Los números 2/6/12 NO quedan calibrados: para calibrarlos hacen
 falta criterios con gradación o tareas más duras donde Bajo falle.
-Detalle completo en `RESULTADOS.md` de la calibración del 18 nov 2026.
+Detalle completo en `CALIBRACION-ESCALA-2026-11-18.md`.
+
+(Corrección 23 nov 2026: la etiqueta anterior decía «en curso desde
+el 18 nov», pero entre el 18 y el 23 nov no se movió nada: ni plan de
+2ª corrida, ni criterios graduados, ni tareas duras. «En curso» era
+falso; «pausada» es exacto. Coste de la 1ª calibración: 55 agentes
+en total — 22 válidos + 28 de la v1 superada + 5 del error de las
+«3 parejas» — porque el instrumento no se pre-comprobó antes de
+lanzar agentes: el veredicto «los criterios binarios no discriminan»
+era predecible leyendo los criterios.)
+
+## Plan 2ª calibración (23 nov 2026; sin fecha fijada)
+
+1. **Dirsi sola diseña primero, sin lanzar ningún agente:** criterios
+   con gradación (0–3 por tarea, no binario 1/0) y 2–3 tareas duras
+   donde Bajo falle plausiblemente (candidatas: P-04 con verificación
+   falsadora de código; una tarea de integración con datos sembrados
+   contradictorios). El paso 1 lo hace Dirsi sola porque el diseño
+   del instrumento es trabajo de director, no de flota.
+2. **Pre-comprobación del instrumento antes de lanzar agentes** (regla
+   en `BANCO-DE-PRUEBAS.md`): leer los criterios y preguntar «¿qué
+   resultado distinguiría los niveles?»; si la respuesta es «ninguno»,
+   no se lanza nada.
+3. **Solo entonces** se corre la calibración con el mismo diseño
+   (un equipo por nivel, Dirsi al centro, puntuación ciega doble).
+4. **Sin fecha fijada:** la 2ª corrida se programa cuando el
+   instrumento esté listo, no antes. Una fecha sin instrumento
+   repetiría el gasto del 18 nov.

@@ -1,0 +1,8 @@
+# Inventario base de endpoints — rag-demo/app.py — 2026-11-05
+# Método: rg -n '@app\.(get|post|route|put|delete|patch)' app.py
+34:@app.get("/api/health")
+56:@app.post("/preguntar")
+
+# Resumen: 2 endpoints
+# GET /api/health
+# POST /preguntar

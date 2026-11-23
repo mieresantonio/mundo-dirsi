@@ -56,7 +56,7 @@ máquina del usuario, no una nube con claves compartidas:
   la configuración de OpenCode del portátil mezcló la credencial
   de Zen con la clave unificada del router (error 401 de Zen); la
   corrección quedó pendiente de verificar en la siguiente sesión
-  de portátil.
+  de portátil (hilo H-010 en `HILOS-ABIERTOS.md`).
 
 ## Destilación y Kimi K3: verificado frente a hype
 

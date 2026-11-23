@@ -31,10 +31,18 @@
   escribe.
 - **Delegación permanente en GitHub (16 nov 2026).** Antonio dio
   permiso permanente para todas las actualizaciones en GitHub: ya no
-  hace falta pedir aprobación por cada cambio en GitHub. La regla de
-  preparar y pedir aprobación sigue valiendo para todo lo demás
-  (otros servicios, cuentas nuevas, pagos, despliegues fuera de
-  GitHub).
+  hace falta pedirle que decida cada cambio. El permiso cambió la
+  DECISIÓN, no la presentación: las tarjetas de aprobación SIGUEN
+  apareciendo en su teléfono (17 confirmadas la noche del 16–17 nov)
+  y se aprueban casi siempre en segundos. Nunca afirmar que no salen
+  tarjetas: esa afirmación ya fue falsa una vez (incidente I2, 17 nov
+  00:2x) y es justo lo que la regla M5 prohíbe. La regla de preparar
+  y pedir aprobación sigue valiendo para todo lo demás (otros
+  servicios, cuentas nuevas, pagos, despliegues fuera de GitHub).
+  (Corrección del 23 nov 2026: la redacción anterior — «ya no hace
+  falta pedir aprobación por cada cambio» — invitaba a la inferencia
+  falsa; la corrección se escribe aquí, en el archivo que afirmaba
+  lo falso, según R3.)
 
 ## Rutas con el navegador y la sesión del usuario
 

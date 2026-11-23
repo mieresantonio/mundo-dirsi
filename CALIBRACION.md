@@ -13,6 +13,10 @@ Creado el 3 de noviembre de 2026, por elección expresa de Antonio, como
 primera pieza del sistema de mejora de Dirsi a nivel de sistema (sin tocar
 el motor).
 
+Errores ya entregados (hacia el pasado) se registran en
+`REGISTRO-INTEGRACION.md`, no aquí. Este registro mide afirmaciones hacia
+el futuro; aquel mide fallos ya cometidos.
+
 ## Cómo funciona
 
 Se registra una afirmación cuando cumple las tres condiciones:
@@ -21,6 +25,13 @@ Se registra una afirmación cuando cumple las tres condiciones:
 2. Es comprobable: existe una fuente o un evento futuro que la resuelve.
 3. Aún no está resuelta en el acto: lo ya verificado de primera mano al
    entregarla es nivel A demostrado y no necesita registro.
+
+Se registran primeras veces y afirmaciones nuevas. Las recurrencias de
+rutina (revisiones quincenales establecidas, bandeja semanal) solo entran
+si portan una predicción nueva. (Aclaración 23 nov 2026: la 1ª revisión
+REA/Craft del 19 nov entró como C-010 por ser primera vez; la 2ª revisión
+ECC del 22 nov queda correctamente fuera por ser recurrencia sin predicción
+nueva.)
 
 Cada entrada lleva: fecha de la afirmación, la afirmación en una línea y
 en forma falsable, el nivel de evidencia al entregarla, con qué se
@@ -35,9 +46,15 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 6 | 3 | 3 | 0 | 75 % | 1 |
+| 9 | 5 | 4 | 0 | 77,8 % | 2 |
 
 ## Pendientes
+
+Nota (23 nov 2026): C-003 se resolvió el 9 nov 2026 y C-008 el
+23 nov 2026, y sus resultados figuran en la tabla de Resueltas;
+sus textos completos quedan en esta sección porque aquí se
+escribieron, y el registro no reescribe ni mueve sus entradas.
+Las pendientes reales son C-004 y C-011.
 
 ### C-003 · 2026-11-03 · Precios — RESUELTA PARCIAL el 2026-11-09 (ver Resueltas)
 - **Afirmación:** La cotización regional escrita de 4Geeks para
@@ -80,6 +97,39 @@ añadirán cuando haya al menos 10 resueltas.
   conteo verificado en la cuenta).
 - **Se verifica con:** el espacio libre de la cuenta después del 1 dic 2026.
 
+### C-008 · 2026-11-17 · Corrida ciega Fase 0
+- **Afirmación:** La corrida ciega R-01–R-06 se ejecuta el lun 23 nov 2026
+  y su resultado queda registrado en el banco.
+- **Nivel al entregarla:** B (promesa de proceso, anunciada a Antonio el
+  17 nov 2026).
+- **Se verifica con:** el registro de la corrida en BANCO-DE-PRUEBAS.md
+  la noche del 23 nov 2026.
+- **Resolución: CONFIRMADA el 2026-11-23.** La corrida se ejecutó el
+  23 nov 2026 (2 brazos, 9 escenarios cada uno, puntuación ciega
+  doble sobre copias anonimizadas) y su resultado queda registrado en
+  BANCO-DE-PRUEBAS.md (sección R + registro de la corrida). Puntuación
+  final: SOLVER-X 8,5/9, SOLVER-Y 8,33/9 (acuerdo entre puntuadores
+  17/18; único desacuerdo resuelto por la coordinadora: R-05b de Y =
+  1/6). El baremo 6/6 de regresión no fue evaluable para R-06 (el
+  sistema bloqueó el clon real en ambos brazos): el caso queda «no
+  administrable» y pendiente de re-corrida. La corrida confirma la
+  capacidad (8/9 casos correctos en ambos brazos) y NO decide la
+  supervivencia de Fase 0: esa la decide la medición de 3 semanas en
+  operación real (ver REGISTRO-INTEGRACION.md).
+
+### C-011 · 2026-11-22 · Corrección del Security Audit de ECC
+- **Afirmación:** El fallo recurrente del Security Audit del fork ECC
+  (9 y 16 nov) quedó resuelto por la corrección upstream (npm 11.21.2
+  fijado, f17308d5).
+- **Nivel al entregarla:** B (la corrección upstream está verificada en
+  el código; que resuelva el fallo recurrente solo lo dirá la próxima
+  ejecución).
+- **Se verifica con:** la próxima ejecución programada del workflow de
+  mantenimiento del fork ECC (~6 dic 2026): el paso Security Audit pasa
+  en el primer intento, sin re-ejecutar. Ver también H-006 en
+  HILOS-ABIERTOS.md. (Dato a favor: no hubo tercer fallo antes de la
+  revisión del 22 nov.)
+
 
 ## Resueltas
 
@@ -87,7 +137,8 @@ La primera resolución fue C-002, el 4 nov 2026 (parcial); la segunda,
 C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
 (confirmada); la cuarta, C-007, el 8 nov 2026 (parcial); la quinta,
 C-005, el 8 nov 2026 (confirmada); la sexta, C-003, el 9 nov 2026
-(parcial).
+(parcial); la séptima, C-009, el 16 nov 2026 (parcial); la octava,
+C-010, el 19 nov 2026 (confirmada).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
@@ -103,6 +154,12 @@ C-005, el 8 nov 2026 (confirmada); la sexta, C-003, el 9 nov 2026
 | C-002 | La grabación de la sesión de Commit Academy del 3 nov llegaría por correo | Parcial | 2026-11-04 | El correo de seguimiento llegó (4 nov, 04:30 Caracas, de Marti de Commit Academy, leído de primera mano) pero trae los apuntes del taller y la venta de su curso pago: ningún enlace a la grabación en el cuerpo, y el «examen» del asunto tampoco aparece en el cuerpo. Puede que la grabación esté dentro de los apuntes enlazados (no abiertos) o que no llegue. Lección: «la página de registro incluye X» no equivale a «el correo traerá X». |
 | C-006 | La primera aplicación del sistema diseno_vitrina (rediseño del portafolio) produce un acabado visiblemente superior al borrador anterior en la primera pasada, sin correcciones de composición | Confirmada | 2026-11-07 | Antonio lo juzgó el mismo día («entonces sí funcionó») al ver el resultado verificado con el ojo. La composición y la jerarquía no necesitaron correcciones; las dos aplicadas fueron técnicas (revelado por scroll como mejora progresiva y un enlace que se partía en móvil). Lección: el diseño «de molde» sí se transfiere por documentos (tokens, disciplina, recetas, checklist); lo que no se transfiere (prior generativo, generación de imágenes) no hizo falta para esta clase de página. |
 | C-007 | El repo público mundo-dirsi no contiene identificadores de dispositivo (afirmado en la respuesta a Claude, ronda 1, tras los chequeos de la sección 8) | Parcial | 2026-11-08 | Lo literal se sostuvo (no hay ID de dispositivo, IPs de la tailnet, hostname ni correo), pero la conclusión protectora era falsa: INVENTARIO-CAPACIDADES.md publica el modelo del teléfono (Xiaomi 14T Pro), las fuentes que expone (alarmas, calendario, llamadas, contactos, geocercas, salud, ubicación, notificaciones, recordatorios, SMS), el servicio con login guardado en la bóveda (PythonAnywhere) y automatismos con fecha. Claude lo detectó en la ronda 2 leyendo el archivo público; Dirsi lo confirmó por lectura directa (líneas 68 y 77-79 del inventario). Lección: un escaneo por patrones (IP, correo, claves) no sustituye a un escaneo por categorías (dispositivos, capacidades, accesos, horarios). La decisión de Antonio llegó el mismo 8 nov: aprobó el saneamiento y el inventario público quedó solo con el método (commit 3842460a en mundo-dirsi; la copia completa, local). |
+
+| Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
+|---|---|---|---|---|
+| C-009 | El fallo de Security Audit del fork ECC del 9 nov 2026 fue transitorio, no un problema del fork (afirmada 10 nov 2026) | Parcial | 2026-11-16 | Registrada con retraso el 23 nov 2026 (auditoría de la capa de medición): debió entrar el 10 nov. Resolución PARCIAL el 16 nov: el mismo job volvió a fallar (run 43938703504), lo que refuta «transitorio» y establece intermitencia; la mitad «no es del fork» se sostuvo (el upstream corrigió el paso, f17308d5, verificado 22 nov). Lección: un re-ejecutar en verde prueba el día, no el patrón. Lectura alternativa (para el consejo): si se toma «transitorio» como núcleo de la afirmación, el veredicto sería REFUTADA (marcador 9 resueltas / 5 / 3 / 1 / 72,2 %). Se registra PARCIAL por la mitad sostenida. |
+| C-010 | La primera revisión quincenal de los forks REA y Craft Anything corre el jue 19 nov 2026 ~20:19 y entrega informe (anunciada 16 nov 2026) | Confirmada | 2026-11-19 | Registrada con retraso el 23 nov 2026 (auditoría de la capa de medición): misma clase que C-005 (primera corrida de una revisión nueva), que sí se registró. Corrió y completó el 19 nov ~20:19–20:33 (rea +2.231 commits, craft-anything +1.244, sin conflictos, MANTENIMIENTO.md intactos). Lección: el mismo tipo de afirmación se registra una vez y no la siguiente — la regla no es la que decide, es el turno. |
+| C-008 | La corrida ciega R-01–R-06 se ejecuta el lun 23 nov 2026 y su resultado queda registrado en el banco | Confirmada | 2026-11-23 | La corrida se ejecutó (2 brazos, 9 escenarios, puntuación ciega doble, acuerdo 17/18) y se registró en la sección R del banco. X 8,5/9, Y 8,33/9; la única diferencia entre brazos fue 1/6 de punto en R-05b. Lección: la corrida mide capacidad, no operación — ambos brazos resolvieron 8/9, así que la supervivencia de Fase 0 la decide la medición de 3 semanas en operación real, no esta corrida. |
 
 ## Afirmaciones de Claude evaluadas (ronda 1 → 2; no puntúan en el marcador de Dirsi)
 

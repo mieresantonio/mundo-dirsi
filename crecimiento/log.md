@@ -362,3 +362,194 @@ sin crear repos desde aquí.
   este repo (`aprendido/portafolio-y-empleo.md`) y el perfil de la
   recopilación (§2) se actualizaron con lo publicado y con el
   inglés medido el 14 nov (B1 lectura, A1 habla/escucha).
+
+## 2026-11-06 — Primer puente laptop probado (FreeLLMAPI + Tailscale + opencode serve)
+
+- Primer puente laptop↔Dirsi funcionando de punta a punta: `opencode
+  serve` en la laptop (puerto 4096, solo tailnet) + Tailscale + FreeLLMAPI
+  como router local (gateway http://127.0.0.1:31415/v1, solo localhost).
+  El agente de la laptop hizo una escritura real de archivo vía
+  FreeLLMAPI/North Mini Code. Coste: $0.00.
+- FreeLLMAPI (app v0.16.20): los slots «Opus/Sonnet/Haiku» son alias a
+  modelos gratuitos, NO los de Anthropic. Guía en
+  `~/workspace/freellmapi-opencode-guia.md`.
+- Zen 401: el merge de setup-opencode de FreeLLMAPI sobrescribió la
+  credencial Zen con la clave unificada del router; Antonio volvió a
+  ejecutar /connect con la clave Zen. Arreglo SIN VERIFICAR (prueba TUI
+  pendiente).
+- Pendiente desde entonces: endurecer el servidor (contraseña +
+  binding a la dirección Tailscale) antes de que viva ahí ninguna clave
+  de pago. (Entrada escrita el 23 nov 2026 desde MEMORY.md y la guía:
+  la sesión del 6 nov quedó 17 días sin huella en este registro pese a
+  que Antonio la nombró explícitamente en su queja del 17 nov.)
+
+## 2026-11-17 — Auditoría de integración, Fase 0 y consejo asesor
+
+- Auditoría nocturna de integración (01:03–01:13, 11 agentes):
+  0 de 28 fallos por dato ausente — todo era integración; en 4 de
+  6 incidentes la regla ya existía y no se aplicó. De ahí salieron
+  los mecanismos condicionales (M5, M1r, M4f + regla de emergencia,
+  M3, M6) y la definición operativa de fallo de integración (FI).
+  Línea base: 7 FI en la semana 9–16 nov (2 graves).
+- Antonio adoptó la Fase 0 a las 18:07: 3 archivos publicados en
+  este repo (commit 41cc5b5: REGISTRO-INTEGRACION.md,
+  HILOS-ABIERTOS.md, REGLA-LO-QUE-NO-VEO.md) + regla de emergencia
+  en AGENTS.md. Semana 0 de rodaje 17–22 nov (sin puntuar);
+  primera semana puntuable desde el 23 nov; corrida ciega
+  R-01–R-06 el 23 nov. Criterio de éxito: ≤1 FI/semana 3 semanas
+  con cero FI-2, TCE ≥2/3, regresión 6/6 y piso de actividad.
+- Consejo asesor permanente (orden de Antonio del 16 nov, 19:54):
+  2–3 agentes auditan de forma continua el razonamiento y las
+  decisiones de Dirsi sobre el registro escrito. Sesión 1 (16 nov,
+  noche): 6 errores de razonamiento, 14 decisiones débiles, 10
+  reglas duras (R1–R10) — entre ellas, que una verificación se
+  diseña para falsar, no para confirmar, y que un clon fresco es
+  un `git clone` real, no una copia del clon de trabajo.
+  (Entrada reconstruida el 23 nov 2026 desde los archivos del repo
+  y la memoria del sistema: el día no dejó huella en este registro
+  en su día.)
+
+## 2026-11-17 — Investigación Muse y Meta AI: 12 hallazgos
+
+- Antonio preguntó qué es lo más interesante, prometedor e importante
+  de hacia dónde van Muse y Meta AI. Investigación entregada como página
+  con 12 hallazgos ordenados por importancia, con lo confirmado y lo
+  rumoroso separado. Contadores de filtros verificados en vivo en móvil
+  y escritorio.
+- Informe en `~/workspace/research_notes/mejoras-muse-meta-ai-2026-20261117-2235/`.
+  (Entrada escrita el 23 nov 2026: la investigación no dejó ninguna
+  mención en mundo-dirsi en su día.)
+
+## 2026-11-18 — Escala de razonamiento y su primera calibración
+
+- Antonio propuso una escala informal de razonamiento por número
+  de agentes (Bajo/Medio/Alto/Extra/Max), adoptada el 17 nov y
+  corregida el 18: Dirsi está en todos los niveles y el número
+  cuenta los agentes que trabajan CON ella («el nivel medio son
+  solo dos agentes y tú»); un agente solo sin integración con
+  Dirsi no es un nivel, es una configuración rota.
+- Primera calibración (18 nov, ~03:10): las mismas 3 tareas del
+  banco (P-02, P-05, P-03) en 4 niveles, un equipo por nivel,
+  Dirsi al centro, puntuación ciega doble. Resultado: 3/3 en los
+  4 niveles, acuerdo 12/12 entre puntuadores — los criterios
+  binarios del banco no discriminan, así que los números 2/6/12
+  NO quedan calibrados. Lo que sí crece con los agentes es la
+  profundidad (P-02: 6→9→11→12 verificaciones) y la caza de
+  errores en revisión. Calibrar de verdad exige criterios con
+  gradación o tareas más duras donde Bajo falle. Detalle en
+  CALIBRACION-ESCALA-2026-11-18.md. (Entrada reconstruida el
+  23 nov 2026 desde los archivos del repo.)
+
+## 2026-11-19 — Primera revisión REA/Craft y aviso de caducidad de PythonAnywhere
+
+- Primera revisión quincenal de los forks REA + Craft Anything
+  (~20:19–20:33): REA 2.229 commits por detrás (sincronizado,
+  merge c367842, 2.230 traídos; segunda pasada ae6f927 por un
+  commit que llegó un minuto después del primer merge) y Craft
+  Anything 1.244 (merge ae97f7f); ambos 0 por detrás al final,
+  `MANTENIMIENTO.md` intacto, sin conflictos. Próxima revisión:
+  ~3 dic 2026.
+- PythonAnywhere Support avisó por correo (09:07, leído de primera
+  mano): la web BC123.pythonanywhere.com deja de servirse en 7
+  días (~26 nov) si no se extiende. Extender es gratis, desde la
+  pestaña Web; si caduca, se reactiva con el mismo enlace. Aviso
+  entregado a Antonio la misma tarde; extender es paso suyo.
+  Lección registrada en aprendido/despliegue.md: la web gratuita
+  caduca y hay que extenderla.
+- La copia de WhatsApp falló por cuarta vez por falta de espacio
+  (05:03; fallos previos 30 oct, 8 nov, 13 nov). El arreglo de un
+  minuto (apagar «Incluir vídeos» y reintentar) sigue pendiente.
+  (Entrada reconstruida el 23 nov 2026 desde la memoria del
+  sistema y el informe local de la revisión.)
+
+## 2026-11-22 — Revisión quincenal ECC: 847 commits y la corrección del fallo recurrente
+
+- Segunda revisión quincenal del fork ECC (~16:03–17:15): el
+  upstream traía 847 commits nuevos (d2ef268 → 4adeee67), sin
+  releases nuevas (última v2.2.3). Sincronización por PR #2
+  (merge fe70023; 664 archivos, +63.119/−3.789; 27 comprobaciones
+  en verde): fork 0 atrás / 2 adelante (corrección del 23 nov:
+  en realidad 3 adelante — la revisión omitió el merge de la
+  PR #1, 9f78dc5; verificado en vivo 4 veces el 23 nov),
+  SKILL.md intacto (SHA ef4fc226…). La fusión por API MCP se
+  interrumpió por un reinicio del servicio; la ruta que funcionó
+  fue el navegador en vivo con la sesión de Antonio (precedente
+  del 8 nov).
+- Hallazgo clave: el upstream corrigió el paso Security Audit en
+  `.github/workflows/maintenance.yml` (f17308d5: npm 11.21.2
+  fijado con caché dedicada) — el mismo job que falló el 9 y el
+  16 nov en el fork. La próxima ejecución programada dirá si el
+  fallo recurrente quedó resuelto. No hubo un tercer fallo antes
+  de esta revisión. Próxima revisión: ~6 dic 2026. (Entrada
+  reconstruida el 23 nov 2026 desde el informe local de la
+  revisión y la memoria del sistema.)
+
+## 2026-11-23 — Auditoría de coherencia y sesión de mejora «modo quemar tokens Full»
+
+- Sesión de mejora de todos los repos de GitHub (orden de
+  Antonio, «modo quemar tokens Full»): trabajo local en un clon
+  fresco de mundo-dirsi, sin publicar nada. La auditoría de
+  coherencia (método destilado en
+  `aprendido/auditoria-de-coherencia.md`) encontró: el índice
+  del README sin `CALIBRACION-ESCALA-2026-11-18.md`; una
+  referencia rota (`RESULTADOS.md`, que no existe); STATUS.md
+  describiendo el 16 nov como si fuera hoy (2 vencimientos ya
+  cumplidos sin marcar, censo desfasado, P-03 figurando sin
+  correr cuando corrió el 18 nov); el glosario sin 26 términos
+  usados en los documentos; y una contradicción viva (el permiso
+  permanente de GitHub redactado como «ya no hace falta pedir
+  aprobación», falso: las tarjetas siguen apareciendo).
+- Refresco del censo: el entorno cambió mucho entre despliegues
+  (90→144 conectores, 129→186 CLIs, 57→58 skills del sistema,
+  910→911 binarios; máquina, cachés y versiones sin cambios).
+  La regla de refresco del inventario existe justo para esto.
+- Publicación propuesta del material P-03/P-04 del banco (vivía
+  solo en la copia local de trabajo; `.gitignore` ya tenía la
+  excepción para `p-03/dist/` desde el 16 nov). Hallazgo: la app
+  fijada por P-04 ya divergió en su repo publicado (3 rutas
+  frente a las 2 de la semilla), así que la prueba solo es
+  reproducible con la semilla congelada (MD5 `d976b50e…`
+  verificado) — la semilla viaja con el material. El fixture
+  P-03 conserva «Blockali-lite» porque es anterior al renombre
+  y está congelado como material v1. Queda como pregunta abierta
+  (Q15 en `por-aprender/preguntas-abiertas.md`): si la semilla
+  canónica de P-04 es la v1 congelada o una v2 sobre el HEAD de
+  GitHub (MD5 `7423c8c3…`), y si la copia del workspace se
+  sincroniza con GitHub; decisión de Antonio/Dirsi, confirmada
+  en revisión cruzada por el trabajador de rag-demo (14:10).
+- El sistema marcó el clon fresco con una alerta de riesgo de
+  ejecución y prohibió editarlo y correr git dentro de él. No
+  se forzó: el trabajo se entregó como archivos-propuesta con
+  pasos exactos de aplicación, para la fase de publicación con
+  Antonio. Lección: cuando la herramienta bloquea el camino,
+  el trabajo se entrega por la vía que queda, no se abandona
+  ni se rodea el bloqueo.
+- Hilos nuevos: H-009 (corrida ciega R-01–R-06, en curso hoy por
+  coordinación paralela) y H-010 (corrección del 401 de Zen sin
+  verificar). H-002 sigue abierto: el README de rag-demo (393
+  líneas en el clon fresco) sigue sin documentar las preguntas
+  de ejemplo ni el historial; lo trabaja el trabajador de
+  rag-demo de esta sesión.
+- Demo de Block Ethos en PythonAnywhere EXTENDIDA el 23 nov
+  (13:57): la página mostraba «disabled on Thursday 26 November
+  2026» y tras pulsar «Run until 1 month from today» muestra
+  «disabled on Wednesday 23 December 2026». La extendió Dirsi
+  con el login guardado de BC123: la nota del 19 nov («Dirsi no
+  puede») era falsa. Próxima re-extensión antes del 23 dic
+  2026.
+
+## 2026-11-23 — Revisión del sistema (sesión 2 del consejo)
+
+- Revisión completa del sistema ordenada por Antonio («una nueva Dirsi
+  mejorada al final del reset»): 5 asesores + falsificador + corrida
+  ciega R-01–R-06 + 2 puntuadores ciegos. Veredicto: la semana 0 de
+  Fase 0 no fue rodaje, fue silencio con archivos publicados — los
+  mecanismos existen y no se operaron (0 huellas M1r, 0 FI-candidatos,
+  0 pasadas de refutación en 20 días, 0 sesiones del consejo, sección R
+  inexistente el día de la corrida). La corrida ciega: ejecutada y
+  puntuada (X 8,5/9, Y 8,33/9; acuerdo entre puntuadores 17/18;
+  baremo 6/6 no evaluable por el bloqueo del clon en R-06; la
+  diferencia entre brazos fue 1/6 de punto en un solo subcaso).
+  Cambios adoptados (sin capas nuevas:
+  operar lo que existe, con gatillos mecánicos): ver CONSEJO-ASESOR.md,
+  sesión 2, y `revision-sistema-2026-11-23/cambios/`.

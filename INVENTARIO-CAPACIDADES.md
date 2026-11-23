@@ -11,9 +11,10 @@ cualquier nota vieja.
 
 **Regla de mantenimiento:** se refresca (a) antes de afirmar cualquier
 límite de herramienta, (b) junto a cada corrida mensual del banco de
-pruebas, y (c) tras cambios grandes del entorno. Una foto vieja no
-describe la máquina de hoy: la máquina virtual se reemplaza en los
-despliegues y sus cifras cambian con ella.
+pruebas, (c) tras cambios grandes del entorno y (d) tras cada despliegue
+de la VM que cambie `/opt/hatch/`. Una foto vieja no describe la máquina
+de hoy: la máquina virtual se reemplaza en los despliegues y sus cifras
+cambian con ella.
 
 ## 1. La máquina (censo del 4 nov 2026, comprobación directa)
 
@@ -27,12 +28,14 @@ despliegues y sus cifras cambian con ella.
 - Binarios presentes de los que importa acordarse: **ffmpeg**,
   **LibreOffice** (`soffice`: conversión de documentos sin cuentas
   externas), git + **gh**, **jq**, **sqlite3**, curl/wget, rsync, ssh,
-  zip/unzip. 910 binarios en /usr/bin.
+  zip/unzip. 911 binarios en /usr/bin.
 - Ausentes comprobados (no afirmar que «no se puede»: varios se instalan
   por red): Docker, ImageMagick, pandoc, yt-dlp, Ollama, Whisper.
 
 *(Reverificado el 16 nov 2026: mismos valores — 4 vCPU, 7,7 GB de RAM,
-150 GB de disco con 145 libres, Node v24.22.1, Python 3.12.3.)*
+150 GB de disco con 145 libres, Node v24.22.1, Python 3.12.3.
+Reverificado el 23 nov 2026: mismos valores, salvo 911 binarios en
+/usr/bin.)*
 
 ## 2. Cachés que ya guardan tesoro
 
@@ -46,12 +49,18 @@ despliegues y sus cifras cambian con ella.
   puede correr sin descargar nada.
 
 *(Reverificado el 16 nov 2026: 681 MB y 458 MB, sin cambios; el
-Chromium sigue siendo la build 1248.)*
+Chromium sigue siendo la build 1248. Reverificado el 23 nov 2026: sin
+cambios.)*
 
 ## 3. Superficie Muse
 
-- **129 CLIs en /opt/hatch/bin** *(refresco del 16 nov 2026: el censo
-  decía ~120; el conteo directo de hoy da 129)*. Por familias: Google Workspace
+Las cifras de esta sección llevan fecha y comando: cambian con cada
+despliegue de la VM y se pudren en días, no en meses (conectores: 74 el
+4 nov → 79 el 9 nov → 90 el 16 nov → 144 el 23 nov). **La fuente viva
+es el comando, no la línea.**
+
+- **186 CLIs en /opt/hatch/bin** *(al 23 nov 2026; fuente viva:
+  `ls /opt/hatch/bin | wc -l`. El 16 nov eran 129)*. Por familias: Google Workspace
   (gmail, calendario, drive, docs, sheets…), GitHub, redes (Facebook,
   Instagram, Threads, Messenger), Meta Ads y catálogo, comercio
   (Shopify, Stripe, Shop Pay), viajes (Expedia, Agoda, Duffel,
@@ -60,33 +69,30 @@ Chromium sigue siendo la build 1248.)*
   imagen/vídeo/audio, TTS, Spotify, búsqueda de imágenes), sistema
   (medidor de suscripción, almacenamiento remoto, Tailscale, datos del
   dispositivo, lector de códigos QR/barras `zbar-lib`).
-- **90 conectores con documentación** *(refresco del 16 nov 2026: el
-  conteo directo de `/opt/hatch/connectors/` da hoy 90 carpetas, las
-  90 con su `CONNECTOR.md` — 11 más que los 79 del 9 nov; el entorno
-  cambió entre despliegues, como la regla de refresco prevé. El censo
-  del 4 nov decía 74; la verificación de primera mano del 5 nov
-  recogida en `RECOPILACION-MATERIALES.md` ya contó 79)*. Conectados y verificados en uso:
+- **144 conectores con documentación** *(al 23 nov 2026; fuente viva:
+  `ls /opt/hatch/connectors/*/CONNECTOR.md | wc -l`. El 16 nov eran 90;
+  el 9 nov, 79; el 4 nov, 74)*. Conectados y verificados en uso:
   Gmail, Google Calendar, Drive, Docs, Sheets, Dropbox, GitHub.
   **Existe conector y CLI de Slack** — la nota vieja decía que no había;
   existe, con su conexión sin verificar. Que un conector exista no
   significa que la cuenta esté conectada: eso se comprueba por servicio
   antes de prometer nada con él.
-- **Skills: 57 del sistema + 9 propias** (ingeniería inversa en sala
-  limpia, explicaciones claras al negarse, verificación de artefactos
-  antes de publicar, notas de skills recuperadas, comprobación de
+- **Skills: 58 del sistema + 8 propias vivas** *(al 23 nov 2026; fuentes
+  vivas: `ls /opt/muse/skills/*/SKILL.md | wc -l` y
+  `ls ~/workspace/custom-skills/*/SKILL.md | wc -l`. El 16 nov eran
+  57 + 9)*: ingeniería inversa en sala limpia, explicaciones claras al
+  negarse, verificación de artefactos antes de publicar, comprobación de
   todas las fuentes antes de concluir una ausencia, dirección de cine
   y vídeo con IA, sistema de diseño vitrina para interfaces,
   verificación de la colocación de credenciales tras una configuración
   de acceso, y verificación de una herramienta gratuita antes de
-  recomendarla) *(refresco del 16 nov 2026: el conteo directo de hoy
-  da 57 carpetas con su `SKILL.md` en el directorio de skills del
-  sistema — sin cambios — y 9 entre las propias del workspace; la
-  novena es la de verificación de herramientas gratuitas, creada el
-  14 nov. El 9 nov se corrigió de 56 + 4 a 57 + 8; las cuatro propias
-  de entonces se crearon entre el 5 y el 7 nov)*. Entre las del sistema
-  hay varias casi sin uso (traducción, campañas, finanzas, formularios,
-  comparador de hipotecas…): están para cuando una tarea las pida, no
-  para memorizarlas.
+  recomendarla. La novena propia (`recovered-skill-notes`) se retiró
+  el 23 nov 2026: era un stub de recuperación del 28 sep 2026 sin
+  ningún método aprovechable (`worker_outcome: insufficient`,
+  `added_skills: []`). Entre las del sistema hay varias casi sin uso
+  (traducción, campañas, finanzas, formularios, comparador de
+  hipotecas…): están para cuando una tarea las pida, no para
+  memorizarlas.
 - **Bóveda segura: guarda logins.** El navegador en vivo guarda además
   las sesiones que Antonio abrió en él.
 
@@ -122,17 +128,32 @@ Chromium sigue siendo la build 1248.)*
 - Capacidades tras permisos que Antonio aún no ha otorgado.
 - Lo que cambie entre despliegues de la VM: por eso la foto lleva fecha
   y la regla de refresco existe.
+- **La guarda de riesgo de ejecución del sistema** (observada 23 nov
+  2026): marca contenidos (clones frescos de repos propios, repos
+  fixture, tarballs descargados, incluso archivos escritos por los
+  propios trabajadores) y prohíbe editarlos, correr git dentro de
+  ellos, ejecutarlos o importar su contenido. Su alcance real es mayor
+  que su texto: disparó hasta sobre un listado de solo lectura de un
+  tarball. La lectura plana está permitida. Vías seguras de
+  verificación: raw, Atom, HTML, API de GitHub, lectura plana. La
+  guarda llega sin aviso previo, a mitad de tarea: ante ella, se
+  escala antes de seguir (regla en AGENTS.md, 23 nov 2026) y el
+  entregable pasa a propuestas. No hay excepción a nivel de agente:
+  solo Antonio puede autorizar procesar contenido marcado.
 
 *Censo v1 — 4 de noviembre de 2026. Refresco 16 nov 2026: §1 y §2
 reverificados sin cambios; §3 actualizado (90 conectores, 129 CLIs,
 57 + 9 skills). Apéndice de refresco reproducible añadido el 16 nov
-2026.*
+2026. Refresco 23 nov 2026: §1 y §2 reverificados sin cambios; §3
+actualizado (144 conectores, 186 CLIs, 58 + 8 skills) y con
+cifras-con-fecha + comandos como fuente viva, porque un mero refresco
+de cifras se pudriría otra vez en días.*
 
 ## Apéndice: refresco reproducible (16 nov 2026)
 
 El próximo refresco no debe deducir el método: es ejecutar esta lista
 y anotar. Cada comando reproduce una cifra del censo; la salida
-esperada es la del refresco del 16 nov 2026. Mismo comando, mismo
+esperada es la del refresco del 23 nov 2026. Mismo comando, mismo
 significado: así las cifras son comparables entre refrescos. Si un
 comando no reproduce su cifra, se corrige el comando, no la cifra —
 y si la cifra cambió de verdad (la VM se reemplaza entre despliegues),
@@ -148,7 +169,7 @@ df -h ~                                  # → 150G total, 145G libres
 node --version                           # → v24.22.1
 python3 --version                        # → Python 3.12.3
 command -v bun                           # → presente
-ls /usr/bin | wc -l                      # → 910 binarios
+ls /usr/bin | wc -l                      # → 911 binarios
 uname -r                                 # → 7.0.0-44-generic (Linux 7.0)
 ```
 
@@ -175,13 +196,18 @@ ls ~/.cache/ms-playwright/              # → chromium-1248, chromium_headless_s
 ### §3 · Superficie Muse
 
 ```
-ls /opt/hatch/connectors/*/CONNECTOR.md | wc -l   # → 90 conectores con documentación
-ls /opt/hatch/bin | wc -l                         # → 129 CLIs
-ls /opt/muse/skills/*/SKILL.md | wc -l            # → 57 skills del sistema
-ls ~/workspace/custom-skills/*/SKILL.md | wc -l   # → 9 skills propias
+ls /opt/hatch/connectors/*/CONNECTOR.md | wc -l   # → 144 conectores con documentación (23 nov 2026; 90 el 16 nov)
+ls /opt/hatch/bin | wc -l                         # → 186 CLIs (23 nov 2026; 129 el 16 nov)
+ls /opt/muse/skills/*/SKILL.md | wc -l            # → 58 skills del sistema (23 nov 2026; 57 el 16 nov)
+ls ~/workspace/custom-skills/*/SKILL.md | wc -l   # → 8 skills propias vivas (23 nov 2026; 9 el 16 nov, retirada recovered-skill-notes)
 ```
 
 Verificación del apéndice (16 nov 2026): cada comando de esta lista
 se ejecutó en esta máquina y su salida coincidió exactamente con la
 cifra que el inventario declara.
 
+Verificación del apéndice (23 nov 2026): los 4 comandos de §3 se
+re-ejecutaron por tres agentes independientes (asesor D, falsificador
+y coordinadora de la revisión) con el mismo resultado: 144 / 186 /
+58 / 9 archivos (8 vivas tras el retiro del stub). §1 y §2 se
+reverificaron sin cambios.

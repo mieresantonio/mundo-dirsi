@@ -261,7 +261,7 @@ incluye) · prueba de cierre · disparo de parada. Al cerrar: veredicto
 fuera · no volví a probar. Sin esas líneas, la sesión siguiente
 rediscute gustos y da por sentado lo que nunca se probó. La ficha vive
 pegada al trabajo, no en un informe aparte; la app reconstruida la trae
-como formulario persistente (ver DESTILADO-APP-CUADERNO.md).
+como formulario persistente (ver `~/workspace/capitulo-grok/DESTILADO-APP-CUADERNO.md`).
 
 **La pregunta de antes de escribir** [adoptado 10 nov]. Una sola,
 antes de que el asistente toque el sistema: «Di el invariante y el

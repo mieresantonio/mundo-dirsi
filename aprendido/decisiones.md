@@ -35,6 +35,8 @@ alternativas que se descartaron y la fuente exacta donde vive.
 | D-08 | Diseño en Dirsi/portátil; teléfono para texto rápido | 27 oct 2026 | vigente |
 | D-09 | Portafolio de un solo archivo, sin dependencias | 7 nov 2026 | vigente |
 | D-10 | Upwork en espera de LinkedIn | 11 nov 2026 | vigente |
+| D-11 | Fase 0 de la auditoría de integración, adoptada condicionalmente | 17 nov 2026 | vigente |
+| D-12 | Escala de razonamiento por número de agentes | 17 nov 2026 | vigente |
 
 ---
 
@@ -354,3 +356,82 @@ alternativas que se descartaron y la fuente exacta donde vive.
   Antonio el 11 nov 2026; borrador de perfil listo.
   Completarlo espera a LinkedIn, por decisión suya: Upwork
   enlazado a LinkedIn se lee más profesional».
+
+## D-11 — Fase 0 de la auditoría de integración, adoptada condicionalmente
+
+- **Decisión:** adoptar el primer paquete de mecanismos contra los
+  fallos de integración (M5, M1r, M3, M6 y la regla de emergencia),
+  de forma condicional: nada sobrevive sin la corrida ciega
+  R-01–R-06, con una semana 0 de rodaje sin puntuar (17–22 nov
+  2026) antes de la primera semana puntuable.
+- **Fecha:** 17 nov 2026 (auditoría nocturna 01:03–01:13;
+  adopción por Antonio a las 18:07).
+- **Estado:** vigente (verificado 23 nov 2026: semana 0
+  terminada; primera semana puntuable en curso desde el 23 nov;
+  corrida ciega R-01–R-06 ejecutada y puntuada el mismo día, X 8,5/9
+  e Y 8,33/9, baremo 6/6 no evaluable por el bloqueo del clon en
+  R-06; la supervivencia la decide la medición de 3 semanas).
+- **Contexto:** la auditoría de integración (11 agentes) encontró
+  0 de 28 fallos por dato ausente — todo era integración — y que
+  en 4 de 6 incidentes la regla ya existía y no se aplicó. La
+  línea base era 7 FI en la semana 9–16 nov (2 graves). La
+  respuesta no fue añadir proceso por añadir: cada mecanismo
+  nuevo debía justificarse por un fallo demostrado y medirse con
+  una corrida ciega.
+- **Alternativas descartadas:**
+  - *No adoptar nada hasta la corrida ciega:* descartado; las
+    piezas de coste ~0 (M5, el registro de hilos) valían desde
+    el primer día, y la semana 0 de rodaje permitía probarlas
+    sin puntuar.
+  - *Adoptar los 6 mecanismos propuestos sin condición de
+    medición:* descartado; la adopción es condicional a la
+    corrida ciega, y M4f (perspectiva fusionada) no entró en
+    la Fase 0.
+  - *Mover el umbral si no se cumple:* descartado por diseño;
+    si no se cumple, se prorroga y se registra qué condición
+    falló.
+- **Fuente:** `REGISTRO-INTEGRACION.md` — «Publicado en
+  mundo-dirsi el 17 nov 2026 (Fase 0 de la auditoría de
+  integración, aprobada por Antonio)»; «Si no se cumple, no se
+  mueve el umbral: se prorroga y se registra qué condición
+  falló»; informe de la auditoría
+  (`~/workspace/auditoria-integracion-2026-11-17/INFORME.md`,
+  fuera de este repo).
+
+## D-12 — Escala de razonamiento por número de agentes
+
+- **Decisión:** graduar el razonamiento del sistema por el número
+  de agentes que trabajan con Dirsi al centro: Bajo (Dirsi sola),
+  Medio (+2), Alto (+6), Extra (+12), Max (+12, uso único con
+  presupuesto explícito). Desde Medio, revisión cruzada
+  exhaustiva obligatoria y comunicación integral constante.
+- **Fecha:** 17 nov 2026 (propuesta por Antonio y adoptada el
+  mismo día; correcciones de diseño el 18 nov).
+- **Estado:** vigente (verificado 23 nov 2026: la primera
+  calibración, 18 nov, no calibró los números 2/6/12 — en los
+  criterios binarios del banco los 4 niveles empatan a 3/3 —,
+  pero la escala sigue vigente como amplitud con revisión
+  cruzada; lo que crece con los agentes es la profundidad y la
+  caza de errores).
+- **Contexto:** Antonio propuso la escala como forma de controlar
+  un sistema de razonamiento artificial que cumpliera casi lo
+  mismo que los niveles nativos de razonamiento de modelos como
+  Claude. La escala es amplitud (más ángulos, más chequeo), no
+  la profundidad de una sola cadena de pensamiento; todos los
+  agentes corren sobre el mismo motor y comparten puntos ciegos.
+- **Alternativas descartadas:**
+  - *Un agente solo, sin retroalimentación ni integración con
+    Dirsi, como nivel:* descartado por Antonio; no es un
+    nivel, es una configuración rota.
+  - *Equipos fijos por tarea (3 parejas en Medio):* probado y
+    descartado el 18 nov; el diseño vigente es un solo equipo
+    por nivel, con Dirsi al centro.
+  - *Usar los niveles nativos de razonamiento del modelo:*
+    descartado por inexistente en este chat; no hay mando de
+    razonamiento, el motor es la palanca.
+- **Fuente:** `ESCALA-RAZONAMIENTO-AGENTES.md` — «Propuesta por
+  Antonio y adoptada el 17 nov 2026»; «Un agente solo, sin
+  retroalimentación de otro agente y sin integración con Dirsi,
+  NO es un nivel: es una configuración rota»; «Dirsi es el
+  centro en cada escenario»; `CALIBRACION-ESCALA-2026-11-18.md`
+  (primera calibración: 3/3 en los 4 niveles, acuerdo 12/12).

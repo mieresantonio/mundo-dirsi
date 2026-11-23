@@ -152,6 +152,10 @@ corrida válida: 22 agentes. Total de la noche en calibración: 55
 
 ## Archivos
 
+Rutas relativas al directorio local del workspace
+`calibracion-escala-2026-11-18/` (ver la nota al inicio de este
+documento); ese material no está en este repo.
+
 - Soluciones Bajo: `soluciones-bajo/`
 - Equipos: `equipos/medio/`, `equipos/alto/`, `equipos/extra/`
   (borradores, fusiones, `trabajo.md` con el rastro completo)
