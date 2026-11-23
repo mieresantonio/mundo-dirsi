@@ -113,7 +113,14 @@ es el comando, no la línea.**
   pendiente de Mantener/Deshacer; nada llamado «Muse» en ningún
   menú. La edición directa sigue siendo más rápida para cambios
   pequeños; Copilot compensa cuando conviene delegar la búsqueda y
-  revisar el diff antes de aceptar.
+  revisar el diff antes de aceptar. **El agente Codex NO funciona
+  en VS Code web (probado 23 nov 2026, 18:45–18:50):** el inicio de
+  sesión en ChatGPT se completa, pero la devolución OAuth a
+  127.0.0.1:1455 falla (ERR_CONNECTION_REFUSED, ×2) porque nada
+  escucha en ese puerto; Codex espera una aplicación local, no una
+  página web. Pendiente: VS Code de escritorio. Copia del Codespace
+  verificada 19:12–19:15: HEAD e80ac8b, árbol limpio, 2 commits por
+  detrás del remoto.
 
 ## 4. Automatismos vivos (4 nov 2026)
 
