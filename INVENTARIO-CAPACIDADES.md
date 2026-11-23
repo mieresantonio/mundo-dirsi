@@ -95,6 +95,17 @@ es el comando, no la línea.**
   memorizarlas.
 - **Bóveda segura: guarda logins.** El navegador en vivo guarda además
   las sesiones que Antonio abrió en él.
+- **Codespaces de GitHub vía la extensión de Edge (23 nov 2026,
+  probado):** Dirsi trabaja directo en el Codespace de Antonio
+  (mundo-dirsi, «glorious space barnacle»): editor web completo con
+  terminal bash y git real — crear, escribir, guardar (Ctrl+S) y
+  verificar con `git status` funcionan sin fricción (probado con un
+  archivo temporal, árbol limpio al final). Solo funciona cuando
+  Antonio escribe desde la laptop (el navegador pertenece a su
+  sesión). El agente Claude de Copilot Chat NO sirve sin modelo
+  («No models available», los modelos piden Upgrade); Codex pide
+  inicio de sesión en ChatGPT. Claude/Codex no son extensiones
+  instaladas: son opciones de agente dentro de Copilot Chat.
 
 ## 4. Automatismos vivos (4 nov 2026)
 
