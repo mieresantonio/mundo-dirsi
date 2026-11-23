@@ -105,7 +105,15 @@ es el comando, no la línea.**
   sesión). El agente Claude de Copilot Chat NO sirve sin modelo
   («No models available», los modelos piden Upgrade); Codex pide
   inicio de sesión en ChatGPT. Claude/Codex no son extensiones
-  instaladas: son opciones de agente dentro de Copilot Chat.
+  instaladas: son opciones de agente dentro de Copilot Chat. **El
+  agente Copilot SÍ funciona (probado 23 nov 2026, 18:17–18:26):**
+  Copilot Fusion (modelo mai-code-2-flash; 0,3 créditos la lectura,
+  0,1 la creación de un archivo), pide permiso antes de correr
+  comandos en terminal (Allow Once) y deja las ediciones como diff
+  pendiente de Mantener/Deshacer; nada llamado «Muse» en ningún
+  menú. La edición directa sigue siendo más rápida para cambios
+  pequeños; Copilot compensa cuando conviene delegar la búsqueda y
+  revisar el diff antes de aceptar.
 
 ## 4. Automatismos vivos (4 nov 2026)
 
