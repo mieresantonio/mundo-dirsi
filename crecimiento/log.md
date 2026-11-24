@@ -606,3 +606,28 @@ sin crear repos desde aquí.
   desfasado por la publicación del mismo día y se refrescó
   antes de publicar; la guardia no se publicó por cuenta y
   semilla sin verificar.
+
+## 2026-11-23 — Resincronización de las 5 copias locales (decisión 2, tanda 3)
+
+- La guarda de ejecución NO disparó en la prueba previa (un clon
+  `git clone --depth 1` de rag-demo a las 20:24 funcionó sin
+  alerta), así que la resincronización se hizo por la vía
+  estándar: clon fresco + diff + reposición. Las 5 copias locales
+  son ahora clones reales en el HEAD publicado (rag-demo 50acc7d,
+  diseno df9b85a, mundo-vida-ia ead36f4, mundo-dirsi 58e48ac,
+  block-ethos c52f86b). La deriva medida: 145 líneas de diff
+  (80 archivos con diferencias, 52 solo en remoto, 13 solo en
+  local). Nada se borró: las 5 copias viejas están en
+  `resync-2026-11-23/respaldo-local/` (1,3 GB en total, casi todo
+  el .venv de rag-demo). Lo solo-local (11 medios de block-ethos,
+  .pytest_cache, index.faiss, 32 .pyc fuera del .venv — 3.461
+  contando el .venv de rag-demo — y el .git somero viejo) queda
+  en el respaldo hasta que Antonio decida si se guarda o se borra.
+- Verificación: mundo-dirsi en el clon fresco tiene 63 archivos,
+  justo lo que dice el mapa publicado hoy (58 + 5) — la cifra del
+  mapa quedó confirmada por construcción.
+- M1r: decisión 2 de la tanda 3 / la guarda no disparó en el
+  pre-vuelo y la resincronización se hizo por clon, no por
+  propuestas; el mapa quedó confirmado en 63 archivos; la cifra
+  «8 .pyc» de la tanda 3 era falsa (32 fuera del .venv, 3.461
+  con él) y se corrigió antes de publicar.
