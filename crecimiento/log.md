@@ -774,3 +774,23 @@ sin crear repos desde aquí.
 - M1r: Antonio pidió la esencia antes de elegir / H-001 pasa
   a dos hilos independientes; la explicación corta es lo que
   desbloquea estas decisiones, no la opción en sí.
+
+## 2026-11-23 — Navbar: acceso arriba a la derecha, contenido centrado
+
+- Antonio (21:35): «dejar el "registrarse" e "iniciar
+  sesion" en la parte superior derecha y los botones
+  restantes ahí mismo pero centrados en el medio». Aplicado
+  en Navbar.jsx (6377d55): fila 1 con logo + buscador +
+  acceso a la derecha (con sesión: Mis Cursos / Cerrar
+  Sesión); fila 2 con Explorar Rutas, Laboratorio y Tutor
+  centrados (w-100). En móvil queda igual (fila desplazable).
+- Verificación en el Codespace (21:44): pull a 6377d55,
+  Vite recargó solo, y el navbar quedó exactamente como lo
+  pidió, sin nada roto ni desalineado; el catálogo sigue
+  con las 2 rutas. El pull trajo también los archivos de
+  las decisiones 5 y 6 (README, app.py, test); Flask sigue
+  con el código anterior en memoria, sin reiniciar — el
+  cambio de app.py es solo un comentario, sin efecto.
+- M1r: Antonio dio el diseño en sus palabras / el navbar
+  queda en dos filas deliberadas: acceso a la derecha,
+  contenido centrado; la fila única deja de ser el objetivo.
