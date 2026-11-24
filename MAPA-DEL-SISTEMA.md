@@ -93,6 +93,7 @@ una capa más: es la revisión continua sobre todo lo demás.
 | Auditoría de coherencia | Método para auditar un repo de documentos: índice contra archivos, cifras contra fuentes | `aprendido/auditoria-de-coherencia.md` |
 | Escala de razonamiento | Niveles por número de agentes (bajo/medio/alto/extra/Max), en calibración | `ESCALA-RAZONAMIENTO-AGENTES.md`, `CALIBRACION-ESCALA-2026-11-18.md` |
 | Tablero y glosario | El estado de hoy en una página; los términos definidos una sola vez | `STATUS.md`, `GLOSARIO.md` |
+| Primera lectura | La página de entrada para un agente nuevo que va a trabajar en el sistema | `ONBOARDING.md` |
 
 Cifras del censo (144/186/58+8): refresco del 23 nov 2026, 1ª
 tanda de esta sesión; el inventario manda sobre cualquier nota

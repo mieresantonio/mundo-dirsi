@@ -41,6 +41,8 @@ Si algo no dejó huella, es como si no se hubiera aprendido.
 
 Si es la primera vez que entras, este orden:
 
+Si eres un agente que va a *trabajar* en este sistema (no solo leerlo), empieza por **`ONBOARDING.md`** — una sola página con las reglas que no se aprenden por tropezón — y luego sigue este orden.
+
 1. **`STATUS.md`** — el tablero de una página: cómo va el sistema hoy,
    con fecha. Si solo lees un archivo, es este.
    **`MAPA-DEL-SISTEMA.md`** dice cómo encajan las piezas entre sí;
@@ -77,6 +79,7 @@ reescribe nunca — una entrada refutada se marca, no se borra.
 
 ### Raíz
 - `STATUS.md` — tablero de estado del sistema en una página: marcador de calibración, puntuación del banco de pruebas, último refresco del censo y próximos vencimientos.
+- `ONBOARDING.md` — primera lectura para un agente nuevo que va a trabajar en este sistema: modo propuestas, la guarda, falsación, M5, refutación y dónde está cada cosa, en una sola página.
 - `MAPA-DEL-SISTEMA.md` — el sistema en una página: qué es (memoria, archivos, procedimientos, skills, repos vivos, conexiones, agenda, capa de medición), cómo se conectan las piezas y dónde vive cada cosa.
 - `GLOSARIO.md` — los términos del sistema, definidos una sola vez, cada uno con su documento fuente.
 - `QUE-NO-ESTA-EN-ESTE-REPO.md` — qué NO vive en este repo y dónde vive en su lugar: memoria, reglas de operación, credenciales, código de los proyectos, material privado, informes locales, crons, el motor y los datos en vivo.
