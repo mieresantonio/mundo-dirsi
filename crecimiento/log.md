@@ -794,3 +794,20 @@ sin crear repos desde aquí.
 - M1r: Antonio dio el diseño en sus palabras / el navbar
   queda en dos filas deliberadas: acceso a la derecha,
   contenido centrado; la fila única deja de ser el objetivo.
+
+## 2026-11-23 — Las 8 ideas a la próxima tanda (decisión 7, tanda 3)
+
+- Antonio eligió «Las 8» (23:19) y pidió explicar bien la
+  4 («Verifica lo que digo»): cada cifra fuerte del
+  portafolio enlaza a su prueba viva (tests→CI, demo→demo
+  en vivo, fragmentos RAG→mapa de cobertura). La parte de
+  commits→gráfico del repo queda fuera: la cifra 48/93 ya
+  no existe (decisión 5).
+- Tanda 4 lanzada la misma noche (coordinadora 2f2caae5):
+  8 trabajadores, uno por idea, modo propuestas (nada se
+  publica; sin clones, sin git, sin ejecutar contenido de
+  repos). Prácticas permanentes: lluvia de ideas +
+  descubrimientos entre agentes.
+- M1r: Antonio eligió las 8 y pidió la explicación de la 4 /
+  la tanda 4 trabaja las 8 ideas; F-PF2 se ajusta a la
+  decisión 5 (sin enlace de commits).
