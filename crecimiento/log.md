@@ -850,3 +850,27 @@ sin crear repos desde aquí.
   Blockchain», salvo que el código muestre mejor opción.
 - M1r: Antonio aprobó el modo invitado / F-BE2 pasa de
   descartada a trabajo en curso; el diseño dirá qué cambia.
+
+## 2026-11-23 — Diseño del modo invitado listo (F-BE2)
+
+- El diseño está listo (sesión ~/workspace/modo-invitado-2026-11-23/):
+  DISENO.md + PARCHES.md (13 parches P0–P12 + 3 archivos nuevos)
+  + VERIFICACION.md. Muestra: «¿Qué es una blockchain?», primera
+  lección de «Fundamentos de Blockchain»; columna is_sample en
+  Lesson; ruta pública /muestra; quizzes siempre cerrados.
+- Hallazgo central, VERIFICADO de primera mano por Dirsi en
+  routes.py (HEAD 6377d55): hoy el contenido NO está cerrado —
+  GET /lessons/<id> (línea 551) y GET /quizzes/<id> (602) no
+  tienen @jwt_required(); cualquiera que escriba la URL lee
+  cualquier lección y quiz. La propuesta tiene dos mitades
+  inseparables: abrir la muestra y cerrar el resto en el
+  servidor. Trampa: quizService devuelve MOCK_QUIZ ante
+  cualquier no-OK (el 401 se volvería el quiz de ejemplo);
+  el parche P9 lo propaga.
+- Suite resultante: 174 tests (166 + 8 nuevos). Sin verificar:
+  tests sin correr, migración sin correr, frontend sin
+  renderizar. Despliegue: flask db upgrade + re-seed +
+  rebuild + redeploy; sin re-seed, /muestra da 404 visible.
+- M1r: Antonio aprobó la muestra / el diseño encontró que el
+  contenido ya estaba abierto: cerrar es la mitad real del
+  trabajo, abrir la muestra es la parte visible.
