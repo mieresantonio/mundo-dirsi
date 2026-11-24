@@ -874,3 +874,39 @@ sin crear repos desde aquí.
 - M1r: Antonio aprobó la muestra / el diseño encontró que el
   contenido ya estaba abierto: cerrar es la mitad real del
   trabajo, abrir la muestra es la parte visible.
+
+## 2026-11-24 — Publicación tanda 4 + decisión 9: 8/8
+
+- Antonio aprobó «Publicar las 7» (00:31) y «Sí, las 3» (00:32)
+  + «arreglar todo de una vez como puedas» (00:30). Publicación
+  completa 00:39: 8/8 pushes, 8 tarjetas aprobadas, ninguna
+  caducó. SHAs: rag-demo 967b48a (F-RG1), block-ethos 3587612
+  (F-BE1 + §10→c52f86b), portfolio 0e94d1f (F-PF2 + arreglo
+  actualizar-datos.py), B9 8b2c875, A17 b3cc85b, B8 c20d993,
+  diseno d62d986 (F-DS1 + R9 + log 15–17), mundo-dirsi be76324
+  (F-MD2, ONBOARDING 250 líneas).
+- Verificado de primera mano por Dirsi por raw fijado al SHA
+  (el raw de rama servía caché vieja): ?q= ×8, BK-DEMO ×7,
+  c52f86b ×1, 12 enlaces prueba, 0 entradas de commits,
+  decisiones.md, log 15–17 ×1, ONBOARDING 250 líneas;
+  rescates confirmados por API (archivos y mensajes).
+  Corrección: el nombre real de B8 es
+  mieresantonio-Blog-De-Starwars-react-hello-webapp (master).
+- La guarda marcó 6 de 9 clones (inconsistente: el mismo repo
+  limpio en pre-vuelo y marcado en el trabajador); todos
+  pararon y escalaron según la regla; raw/API, push-files y
+  record-sync no dispararon nada. Un trabajador de
+  block-ethos se negó incluso a la vía alternativa y se
+  re-despachó por staging.
+- F-BE2 no entró en esta publicación (la coordinadora no
+  aceptó el cambio de alcance: subagent.send falló 2 veces
+  con «agent not found»); se aplica aparte encima de 3587612
+  (trabajador 4c6f8a81, en curso). Parche 1 del perfil espera
+  al taller de hoy (14:30) + asistencia.
+- Error mío al resincronizar: cloné `mieresantonio/rag-demo`
+  (no existe) en vez de `rag-demo-asistente-documentos`; la
+  cadena `&&` paró antes de borrar la copia local, sin daño.
+- M1r: Antonio ordenó arreglar todo de una vez / 8/8
+  publicado y verificado; la guarda sigue siendo
+  inconsistente entre clones; el cambio de alcance en vuelo
+  no llegó y se resolvió por vía aparte.
