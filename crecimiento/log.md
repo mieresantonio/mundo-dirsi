@@ -935,3 +935,37 @@ sin crear repos desde aquí.
   guarda marca comandos de lectura sobre clones frescos
   (no solo clones); el id de migración se genera por
   procedimiento, no por Alembic, y se anota como tal.
+
+## 2026-11-24 — Decisión 10 aplicada («Todo», por voz ~01:05)
+
+- Antonio aprobó revisar a fondo y corregir memoria, reglas y
+  mecanismos («específicamente que es lo más delicado porque tú
+  misma lo dices sobre la memoria»). Revisión en Medio: Dirsi
+  + 2 agentes de razonamiento (su preferencia, 24 nov: con
+  agentes antes que sola, aunque gaste más tokens).
+- Memoria: 18/18 parches de AUDITORIA-DEMOTION.md §5 aplicados
+  a ~/MEMORY.md y verificados por grep (18 marcadores ×1,
+  2a7ab89 ×0). Ajustes: P-04 (precedentes: solo el 22 oct
+  confirmado suyo), P-16 (commit del CV 9ca7aa0, no 2a7ab89),
+  P-18 (cláusula Max duplicada, eliminada). P-02 aplica tal
+  cual: el revisor REFUTÓ mi ajuste (la delegación del
+  Ejercicio 3 fue el 17 nov 22:25, 3 fuentes; el 18 nov fecha
+  la verificación, no la decisión). + 2 líneas de preferencia
+  de esta noche (ritmo sostenible; con agentes, no sola).
+- Reglas: F1–F13 aplicados (F4 SALTADO: mismo SEARCH que P1,
+  subsumido por él). Mecanismos: P1–P7. Razonamiento: P1
+  fusionada con P2 en UNA tabla M6 canónica de 10 filas en
+  REGISTRO-INTEGRACION.md (7 tipos + 3 filas solo-mecanismos);
+  P2 → MANUAL-AGENTES.md §9; P3/P5 → AGENTS.md; P4 → REGISTRO
+  § FI. F12 después de P4 (orden obligado por SEARCH solapados).
+  AGENTS.md: + checklist único de cierre + escritura de vuelta
+  (AUDITORIA-DEMOTION.md §9). Todos los SEARCH verificados
+  n=1 por el revisor (6 con envuelto de líneas corregido).
+- M1r: Antonio ordenó arreglar todo de una vez / 18/18 + F1–F13
+  (F4 subsumido) + P1–P7 + P1–P5 aplicados y verificados; la
+  revisión refutó un ajuste mío antes de entregar.
+- FI-candidato: no — el error de P-02 se cazó antes de entregar
+  (TCE, no FI).
+- refutación: pasada adversarial por 2 revisores independientes
+  (Medio); 1 ajuste mío refutado (P-02 fecha), 1 confirmado
+  (P-16 commit), 2 conflictos resueltos (F4/P1, F12/P4).

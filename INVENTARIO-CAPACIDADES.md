@@ -154,18 +154,7 @@ es el comando, no la línea.**
 - Capacidades tras permisos que Antonio aún no ha otorgado.
 - Lo que cambie entre despliegues de la VM: por eso la foto lleva fecha
   y la regla de refresco existe.
-- **La guarda de riesgo de ejecución del sistema** (observada 23 nov
-  2026): marca contenidos (clones frescos de repos propios, repos
-  fixture, tarballs descargados, incluso archivos escritos por los
-  propios trabajadores) y prohíbe editarlos, correr git dentro de
-  ellos, ejecutarlos o importar su contenido. Su alcance real es mayor
-  que su texto: disparó hasta sobre un listado de solo lectura de un
-  tarball. La lectura plana está permitida. Vías seguras de
-  verificación: raw, Atom, HTML, API de GitHub, lectura plana. La
-  guarda llega sin aviso previo, a mitad de tarea: ante ella, se
-  escala antes de seguir (regla en AGENTS.md, 23 nov 2026) y el
-  entregable pasa a propuestas. No hay excepción a nivel de agente:
-  solo Antonio puede autorizar procesar contenido marcado.
+- **La guarda de riesgo de ejecución del sistema** (observada 23 nov 2026): marca contenidos y prohíbe editarlos, correr git dentro, ejecutarlos o importarlos; la lectura plana está permitida. Alcance observado y procedimiento: AGENTS.md, regla «Ante un aviso del sistema, se escala antes de seguir».
 
 *Censo v1 — 4 de noviembre de 2026. Refresco 16 nov 2026: §1 y §2
 reverificados sin cambios; §3 actualizado (90 conectores, 129 CLIs,

@@ -88,6 +88,6 @@ Sobre lo invisible no se «verifica», se calla.
 
 **Coste:** ~40–150 tokens internos solo cuando se activa, ~0 en el resto;
 2–6 s; sin llamadas a herramientas ni subagentes. Cada reescritura en entrega
-decisiva deja una línea («reescrito por R0: [original] → [final]»); sin
-registro el consejo no puede auditar si la puerta se aplica o se salta en
-silencio.
+decisiva deja una línea en el LOG de la tarea («reescrito por R0:
+[original] → [final]»); sin registro el consejo no puede auditar si la
+puerta se aplica o se salta en silencio.

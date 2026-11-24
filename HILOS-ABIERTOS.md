@@ -10,7 +10,14 @@ y seguimiento, no fallos de inferencia en primera pasada.
 **Reglas:** cada hilo tiene dueño único y disparo de cierre observable y
 verificable por un tercero (nunca «verificado» a secas). Tope de 12 activos
 (ABIERTO + EN-ESPERA); antes de añadir el 13º hay que cerrar, promover a la
-bandeja, fusionar o caducar uno en el mismo turno. Se lee una vez por sesión.
+bandeja, fusionar o caducar uno en el mismo turno. Elevación a 15 una sola vez por sesión y con nota (INFORME.md §3.4, condición 2); la sesión semanal revisa si era real. Se lee una vez por sesión.
+
+**Puesta de sol (decisión de la sesión 2 del consejo, 23 nov 2026):** M3 se
+opera en la semana 1 (23–29 nov) y se decide ~15 dic 2026 en sesión del
+consejo: si en 4 semanas (17 nov–15 dic) no caza ningún incidente
+demostrable, o si supera el 10 % del coste del turno dos semanas seguidas,
+se retira (INFORME.md §7). Quien decide: el consejo asesor; dónde queda:
+acta de esa sesión en CONSEJO-ASESOR.md.
 **Cero recordatorios a Antonio:** los hilos con dueño Antonio no generan
 recordatorios automáticos; se mencionan como máximo en la bandeja semanal si
 se promueven. Un ítem de la bandeja nunca se copia aquí; promoción en un solo
@@ -132,6 +139,8 @@ verifica. Lo que no entra es el trabajo rutinario del cron en sí.
 - **Disparo de cierre:** los CONNECTOR.md de github e instagram releídos,
   con la fecha de relectura anotada en este hilo (o cierre con evidencia
   si la relectura ya ocurrió).
+- **Revisión:** 30 nov 2026 (sesión semanal del consejo): si sigue sin
+  relectura, se decide si se hace en esa sesión o se caduca el hilo.
 - **Evidencia:** los avisos de relectura no existen en ningún archivo
   durable (0 menciones en notas, hilos, registro, consejo y bandeja):
   imposible verificar si se releyeron. GitHub se operó 3 veces en la

@@ -7,22 +7,36 @@
 - **M5 — «Lo que no veo, no lo afirmo»:** nunca afirmar como hecho
   nada que solo se comprobaría desde el lado de Antonio.
   `REGLA-LO-QUE-NO-VEO.md`.
-- **M1r — Puerta de 3 preguntas:** antes de una respuesta decisiva,
-  tres preguntas que terminan en un comando o en una afirmación
-  suavizada. Vive en `REGLA-LO-QUE-NO-VEO.md` (§ Puerta de
-  3 preguntas).
+- **M1r — Puerta de 3 preguntas:** antes de una respuesta decisiva
+  (D1 investigación con consecuencias, D2 dinero, D3
+  publicación/despliegue, D4 afirmación que entra a calibración, D5
+  hechos sobre Antonio o lo que él ve, D6 ventana con fecha real),
+  en orden fijo: Q1 «¿Hay una cuenta atrás abierta que esto refiera?
+  ¿Qué dije en los últimos 10 minutos que esto contradice o matiza?»
+  (si hay ventana <5 min: actuar primero, regla de emergencia); Q2
+  «¿Qué cifra o atribución heredo aquí, y cuál es el comando que la
+  mataría?» (correr el comando si es barato; si no, degradar a
+  «según [archivo], sin re-verificar»); Q3 «¿Afirmo algo sobre lo
+  que Antonio ve, siente o recibe, que yo no puedo ver?»
+  (reescribir a «de mi lado…» o preguntar — ver
+  `REGLA-LO-QUE-NO-VEO.md` § Puerta de 3 preguntas, que es solo
+  Q3). Huella: el LOG de la tarea lleva una línea
+  `M1r: [qué disparó] / [qué cambió o "sin cambio"]`; sin esa línea,
+  la tarea decisiva no está cerrada.
 - **M3 — Registro de hilos abiertos:** las obligaciones vivas con
   dueño y disparo de cierre. `HILOS-ABIERTOS.md`.
 - **M6 — Falsadores pre-registrados:** cada afirmación decisiva
   lleva el comando o la comprobación literal que la tumbaría.
-  Abajo, en este archivo.
+  Tabla en § Tabla M6, abajo en este archivo (los falsadores de
+  «hemos mejorado» son de otro nivel: están en § Criterio de éxito).
 - **Regla de emergencia:** con una cuenta atrás de menos de
   5 minutos y una acción reversible, la acción sale antes que la
-  explicación. Vive en `AGENTS.md` (fuera de este repo).
+  explicación. Si la acción es irreversible, se pierde la ventana
+  antes que cometer un irreversible equivocado. Vive en `AGENTS.md`
+  (fuera de este repo).
 
 La adopción es condicional: nada sobrevive sin la corrida ciega
-R-01–R-06. La auditoría propuso además M4f (perspectiva fusionada),
-que NO entró en la Fase 0. Fuente de los mecanismos: el informe de
+R-01–R-06. La auditoría propuso además M4f (perspectiva fusionada), que NO entró en la Fase 0 como pasada independiente (INFORME.md §4 la rechaza por duplicación del ~80 % con M1); sus piezas entraron fusionadas: la cuenta atrás y las dos lecturas viven en M1r-Q1 y la regla de emergencia es regla dura (INFORME.md §3.3). Fuente de los mecanismos: el informe de
 la auditoría (`~/workspace/auditoria-integracion-2026-11-17/INFORME.md`).
 
 ## Estado al 23 nov 2026
@@ -73,6 +87,13 @@ del descubrimiento.
 en el LOG); toda corrección de Antonio es candidato automático; **el consejo
 asesor adjudica** (registrador oficial, 2–3 asesores, verificación de primera
 mano). Dirsi no se autocalifica.
+
+**Formato de huella de cierre (P4, tanda 3):** toda tarea significativa cierra
+con las dos líneas literales en el LOG: `M1r: [qué disparó] / [qué cambió o
+"sin cambio"]` y `FI-candidato: sí/no — [qué / por qué]`. Sin las dos líneas,
+la tarea no está cerrada. `FI-candidato: sí` es obligatorio ante cualquier
+corrección de Antonio y ante cualquier afirmación decisiva debilitada por la
+realidad.
 
 ## Línea base — semana 9–16 nov 2026: 7 FI (2 graves)
 
@@ -132,6 +153,26 @@ TCE semana 0: no medible (C = 0 registrados, E sin adjudicar, cobertura de
 revisión 0 %). Entregas decisivas contadas: 0 (el conteo no se empezó; el
 piso de actividad sigue sin denominador).
 
+## Tabla M6 — comando falsador por tipo de afirmación
+
+| Afirmación | Comando falsador | Si no corre |
+|---|---|---|
+| Cifra de tests («N tests en verde») | `pytest -q 2>&1 \| tail -3` → la última línea debe decir `N passed`. «N escritos» se falsifica distinto: `grep -rho 'def test_' <dir-tests>/ \| wc -l` | «N escritos (grep), verde sin verificar». Nunca «N en verde» sin la corrida. Nota: pytest no está instalado en la VM — la corrida va donde la suite corre (Codespace/laptop) o por CI. |
+| Posición de fork («0 atrás / N adelante») | API (sin git): `curl -s "https://api.github.com/repos/<fork>/<repo>/compare/<upstream>:<rama>...<fork>:<rama>" \| grep -E '"ahead_by"\|"behind_by"'` — y nombrar los commits del «adelante». Git (si la guarda lo permite): `git fetch upstream && git rev-list --count upstream/<rama>..HEAD` (adelante) / `git rev-list --count HEAD..upstream/<rama>` (atrás) | «Posición sin verificar; no afirmar movimiento». Lección R-05b: leer AMBOS números y listar los commits — consultar el grafo y transcribir mal es el mismo fallo. |
+| Contenido de archivo publicado («HEAD dice X») | `curl -s https://raw.githubusercontent.com/<owner>/<repo>/<rama>/<ruta> \| grep -n '<cadena literal>'` — contra HEAD, nunca contra la copia local. Sincronía local↔HEAD: `md5sum <local>` vs `curl -s <raw-url> \| md5sum`; si difieren, la local está obsoleta | «Según la copia local, sin contrastar con HEAD». |
+| Estado en vivo de una demo («la demo funciona / muestra X») | Disponibilidad: `curl -s -o /dev/null -w 'HTTP %{http_code} en %{time_total}s\n' https://BC123.pythonanywhere.com/` · Contenido/marca: `curl -s https://BC123.pythonanywhere.com/ \| grep -o -m1 'Block Ethos\|Blockali'` | «Demo verificada por última vez el <fecha>». La caducidad mensual NO tiene falsificador por curl: vive en la pestaña Web de PythonAnywhere (paso manual) y su fecha registrada en MEMORY.md. |
+| Fecha/plazo («el plazo es el <fecha>») | `TZ='America/Caracas' date -d '<fecha> <hora>' '+%A %F %T %Z'` (verifica día de la semana + fecha + zona) · Fuente: `grep -rn '<fecha>' ~/MEMORY.md ~/workspace/mundo-dirsi/ \| head -5` (dónde consta el plazo) | «Fecha según <archivo>, día de la semana sin verificar». |
+| Conteo de archivos / commits por autor («N archivos», «A tiene N commits») | Archivos: `find <dir> -type f -name '<patrón>' \| wc -l` (nunca contar a ojo desde un listado). Autoría: `git log --format='%an' \| sort \| uniq -c \| sort -rn`; vía API: `curl -s "https://api.github.com/repos/<o>/<r>/contributors" \| grep -E '"login"\|"contributions"'` | «Conteo sin re-verificar». |
+| Código de estado HTTP («la URL responde 200 / el dato es X») | `curl -s -D - -o /dev/null <url> \| grep -i '^HTTP/' \| tail -1` — leer la **ÚLTIMA** línea de estado; el proxy de la VM antepone `HTTP/1.1 200 Connection Established` y la primera línea miente | «Línea de estado real sin verificar». |
+| «No hay / falta X» (dependencias, archivos) | `ls` / listado del directorio o entorno | No afirmar la ausencia |
+| «Verificado en clon fresco / entorno real» | `git clone` real desde el remoto (o quitar +x a TODO) | No afirmar «verificado» |
+| «Lo que se envió a X» (brief, prompt) | Releer el archivo enviado | No afirmar contenido |
+
+Corre en afirmaciones decisivas de esos tipos (mismo disparador que
+M1r); en la práctica vive dentro de M1r-Q2. La tabla crece solo con
+fallos demostrados. Fuente: INFORME.md §3.5 + PROPUESTAS-RAZONAMIENTO.md
+(tanda 3, 23 nov 2026).
+
 ## Tasa de cazados-antes-de-entregar (TCE)
 
 **TCE = C / (C + E)**, por semana y acumulado móvil de 3 semanas. C = fallos
@@ -140,8 +181,7 @@ llegar a Antonio (con evidencia antes/después, validados por el consejo).
 E = FI entregados en la misma ventana. Controles anti-sesgo: E lo cuenta el
 consejo (no Dirsi); C se valida contra la misma definición y test de
 materialidad que E; cobertura de revisión ≥80 % (por debajo, la TCE se marca
-*no representativa*); muestreo semanal del consejo (≥3 entregas no corregidas
-o el 20 %, lo mayor); denominador conocido vía fallos sembrados.
+*no representativa*); muestreo semanal del consejo (ver CONSEJO-ASESOR.md, encargo Fase 1 paso 7); denominador conocido vía fallos sembrados.
 
 FI/semana y TCE se leen siempre juntas: TCE alta con FI alto = la defensa
 trabaja pero la producción no mejora.

@@ -32,8 +32,7 @@ estos sentidos:
   pasada *antes* de entrar, para que el registro mida afirmaciones ya
   examinadas.
 
-No se dispara en conversación casual, en datos ya demostrados de primera
-mano en el mismo acto (nivel A) ni en trabajo creativo. Refutarlo todo
+No se dispara en conversación casual, en datos ya demostrados de primera mano en el mismo acto (nivel A), en trabajo creativo ni en entregas bajo cuenta atrás de menos de 5 minutos con acción reversible (regla de emergencia, AGENTS.md: la acción precede a la pasada; la línea auditable dice `refutación: diferida por emergencia`). Refutarlo todo
 convertiría el protocolo en ruido y dejaría de significar algo.
 
 ## Disparador auditable (23 nov 2026)

@@ -138,7 +138,8 @@ C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
 (confirmada); la cuarta, C-007, el 8 nov 2026 (parcial); la quinta,
 C-005, el 8 nov 2026 (confirmada); la sexta, C-003, el 9 nov 2026
 (parcial); la séptima, C-009, el 16 nov 2026 (parcial); la octava,
-C-010, el 19 nov 2026 (confirmada).
+C-010, el 19 nov 2026 (confirmada); la novena, C-008, el 23 nov 2026
+(confirmada).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|

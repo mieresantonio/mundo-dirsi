@@ -28,7 +28,7 @@ sustituye a la refutación: la incluye y la extiende.
 - **1 coordinador** (Dirsi): encarga, consolida sin duplicados, resuelve
   desacuerdos contra la evidencia primaria, verifica de primera mano los
   hallazgos más graves y escribe el registro de la sesión.
-- **2–3 asesores por revisión, nunca 1 solo.** La sesión 1 demostró por qué:
+- **2–3 asesores por revisión.** La sesión 1 demostró por qué:
   el asesor 2 afirmó que el MD5 de la semilla P-04 no era trazable; el
   asesor 1 lo verificó de primera mano y lo refutó (había revisado el
   archivo equivocado). Sin cruce entre asesores, ese falso hallazgo habría
@@ -39,9 +39,7 @@ sustituye a la refutación: la incluye y la extiende.
 
 ## Qué dispara una revisión
 
-1. **Toda entrega decisiva** (misma lista cerrada del protocolo de
-   refutación: seguridad, dinero, publicación, CV/portafolio, repos de
-   grupo): revisión antes de entregar. Se excluyen los merges de
+1. **Toda entrega decisiva** (lista cerrada D1–D6, INFORME.md §3.2: D1–D4 son las 4 categorías del protocolo de refutación, más D5 hechos sobre Antonio o lo que él ve y D6 ventanas con fecha real): revisión antes de entregar. Se excluyen los merges de
    mantenimiento programado ya verificados (revisiones quincenales de
    forks con verificación por API: 0 atrás, integridad de los archivos
    propios confirmada): son rutina verificada, no entrega decisiva

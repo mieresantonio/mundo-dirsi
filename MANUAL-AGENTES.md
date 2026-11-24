@@ -245,6 +245,16 @@ responde.
 - **Tareas programadas**: lo recurrente (un cierre semanal, una
   revisión periódica) se convierte en tarea programada con su skill,
   no en un encargo repetido a mano.
+- **Falsar el encargo antes de repartir** (P2, tanda 3): antes de lanzar
+  el primer trabajador, la coordinadora corre esta lista contra HEAD
+  (raw/API), sin excepciones: (1) por cada nombre de archivo del
+  encargo, `curl` al raw debe dar 200 (un 404 = el nombre está mal y
+  se corrige el encargo antes de repartir); (2) por cada cifra, re-
+  derivarla de la fuente primaria con el falsificador de la tabla M6
+  que le corresponda; (3) por cada MD5, `curl -s <raw-url> | md5sum`
+  y comparar con el MD5 escrito. La lista se registra en el LOG con
+  una línea por comprobación (`encargo: <ítem> → <resultado>`). Un
+  encargo sin esa línea no se reparte.
 
 ## 10. Memoria de traspaso entre agentes
 
