@@ -704,3 +704,30 @@ sin crear repos desde aquí.
   + raw 4/4 líneas.
 - M1r: Antonio eligió la del medio / la cifra del portafolio pasa
   de «166» a «166 + 18 por separado» con nota; «184» descartado.
+
+## 2026-11-23 — Quitar la cifra «48/93» de todo (decisión 5, tanda 3)
+
+- Antonio preguntó (21:04) qué era cada opción («no soy una
+  máquina») y luego (21:08) si valía la pena «andar rebuscando
+  del mérito»; aclaró (21:11) que el problema es la cifra en sí:
+  hay que actualizarla en todos lados innecesariamente. Eligió
+  «Quitar de todo (CV + portafolio)» (21:18).
+- La atribución a Claude («tomar completo») NO está en el
+  capítulo ni en el playbook (grep 21:08); se lo dije tal cual,
+  sin descartar que lo dijera en una conversación que no vi.
+- Hecho: portafolio (af65384) — tira, tarjeta («Lo construí y
+  lo desplegué en producción») y estadística; README de
+  block-ethos (05fe578) — fuera el paréntesis, queda «Soy el
+  autor con más commits»; másteres ES/EN, DOCX y Google Doc
+  verificados limpios; PDF regenerado desde el HTML (66.967 B,
+  1 pág., Stack intacto) y subido (9ca7aa0), verificado en vivo
+  por raw (0 coincidencias).
+- El caso de estudio guarda la historia (48/93) como historia,
+  no como publicidad.
+- Error mío en la ejecución: al quitar la estadística del
+  portafolio puse primero una de reemplazo duplicada («36
+  preguntas», mismo dato que la de quizzes); la quité antes de
+  publicar. Verificado: be-preguntas aparece 1 vez.
+- M1r: Antonio quitó la cifra por el coste de mantenerla / la
+  cifra desaparece de CV + portafolio + README; el caso de
+  estudio la guarda como historia.
