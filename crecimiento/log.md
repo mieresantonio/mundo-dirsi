@@ -836,3 +836,17 @@ sin crear repos desde aquí.
 - M1r: Antonio pidió las 8 ideas / 7 propuestas listas y 1
   falsada; la falsación es resultado, no fracaso; el
   actualizador roto es el cabo suelto de la decisión 5.
+
+## 2026-11-23 — Modo invitado aprobado: una lección de muestra (decisión 8, tanda 3)
+
+- Antonio eligió «Sí, una lección de muestra» (23:43). F-BE2
+  era la única idea descartada de la tanda 3 por ser decisión
+  de producto; al aprobarla, se trabaja: una lección de
+  muestra abierta sin cuenta, el resto con registro.
+- Diseño encargado la misma noche (trabajador 6bf047fd,
+  sesión ~/workspace/modo-invitado-2026-11-23/): diseño +
+  parches + verificación, modo propuestas. La lección de
+  muestra propuesta es la primera de «Fundamentos de
+  Blockchain», salvo que el código muestre mejor opción.
+- M1r: Antonio aprobó el modo invitado / F-BE2 pasa de
+  descartada a trabajo en curso; el diseño dirá qué cambia.
