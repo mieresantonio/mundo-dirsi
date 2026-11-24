@@ -731,3 +731,27 @@ sin crear repos desde aquí.
 - M1r: Antonio quitó la cifra por el coste de mantenerla / la
   cifra desaparece de CV + portafolio + README; el caso de
   estudio la guarda como historia.
+
+## 2026-11-23 — Navbar de Block Ethos: el buscador se pegaba a los botones
+
+- Antonio (21:13): «el buscador esta pegando linea con linea
+  con los botones, es increible que todavia lo veas normal».
+  Tenía razón: a 1428 px la barra no cabe en una fila y se
+  parte en dos, con ~8–12 px (estimación desde capturas)
+  entre el buscador y los botones. La barra de filtros de
+  /courses está bien.
+- Arreglo (a3ccc69): buscador 400→320 px, rowGap 1rem en el
+  contenedor, mt-3 en la fila de botones de móvil. Verificado
+  en GitHub por raw (4/4 cambios).
+- Verificación en el Codespace (21:22): el pull llegó a
+  a3ccc69 y Vite recargó solo. Resultado PARCIAL: la
+  separación ahora es ~30 px (ya no se ve pegado), pero el
+  navbar SIGUE en dos filas a 1428 px — la promesa de «una
+  fila» no se cumplió. La fila única necesita otro paso
+  (botones más chicos o buscador más angosto). Backend
+  verificado en la misma pasada: Flask + Vite corriendo,
+  /api/hello y /api/learning-paths bien, catálogo con 2 rutas.
+- M1r: Antonio señaló un defecto visual que mis revisiones no
+  habían mirado / el pegado se arregló con aire, la fila única
+  quedó pendiente; no prometer un resultado visual sin
+  medirlo antes.
