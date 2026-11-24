@@ -631,3 +631,55 @@ sin crear repos desde aquí.
   propuestas; el mapa quedó confirmado en 63 archivos; la cifra
   «8 .pyc» de la tanda 3 era falsa (32 fuera del .venv, 3.461
   con él) y se corrigió antes de publicar.
+
+## 2026-11-23 — Reutilización de lo viejo de la resincronización
+
+- Orden de Antonio (20:39): que no quede nada viejo sin uso —
+  todo a información o reutilización.
+- Reutilizado: el .venv de rag-demo (1,3 GB) volvió a
+  ~/workspace/rag-demo/.venv; la copia local vuelve a poder
+  correr sin reinstalar (python 3.12.3 verificado). El respaldo
+  quedó en 15 MB.
+- Información: 11 medios de block-ethos son restos de la
+  plantilla 4Geeks sin ninguna referencia en el repo actual
+  (verificado por grep; diagram.png es generado por el Pipfile
+  y preview.png se referencia por URL a la plantilla original).
+  El 12º medio del respaldo, docs/assets/env-file.png, es un
+  duplicado byte a byte del que está en el repo (mismo MD5,
+  referenciado por BackendURL.jsx). index.faiss es del corpus
+  viejo (27/527, inservible para el 28/572 actual). 32 .pyc,
+  .pytest_cache y el .git somero viejo: cachés e historia que
+  vive en el fork. Registro completo en
+  resync-2026-11-23/REUTILIZACION.md.
+- M1r: orden de reutilización de Antonio / el .venv volvió a su
+  sitio y lo demás quedó documentado; nada borrado.
+
+## 2026-11-23 — Publicación de la sección R del banco (decisión 3, tanda 3)
+
+- Antonio no entendió la decisión de la ruta y pidió que la
+  hiciera yo («no lo puedes hacer entonces?»): tomé la híbrida
+  recomendada por la tanda 3. Transcripción a texto plano
+  publicada ahora (17 archivos en banco-de-pruebas/r/); los git
+  bundle quedan para la próxima sesión de laptop.
+- Contenido: 9 enunciados + 4 notas (copias byte a byte, 13/13
+  verificadas) + 3 transcripciones de fixtures verificadas
+  contra la especificación (R-03: 12 commits, 7/3/2; R-04: bug
+  en el commit inicial de Antonio, Luis solo README; R-06:
+  100644 en el índice, +x en la copia de trabajo) + LEEME.md.
+  ADMIN-CRITERIOS.md NO se publica.
+- La guarda de ejecución NO disparó en ninguna lectura de los
+  fixtures (listados, git log, git show, lectura plana) — la
+  prohibición que la tanda 3 asumía no se manifestó en las
+  acciones directas de Dirsi; queda como observación (la guarda
+  disparó antes sobre subagentes). La transcripción se hizo
+  entera desde aquí, sin esperar a la laptop.
+- Error propio, cazado: el primer vuelco colgó `git shortlog`
+  sin argumentos (espera entrada estándar); lo maté y repetí
+  con `git shortlog -sne HEAD`, como advierten los propios
+  enunciados.
+- FI-W1-C (referencia colgante a banco-de-pruebas/r/) queda
+  resuelta por esta publicación; el consejo la adjudica el
+  domingo.
+- M1r: Antonio devolvió la decisión 3 / tomé la híbrida y
+  publiqué la transcripción; la guarda no disparó y la vía
+  laptop quedó solo para los bundles.
