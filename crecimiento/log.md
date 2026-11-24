@@ -811,3 +811,28 @@ sin crear repos desde aquí.
 - M1r: Antonio eligió las 8 y pidió la explicación de la 4 /
   la tanda 4 trabaja las 8 ideas; F-PF2 se ajusta a la
   decisión 5 (sin enlace de commits).
+
+## 2026-11-23 — Tanda 4 completa: 8/8 ideas, 7 listas, 1 falsada
+
+- Antonio eligió «Las 8» (decisión 7, 23:19); la tanda cerró
+  23:33 sin ninguna alerta del sistema (primera del día sin
+  alertas). 7 propuestas listas para publicar; F-PF1 falsada:
+  las tarjetas OG ya existen (14 metaetiquetas + og-image.png
+  en vivo desde el 16 nov).
+- Verificado de primera mano por Dirsi antes de entregar:
+  OG en vivo (10 líneas og:, og-image.png 200),
+  actualizar-datos.py líneas 89/98 con las entradas 48/93,
+  L663 del portafolio («10 mini-aplicaciones» + «Todo está
+  en mi GitHub ↗»), 10 apps en ~/workspace/web3-apps/,
+  nombres con prefijo mieresantonio- en los rescates.
+- Hallazgo transversal: la decisión 5 dejó roto el
+  actualizador del portafolio (actualizar-datos.py sigue
+  buscando la cifra 48/93; su regla de seguridad aborta la
+  corrida entera). Arreglo en la próxima publicación.
+- F-PF2: 12 enlaces cifra→prueba listos; «10
+  mini-aplicaciones» sin enlace (sin prueba pública) y la
+  frase «Todo está en mi GitHub» imprecisa — decisión de
+  Antonio (publicar las apps o suavizar la frase).
+- M1r: Antonio pidió las 8 ideas / 7 propuestas listas y 1
+  falsada; la falsación es resultado, no fracaso; el
+  actualizador roto es el cabo suelto de la decisión 5.
