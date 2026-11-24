@@ -683,3 +683,24 @@ sin crear repos desde aquí.
 - M1r: Antonio devolvió la decisión 3 / tomé la híbrida y
   publiqué la transcripción; la guarda no disparó y la vía
   laptop quedó solo para los bundles.
+
+## 2026-11-23 — Cifra de pruebas del portafolio «166 + 18 por separado» (decisión 4, tanda 3)
+
+- Antonio eligió «166 + 18 por separado» (20:57) tras pedir
+  explicación (20:50) y recibir la recomendación de Dirsi (la del
+  medio). Antes no había entendido las opciones: la explicación en
+  llano + recomendación explícita es lo que desbloqueó la decisión.
+- Conteos verificados de primera mano por Dirsi: frontend 18
+  (pricesService 5 + store 13, únicos 2 archivos de test del
+  repo); backend 166 (144 en verde verificado, 22 nuevas sin
+  correr). package.json sin script de test ni runner: los 18
+  nunca se han corrido desde este estado del repo. La cifra «184»
+  como número único queda descartada.
+- Portfolio actualizado (commit cfce260, index.html): hero «166
+  pruebas de backend + 18 de frontend» (nuevo dato fe-tests);
+  estadística «166 + 18» con el patrón stat-total existente;
+  nota de estado «144 en verde; resto pendiente de corrida».
+  Verificado visual (ojo, escritorio: la tira queda en una línea)
+  + raw 4/4 líneas.
+- M1r: Antonio eligió la del medio / la cifra del portafolio pasa
+  de «166» a «166 + 18 por separado» con nota; «184» descartado.
