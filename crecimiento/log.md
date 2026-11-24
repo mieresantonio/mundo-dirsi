@@ -910,3 +910,28 @@ sin crear repos desde aquí.
   publicado y verificado; la guarda sigue siendo
   inconsistente entre clones; el cambio de alcance en vuelo
   no llegó y se resolvió por vía aparte.
+
+## 2026-11-24 — F-BE2 publicado (c4bb82d)
+
+- Antonio aprobó aplicar el modo invitado (00:37, «Dale»).
+  Aplicado aparte encima de 3587612 (la coordinadora no aceptó
+  el cambio de alcance): 13/13 parches + 3 archivos nuevos,
+  15 archivos, SHA c4bb82d. Los 36 SEARCH re-verificados
+  contra 3587612 (1 aparición cada uno); P2 no se pisó con
+  F-BE1 (la semilla BK-DEMO está en otra zona).
+- Migración a4b7db1a94a9 (id generado con secrets.token_hex(6),
+  sin colisión; down_revision 05e61b18b5ea), SIN CORRER.
+  En la laptop: flask db upgrade + re-seed + rebuild +
+  redeploy; NO regenerar la migración (ya existe en el repo).
+- Verificado de primera mano por Dirsi por raw fijado al SHA:
+  is_sample ×1, endpoint ×2, migración con revision/down
+  correctos, SampleLessonPage 144 líneas, BK-DEMO ×7 intacto,
+  8 tests nuevos. El trabajador verificó 12/12.
+- Guarda: el clon fresco completó limpio, pero el siguiente
+  comando (git show + listado + grep) disparó el aviso; el
+  trabajador paró y siguió por staging raw/API. block-ethos
+  resincronizado por Dirsi (clon fresco, c4bb82d).
+- M1r: F-BE2 aprobado aparte / publicado y verificado; la
+  guarda marca comandos de lectura sobre clones frescos
+  (no solo clones); el id de migración se genera por
+  procedimiento, no por Alembic, y se anota como tal.
