@@ -24,14 +24,21 @@ verifica. Lo que no entra es el trabajo rutinario del cron en sí.
 
 ## Hilos
 
-### H-001 — Riesgos de redespliegue de Block Ethos
-- **Tipo:** PROMESA · **Estado:** EN-ESPERA · **Abierto:** 16 nov 2026 (2ª tanda)
+### H-001-proxy — `remote_addr` tras el proxy de PythonAnywhere (Block Ethos)
+- **Tipo:** PROMESA · **Estado:** EN-ESPERA · **Abierto:** 16 nov 2026 (2ª tanda; desdoblado de H-001 el 23 nov 2026)
 - **Dueño:** Dirsi (sesión de laptop)
 - **Disparo de cierre:** en la próxima sesión de laptop, antes de redesplegar,
-  (1) confirmar qué ve `remote_addr` en producción tras el proxy
-  (vía `ProxyFix` con un solo proxy de confianza) y (2) contar duplicados
-  `(user_id, learning_path_id)` en la BD viva antes de aplicar la migración
-  de unicidad de certificados. Ambos controles ya están en
+  confirmar qué ve `remote_addr` en producción tras el proxy
+  (vía `ProxyFix` con un solo proxy de confianza). El control ya está en
+  `~/workspace/plan-proxima-sesion-laptop.md` (sección 3).
+- **Evidencia:** `~/workspace/plan-proxima-sesion-laptop.md`, sección 3.
+
+### H-001-cert — Duplicados de certificados antes de la migración de unicidad (Block Ethos)
+- **Tipo:** PROMESA · **Estado:** EN-ESPERA · **Abierto:** 16 nov 2026 (2ª tanda; desdoblado de H-001 el 23 nov 2026)
+- **Dueño:** Dirsi (sesión de laptop)
+- **Disparo de cierre:** en la próxima sesión de laptop, antes de redesplegar,
+  contar duplicados `(user_id, learning_path_id)` en la BD viva antes de
+  aplicar la migración de unicidad de certificados. El control ya está en
   `~/workspace/plan-proxima-sesion-laptop.md` (sección 3).
 - **Evidencia:** `~/workspace/plan-proxima-sesion-laptop.md`, sección 3.
 

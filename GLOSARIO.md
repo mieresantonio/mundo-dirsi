@@ -192,7 +192,7 @@ Actualización: 23 de noviembre de 2026 (60 entradas).**
   memoria del sistema (MEMORY.md, fuera de este repo).*
 - **sesión de laptop** — sesión de trabajo en el portátil de
   Antonio, donde corre su agente de terminal (OpenCode) y las
-  herramientas de escritorio; varios hilos (H-001, H-010) esperan
+  herramientas de escritorio; varios hilos (H-001-proxy, H-001-cert, H-010) esperan
   una. El puente con la laptop va por Tailscale.
   *HILOS-ABIERTOS.md; memoria del sistema (MEMORY.md, fuera de
   este repo).*

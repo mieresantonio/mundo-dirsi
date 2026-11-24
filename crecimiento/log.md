@@ -755,3 +755,22 @@ sin crear repos desde aquí.
   habían mirado / el pegado se arregló con aire, la fila única
   quedó pendiente; no prometer un resultado visual sin
   medirlo antes.
+
+## 2026-11-23 — Desdoblar H-001 en H-001-proxy + H-001-cert (decisión 6, tanda 3)
+
+- Antonio preguntó (21:34) la diferencia en esencia entre las
+  dos opciones; la respuesta corta (un pendiente compartido
+  frente a dos pendientes que cierran por su lado) desbloqueó
+  la elección: «Partirla en dos etiquetas» (21:35).
+- Inventario verificado de primera mano antes de aplicar: las
+  4 ocurrencias del §7 B.3 seguían exactas (GLOSARIO drift
+  de línea 182→195, texto idéntico). Parches: HILOS-ABIERTOS
+  (el hilo se parte en dos, cada uno con su disparo de
+  cierre), GLOSARIO (referencia a las dos), app.py:25 y
+  test_rate_limit.py:138 (comentarios → H-001-proxy).
+- Tras aplicar: 0 usos vivos de H-001 a secas; solo quedan 2
+  menciones históricas («desdoblado de H-001 el 23 nov 2026»)
+  en los propios hilos nuevos, puestas por el parche del §7.
+- M1r: Antonio pidió la esencia antes de elegir / H-001 pasa
+  a dos hilos independientes; la explicación corta es lo que
+  desbloquea estas decisiones, no la opción en sí.
