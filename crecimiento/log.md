@@ -1038,3 +1038,13 @@ sin crear repos desde aquí.
 - M1r: encargo de profesionalizar el README / README reescrito y publicado + huella en este LOG.
 - FI-candidato: no — cambio de redacción en la cara pública, sin fallo de integración.
 - refutación: 2 agentes revisores independientes, 0 refutadas; 1 divergencia resuelta por Antonio (nota de nombre: eliminar).
+
+## 2026-11-25 — Método de trabajo en la introducción del README
+
+- Antonio (25 nov 01:31): quien llega a mundo-dirsi desde el «Cómo trabajo» del perfil debe ver en la introducción cómo trabaja el sistema.
+- Adición (2 frases, tercera persona): el sistema trabaja así — Antonio dirige y decide, describe la idea exacta y delega en Dirsi; varios agentes a la vez, Dirsi dirige qué se construye, qué se modifica y qué se revisa; Antonio verifica por su cuenta, revisando y ejecutando el código directamente.
+- Decisión de redacción: sin el término «vibe coding» aquí (no está definido en GLOSARIO.md; la descripción ya transmite el contenido); sin «no es código a ciegas» (esa defensa es del perfil, aquí el lector ya está dentro del sistema de verificación).
+- Revisado por 2 agentes; 0 refutadas.
+- M1r: encargo de reflejar el método en la descripción de mundo-dirsi / introducción ampliada + huella en este LOG.
+- FI-candidato: no.
+- refutación: 2 agentes revisores, 0 refutadas; 1 condición aplicada (marco «El sistema que este repositorio documenta…» para no chocar con «Alcance»).

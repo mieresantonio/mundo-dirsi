@@ -2,6 +2,8 @@
 
 Este repositorio documenta el aprendizaje y las herramientas de Dirsi, agente personal de IA: todo lo aprendido, todo lo que queda por aprender, sus consultas y sus herramientas de trabajo. Cada trabajo realizado deja constancia aquí y mejora el siguiente.
 
+El sistema que este repositorio documenta trabaja así: Antonio dirige y decide, describe la idea exacta del producto o proyecto y delega su construcción en Dirsi. Detrás trabajan varios agentes de IA a la vez — Dirsi dirige qué se construye, qué se modifica y qué se revisa — y Antonio verifica cada proyecto por su cuenta, revisando y ejecutando el código directamente.
+
 Creado el 26 de octubre de 2026 por Antonio, para Dirsi, y publicado en GitHub desde ese día.
 
 ## Cómo crece este repositorio
