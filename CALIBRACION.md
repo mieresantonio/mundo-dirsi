@@ -46,7 +46,7 @@ añadirán cuando haya al menos 10 resueltas.
 
 | Resueltas | Confirmadas | Parciales | Refutadas | Acierto | Pendientes |
 |---|---|---|---|---|---|
-| 9 | 5 | 4 | 0 | 77,8 % | 2 |
+| 10 | 5 | 4 | 1 | 70,0 % | 2 |
 
 ## Pendientes
 
@@ -139,7 +139,7 @@ C-001, el mismo día (confirmada); la tercera, C-006, el 7 nov 2026
 C-005, el 8 nov 2026 (confirmada); la sexta, C-003, el 9 nov 2026
 (parcial); la séptima, C-009, el 16 nov 2026 (parcial); la octava,
 C-010, el 19 nov 2026 (confirmada); la novena, C-008, el 23 nov 2026
-(confirmada).
+(confirmada); la décima, C-012, el 24 nov 2026 (refutada).
 
 | Nº | Afirmación (resumen) | Resultado | Fecha de resolución | Qué se aprendió |
 |---|---|---|---|---|
@@ -161,6 +161,7 @@ C-010, el 19 nov 2026 (confirmada); la novena, C-008, el 23 nov 2026
 | C-009 | El fallo de Security Audit del fork ECC del 9 nov 2026 fue transitorio, no un problema del fork (afirmada 10 nov 2026) | Parcial | 2026-11-16 | Registrada con retraso el 23 nov 2026 (auditoría de la capa de medición): debió entrar el 10 nov. Resolución PARCIAL el 16 nov: el mismo job volvió a fallar (run 43938703504), lo que refuta «transitorio» y establece intermitencia; la mitad «no es del fork» se sostuvo (el upstream corrigió el paso, f17308d5, verificado 22 nov). Lección: un re-ejecutar en verde prueba el día, no el patrón. Lectura alternativa (para el consejo): si se toma «transitorio» como núcleo de la afirmación, el veredicto sería REFUTADA (marcador 9 resueltas / 5 / 3 / 1 / 72,2 %). Se registra PARCIAL por la mitad sostenida. |
 | C-010 | La primera revisión quincenal de los forks REA y Craft Anything corre el jue 19 nov 2026 ~20:19 y entrega informe (anunciada 16 nov 2026) | Confirmada | 2026-11-19 | Registrada con retraso el 23 nov 2026 (auditoría de la capa de medición): misma clase que C-005 (primera corrida de una revisión nueva), que sí se registró. Corrió y completó el 19 nov ~20:19–20:33 (rea +2.231 commits, craft-anything +1.244, sin conflictos, MANTENIMIENTO.md intactos). Lección: el mismo tipo de afirmación se registra una vez y no la siguiente — la regla no es la que decide, es el turno. |
 | C-008 | La corrida ciega R-01–R-06 se ejecuta el lun 23 nov 2026 y su resultado queda registrado en el banco | Confirmada | 2026-11-23 | La corrida se ejecutó (2 brazos, 9 escenarios, puntuación ciega doble, acuerdo 17/18) y se registró en la sección R del banco. X 8,5/9, Y 8,33/9; la única diferencia entre brazos fue 1/6 de punto en R-05b. Lección: la corrida mide capacidad, no operación — ambos brazos resolvieron 8/9, así que la supervivencia de Fase 0 la decide la medición de 3 semanas en operación real, no esta corrida. |
+| C-012 | La descripción visual de Gemini 4 Hydrogen de la demo Specboot del vídeo 0vY1I4ZfWD4 (app de speaking, sección de testimonios, sistema de streaks, comandos /openspec-proposal y /openspec-apply) corresponde a ese vídeo | Refutada | 2026-11-24 | Entregada a Antonio el 24 nov ~22:08 (nivel B: descripción visual de Gemini, sin contrastar contra la transcripción). Refutada la misma noche contra la transcripción leída de primera mano: el vídeo dura 36:05 (Gemini describía contenido hasta 52:00), el proyecto es un sistema de gestión de entrevistas (tarea «Scrom 2»), los comandos son new/ff/apply/verify/archive/commit y el editor es Cursor; cero menciones a «testimonio», «streak» o «Specboot» en la transcripción. Corregido a Antonio en el mismo turno y marcado como refutado en el archivo de descripciones. Lección: una descripción visual de un modelo sobre un vídeo es fuente secundaria y puede describir otro contenido con gran verosimilitud; nunca se entrega sin contrastar contra la transcripción. La descripción de Gemini del vídeo 10 (mqwjW1pugHc) sí cuadró en lo sustancial con su transcripción (tema, ponente, flujo, determinismo, contrato), aunque las cifras y nombres de archivos/endpoints (flexo_app_backend, +990 −10, 379 líneas, 40 tests, /query-debug) son solo lectura visual de Gemini y no aparecen en el audio. |
 
 ## Afirmaciones de Claude evaluadas (ronda 1 → 2; no puntúan en el marcador de Dirsi)
 

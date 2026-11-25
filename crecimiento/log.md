@@ -969,3 +969,46 @@ sin crear repos desde aquí.
 - refutación: pasada adversarial por 2 revisores independientes
   (Medio); 1 ajuste mío refutado (P-02 fecha), 1 confirmado
   (P-16 commit), 2 conflictos resueltos (F4/P1, F12/P4).
+
+## 2026-11-24 — Estudio completo del curso Agentic Engineer Starter
+- Encargo de Antonio (21:25): estudiar la página Notion entera del curso
+  Agentic Engineer Starter (LIDR): todos los módulos, vídeos y recursos.
+- Leído: Notion M0–M7 completa (navegador en vivo, 21:26–21:40); 11
+  transcripciones de YouTube íntegras, 3 h 35 min (navegador en la laptop de
+  Antonio; yt-dlp y youtube-transcript-api bloqueados desde la VM); 3 PDFs
+  del M1 (Futuro Devs 2027, Faros «Acceleration Whiplash», Damilah
+  Engineering 2028 por OCR); playbook del M5 (53 págs, descargado por el
+  navegador); 31 diapositivas de formación Jev (extracción Playwright);
+  demos del M4 descritas visualmente por Gemini 4 Hydrogen en AI Studio
+  (adjuntar el vídeo como medio con + → YouTube Video; pegar la URL en el
+  texto NO funciona).
+- Síntesis entregada a Antonio: estudio-agentic-jev/
+  sintesis-curso-agentic-engineer.md (idea central, por módulo, cifras con
+  fuente, tensiones, qué falta, qué tiene que ver con su sistema).
+- Enlaces del Zoom revisados: lidr-specboot (17 skills, incl.
+  code-auditing y adversarial-review — este último es el protocolo de
+  refutación con otro nombre), Graphify (153k estrellas), MiroFish (86k;
+  misma familia de idea que mundo-vida-ia).
+- Incidente: la tarea de transcripciones se desvió por autoplay a «David
+  Bisbal - Ave María» (no se transcribió); corregida a navegar solo por URL
+  directa con autoplay desactivado. Antonio lo vio con humor.
+- REFUTACIÓN (C-012): la descripción visual de Gemini de la demo Specboot
+  (vídeo 9) NO corresponde a ese vídeo: entregada a Antonio ~22:08
+  (testimonios + streaks, hasta 52:00) y refutada la misma noche contra la
+  transcripción (vídeo real 36:05, sistema de gestión de entrevistas,
+  Scrom 2, comandos new/ff/apply/verify/archive/commit, Cursor). Corregido
+  a Antonio en el mismo turno; archivo de descripciones marcado. La
+  descripción del vídeo 10 sí cuadró en lo sustancial con su transcripción
+  (tema, ponente, flujo, determinismo, contrato), aunque las cifras y
+  nombres de archivos/endpoints son solo lectura visual de Gemini y no
+  aparecen en el audio.
+- Pendiente: URL de la demo de Jev del M6 (solo un anuncio de 49 s
+  encontrado); test final 25 nov sin hora/enlace/formato confirmados.
+- M1r: encargo de estudiar el curso entero / síntesis entregada + C-012
+  refutada y registrada + huella en este LOG.
+- FI-candidato: sí — descripción de Gemini del vídeo 9 entregada a Antonio
+  y corregida en el mismo turno; pendiente de adjudicación del consejo
+  (sesión 29 nov).
+- refutación: pasada adversarial (transcripción primaria vs descripción
+  secundaria); 1 afirmación entregada refutada (C-012), 1 descripción
+  confirmada en lo sustancial (vídeo 10).
