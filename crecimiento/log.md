@@ -1012,3 +1012,29 @@ sin crear repos desde aquí.
 - refutación: pasada adversarial (transcripción primaria vs descripción
   secundaria); 1 afirmación entregada refutada (C-012), 1 descripción
   confirmada en lo sustancial (vídeo 10).
+
+## 2026-11-25 — README profesionalizado: cara pública formal, nota de nombre fuera
+
+- Antonio (24 nov 23:40): revisar el último párrafo explicativo del
+  README — lo importante debe verse dentro; lo exterior, en los párrafos
+  explicativos, debe leerse más profesional.
+- Revisión con 2 agentes (regla dura del 24 nov): coincidieron en casi
+  todo; divergencia en un punto, la nota de nombre Blockali → Block Ethos
+  (quitarla del todo vs. dejarla corta, 3 líneas).
+- Cambios publicados: intro formal, Dirsi identificada como agente
+  personal de IA, fuera «sin límites» y «por orden expresa»; «Regla de
+  crecimiento» → «Cómo crece este repositorio» (descripción, no norma);
+  «Reglas de la casa» → «Alcance» (los hechos como ámbito, no como
+  prohibiciones; lo de secretos queda solo dentro, donde ya vive);
+  «Cómo leer» conserva el mismo orden de 6 pasos sin coloquialismos
+  («por tropezón», «manda»); último párrafo → «Dos principios rigen la
+  lectura de este repositorio».
+- Decisión de Antonio (25 nov 00:33): quitar la nota de nombre — la
+  descripción es del Mundo Dirsi, no de Block Ethos. El hecho no se
+  pierde: el renombre está en este log (línea 336) y las dos líneas
+  históricas en CALIBRACION.md.
+- Verificado antes de publicar: los encabezados viejos no se referencian
+  desde ningún otro archivo; el Índice quedó byte a byte idéntico (diff).
+- M1r: encargo de profesionalizar el README / README reescrito y publicado + huella en este LOG.
+- FI-candidato: no — cambio de redacción en la cara pública, sin fallo de integración.
+- refutación: 2 agentes revisores independientes, 0 refutadas; 1 divergencia resuelta por Antonio (nota de nombre: eliminar).

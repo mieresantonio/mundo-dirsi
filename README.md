@@ -1,79 +1,37 @@
 # Mundo Dirsi
 
-Este es el mundo virtual de Dirsi: todo lo que ha aprendido, todo lo
-que queda por aprender, sus propias consultas y sus propias herramientas
-para desarrollar cualquier cosa. No tiene límites creativos dentro: cada
-cosa que se construye alimenta este mundo, y este mundo hace mejor la
-siguiente construcción.
+Este repositorio documenta el aprendizaje y las herramientas de Dirsi, agente personal de IA: todo lo aprendido, todo lo que queda por aprender, sus consultas y sus herramientas de trabajo. Cada trabajo realizado deja constancia aquí y mejora el siguiente.
 
-Creado el 26 de octubre de 2026, por orden expresa de Antonio, para Dirsi.
+Creado el 26 de octubre de 2026 por Antonio, para Dirsi, y publicado en GitHub desde ese día.
 
-Nota de nombre (16 nov 2026): el proyecto de aprendizaje blockchain
-se llamó «Blockali» hasta el 16 de noviembre de 2026; desde entonces
-es «Block Ethos» (eslogan «Web3 Space»). Las entradas de este repo
-usan el nombre actual, también las anteriores a esa fecha. Solo
-`CALIBRACION.md` conserva el nombre viejo en dos líneas: son registro
-histórico congelado (una cita de Claude del 7 nov y un antecedente
-del 2 nov) y el registro de calibración nunca reescribe originales.
+## Cómo crece este repositorio
 
-## Regla de crecimiento
-
-Cada trabajo que termina deja aquí al menos una de estas huellas:
+Cada trabajo completado deja constancia aquí, en al menos una de estas formas:
 
 1. Una entrada en `crecimiento/log.md` (qué se hizo y qué se aprendió).
-2. Un patrón nuevo en `aprendido/desarrollo-web.md` o una herramienta
-   nueva en `herramientas/`.
-3. Una lección en `aprendido/` o una pregunta nueva en
-   `por-aprender/preguntas-abiertas.md`.
+2. Un patrón nuevo en `aprendido/desarrollo-web.md` o una herramienta nueva en `herramientas/`.
+3. Una lección en `aprendido/` o una pregunta nueva en `por-aprender/preguntas-abiertas.md`.
 
-Si algo no dejó huella, es como si no se hubiera aprendido.
+## Alcance
 
-## Reglas de la casa
+- Todo el contenido está redactado con palabras propias; no se reproducen textos de cursos ni de terceros.
+- El trabajo en curso se publica aquí una vez terminado.
+- Su ámbito es la documentación, las herramientas y el registro de aprendizaje de este proyecto: no incluye despliegues, no crea otros repositorios y no modifica otros proyectos.
 
-- Todo redactado con palabras propias. Nada de copiar textos de cursos.
-- Nada de secretos reales en ningún archivo.
-- Nada desplegado ni ningún repo creado desde aquí: este mundo es
-  público desde el 26 de octubre de 2026 (repo en GitHub); lo que
-  sigue siendo local es el trabajo en curso antes de subirlo.
-- Ningún otro proyecto se toca desde aquí.
+## Cómo leer este repositorio
 
-## Cómo leer este repo
+Lectura recomendada para quien entra por primera vez, en este orden:
 
-Si es la primera vez que entras, este orden:
+1. **`STATUS.md`** — el tablero de estado en una página, con fecha. Es el punto de partida recomendado. **`MAPA-DEL-SISTEMA.md`** explica cómo encajan las piezas entre sí.
+2. **`GLOSARIO.md`** — los términos del sistema, definidos una sola vez, cada uno con su documento fuente. Cuando un documento usa un término de otra manera, prevalece la definición del glosario.
+3. **La capa de medición** — `CALIBRACION.md` (las afirmaciones de Dirsi, medidas), `BANCO-DE-PRUEBAS.md` (su rendimiento, medido) y `PROTOCOLO-REFUTACION.md` (la pasada adversarial previa a lo decisivo). Son las tres piezas que miden el sistema.
+4. **El registro de integración** — `REGISTRO-INTEGRACION.md` (qué es un fallo de integración y cómo se mide), `HILOS-ABIERTOS.md` (las obligaciones vivas) y `REGLA-LO-QUE-NO-VEO.md` (la regla M5). `CONSEJO-ASESOR.md` documenta la revisión continua que audita el conjunto.
+5. **Los métodos destilados** — `METODO-CLAUDE.md`, `METODO-GROK.md`, `METODO-CLAUDE-PLAYBOOK.md` y `DESTILADO-LOVABLE-GPTENGINEER.md`: procedimientos destilados de otros sistemas de IA y de un proyecto abierto, con lo adoptado y lo solapado indicados en cada documento, sin duplicar contenido.
+6. **`aprendido/`** — lo aprendido, por temas, con sus decisiones (`decisiones.md`) y su método de auditoría (`auditoria-de-coherencia.md`). **`por-aprender/`** — las rutas y las preguntas abiertas. **`herramientas/`** — código real y probado. **`crecimiento/log.md`** — la bitácora: qué se hizo y qué se aprendió, por fecha.
 
-Si eres un agente que va a *trabajar* en este sistema (no solo leerlo), empieza por **`ONBOARDING.md`** — una sola página con las reglas que no se aprenden por tropezón — y luego sigue este orden.
+Quien vaya a trabajar en este sistema debe leer además, en primer lugar, **`ONBOARDING.md`**, que reúne en una sola página las reglas de trabajo.
 
-1. **`STATUS.md`** — el tablero de una página: cómo va el sistema hoy,
-   con fecha. Si solo lees un archivo, es este.
-   **`MAPA-DEL-SISTEMA.md`** dice cómo encajan las piezas entre sí;
-   léelo junto al tablero si es tu primera vez.
-2. **`GLOSARIO.md`** — los términos, definidos una sola vez. Cada
-   término cita su documento fuente; si un documento usa un término de
-   otra manera, manda el glosario.
-3. **La capa de medición** — `CALIBRACION.md` (lo que Dirsi afirma,
-   medido), `BANCO-DE-PRUEBAS.md` (lo que Dirsi hace, medido) y
-   `PROTOCOLO-REFUTACION.md` (la pasada adversarial antes de lo
-   decisivo). Son las tres piezas que miden el sistema, no el sistema
-   entero.
-4. **El registro de integración** — `REGISTRO-INTEGRACION.md` (qué es
-   un fallo de integración y cómo se mide), `HILOS-ABIERTOS.md` (las
-   obligaciones vivas) y `REGLA-LO-QUE-NO-VEO.md` (la regla M5).
-   `CONSEJO-ASESOR.md` es la revisión continua que lo audita todo.
-5. **Los métodos destilados** — `METODO-CLAUDE.md`, `METODO-GROK.md`,
-   `METODO-CLAUDE-PLAYBOOK.md` y `DESTILADO-LOVABLE-GPTENGINEER.md`:
-   procedimientos adoptados de otros motores y de un ancestro abierto,
-   con lo adoptado marcado y lo solapado señalado, no duplicado.
-6. **`aprendido/`** — lo que Dirsi ya sabe, por temas, con sus
-   decisiones (`decisiones.md`) y su método de auditoría
-   (`auditoria-de-coherencia.md`). **`por-aprender/`** — las rutas y
-   las preguntas abiertas. **`herramientas/`** — código real y probado.
-   **`crecimiento/log.md`** — la bitácora: qué se hizo y qué se aprendió,
-   por fecha.
-
-Dos reglas de lectura: lo que dice `STATUS.md` manda sobre lo que
-recuerdas de haber leído antes (el tablero lleva fecha y se actualiza
-cuando algo cambia de estado); y lo que dice `CALIBRACION.md` no se
-reescribe nunca — una entrada refutada se marca, no se borra.
+Dos principios rigen la lectura de este repositorio: `STATUS.md` prevalece sobre cualquier lectura anterior, porque el tablero lleva fecha y se actualiza cuando algo cambia de estado; y las entradas de `CALIBRACION.md` no se reescriben nunca — una entrada refutada se marca como tal y se conserva.
 
 ## Índice
 
